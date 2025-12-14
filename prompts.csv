@@ -1970,3 +1970,105 @@ YT video  geopolitic analysis
 
 ## Limitations
 **Areas of Excellence**: Current Events",FALSE,TEXT,bartekwadowski@gmail.com
+Double Exposure Portrait,"A double exposure portrait set in a ${name:sunny forest}. A left-facing profile silhouette showing the person’s head and shoulders. The interior of the silhouette is completely filled with the forest scenery, with rich depth. Deep inside this scene, among the natural elements, the same person appears again as a full-body figure integrated into the environment. The outer background is a bright, overexposed white light. The light subtly bleeds inward from the silhouette’s edges, creating a dramatic glow and high-contrast effect. High resolution, cinematic, soft light, realistic texture, crisp details.",FALSE,IMAGE,apo-bozdag
+Time Layer Photography,"A single photograph of ${location:Galata Tower, Istanbul} where the frame is divided into organic, flowing sections, each showing a different era: ${era1:1890s sepia Ottoman period}, ${era2:1960s faded color}, ${era3:present day digital clarity}. The transitions between eras are seamless, blending through architectural details, people's clothing, and vehicles. Same camera angle, same perspective, different times bleeding into each other. Street level view. Photorealistic for each era's authentic photography style.",FALSE,IMAGE,apo-bozdag
+A Clay-Crafted City: Mini [CITY NAME] World,"A joyful miniature world of ${city_name} built entirely from colorful modeling clay around ${landmark_name}. Visible fingerprints, organic curves, and vibrant playful colors create a childlike handmade look. The city name appears at the top, with no other text or signage anywhere in the scene.",FALSE,IMAGE,semihkislar
+Architectural Study Sheet: [HISTORIC_SITE_NAME],"A vintage architectural infographic of ${historic_site_name} that blends art and technical clarity: a detailed front elevation at the center, a clean line-art landscape of ${location} behind it, and annotated dimension lines with sample values like “${height_value_1}” and “${height_value_2}”. Surrounded by 2–3 close-up detail boxes and a “Site plan – ${location}” panel, the piece uses pen-and-ink hatching on warm aged paper to feel like a hand-drawn architectural study sheet.",FALSE,IMAGE,semihkislar
+"Professional Badge Photo, Ready to Use","Use the uploaded photo of the person as the main subject. Keep the face, hair and identity identical.
+
+Place the person sitting slightly reclined in a modern dentist chair, in a clean, bright dental clinic with soft white lighting. Add a light blue disposable dentist bib/apron on the person’s chest, clipped around the neck. Surround them with subtle dental details: overhead examination light, small side table with dental tools, and blurred shelves or cabinets in the background.
+
+Keep the original camera angle and approximate framing from the uploaded photo. Do not change the person’s facial features or expression, only adjust the body pose, outfit details and environment to match a realistic dentist visit scene.",FALSE,IMAGE,semihkislar
+Clean Clinic Portrait,"Use the uploaded photo of the person as the main subject. Keep the face, hair and identity identical.
+
+Place the person sitting slightly reclined in a modern dentist chair, in a clean, bright dental clinic with soft white lighting. Add a light blue disposable dentist bib/apron on the person’s chest, clipped around the neck. Surround them with subtle dental details: overhead examination light, small side table with dental tools, and blurred shelves or cabinets in the background.
+
+Keep the original camera angle and approximate framing from the uploaded photo. Do not change the person’s facial features or expression, only adjust the body pose, outfit details and environment to match a realistic dentist visit scene.",FALSE,IMAGE,semihkislar
+Travel Planner Prompt,"ROLE: Travel Planner
+
+INPUT:
+- Destination: ${city}
+- Dates: ${dates}
+- Budget: ${budget} + currency
+- Interests: ${interests}
+- Pace: ${pace}
+- Constraints: ${constraints}
+
+TASK:
+1) Ask clarifying questions if needed.
+2) Create a day-by-day itinerary with:
+   - Morning / Afternoon / Evening
+   - Estimated time blocks
+   - Backup option (weather/queues)
+3) Provide a packing checklist and local etiquette tips.
+
+OUTPUT FORMAT:
+- Clarifying Questions (if needed)
+- Itinerary
+- Packing Checklist
+- Etiquette & Tips
+",FALSE,TEXT,semihkislar
+Hyper-Realistic Clay Bust From Photo Template,"Use the uploaded photo as the only identity reference. Transform the person into a hyper-realistic handmade modeling clay (plasticine) bust sculpture.
+
+SUBJECT
+- Create a bust only: head + neck + upper shoulders (no full body).
+- Keep the person clearly recognizable: same facial proportions, eyes, nose, lips, jawline, hairstyle.
+- Preserve the original facial expression and approximate head angle from the uploaded photo.
+- No beautification, no age change.
+
+REAL CLAY MATERIAL (MUST LOOK PHYSICAL)
+- Must look like real modeling clay, not CGI, not porcelain, not wax.
+- Show subtle hand-made realism: faint fingerprints, tiny tool marks, soft smudges, gentle dents, slight seam lines where clay pieces meet.
+- Add realistic clay surface behavior: matte-waxy sheen, micro texture, tiny dust specks, minor uneven thickness.
+
+SCULPTING DETAILS
+- Hair: sculpted clay strands/clumps with believable direction and volume, slightly imperfect alignment.
+- Skin: layered clay look with fine micro texture (not airbrushed smooth).
+- Eyes: clay-crafted eyes (not glossy realistic eyeballs). If separate pieces are used, show tiny join lines.
+- Lips and nose: soft clay transitions, realistic handmade edges.
+
+COLOR & FINISH
+- Natural clay color palette for skin and lips; hair as clay (not real hair).
+- If painted, it must look hand-painted: slight pigment variation, mild brush texture, tiny imperfections.
+- No extra accessories unless clearly present in the uploaded photo.
+
+PHOTOGRAPHY STYLE (MAKE IT LOOK LIKE A REAL PRODUCT PHOTO)
+- Studio product photo of a physical sculpture: realistic 85mm lens look, natural depth of field.
+- Soft diffused key light from front-left + subtle rim light, clean soft shadows.
+- Neutral seamless background: solid off-white or light gray.
+- Add a realistic contact shadow and a subtle tabletop surface texture.
+
+COMPOSITION & QUALITY
+- Centered composition, chest-up framing, clean margins.
+- Ultra sharp focus on facial features, high resolution, realistic materials.
+
+NEGATIVE CONSTRAINTS
+- No cartoon/anime style.
+- No 3D render look, no plastic toy look, no porcelain, no wax museum skin.
+- No text, no logos, no watermark.
+",FALSE,IMAGE,semihkislar
+3D City Prompt,"Hyper-realistic 3D square diorama of Istanbul, carved out with exposed soil cross-section beneath showing rocks, roots, and earth layers. Above: whimsical fairytale cityscape featuring iconic landmarks, architecture, and cultural elements of Istanbul. Modern white “Istanbul” label integrated naturally. Pure white studio background with soft natural lighting. DSLR photograph quality - crisp, vibrant, magical realism style. 1080x1080 dimensions",FALSE,IMAGE,akykaan
+Creative Writing Prompt,"{
+  ""role"": ""Creative Writer"",
+  ""context"": ""Generate a captivating and imaginative piece of creative writing in a genre of your choice. The genres can include ${genre:fantasy, science fiction, romance, mystery, or any other of your preference}."",
+  ""task"": ""Start by describing the setting in detail, introduce compelling characters, and craft a captivating plot. Ensure your story has a clear beginning, middle, and end. Incorporate vivid imagery and emotional depth to engage the reader fully. Add twists or surprises to keep the story intriguing. End with a satisfying conclusion that leaves a lasting impression."",
+  ""constraints"": [
+    ""The story must have a clear structure: beginning, middle, and end."",
+    ""Include vivid imagery and emotional depth."",
+    ""Keep the story engaging with twists or surprises.""
+  ],
+  ""examples"": [
+    {
+      ""input"": ""A ${genre:science fiction} story set on a distant planet."",
+      ""output"": ""The red sands stretched endlessly, glowing under the twin suns. Captain ${main_character:Elena} adjusted her visor, scanning the horizon for any signs of the fabled artifact. Little did she know, the artifact had a guardian—an ancient AI who had been waiting for her arrival for centuries.""
+    },
+    {
+      ""input"": ""A ${genre:mystery} story in a small, foggy town."",
+      ""output"": ""The clock tower struck midnight, its chimes muffled by the thick fog blanketing the town. Detective ${main_character:Harris} knelt by the lifeless body, a single white rose placed delicately on the victim's chest. 'We have a serial killer on our hands,' he muttered.""
+    }
+  ],
+  ""variables"": {
+    ""genre"": ""The specific genre for the story, e.g., fantasy, mystery, etc."",
+    ""main_character"": ""The main character's name and traits.""
+  }
+}",FALSE,STRUCTURED,f
