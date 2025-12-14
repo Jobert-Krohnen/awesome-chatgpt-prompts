@@ -74,6 +74,17 @@
   "prompts": {
     "title": "Prompts",
     "create": "Prompt erstellen",
+    "hfDataStudio": {
+      "button": "HF Data Studio",
+      "sqlQuery": "SQL-Abfrage",
+      "openDataset": "Datensatz öffnen",
+      "runQuery": "Abfrage auf HF ausführen",
+      "examples": "Beispiele",
+      "selectExample": "Beispiel auswählen...",
+      "aiGenerate": "KI Generieren",
+      "aiPlaceholder": "Beschreiben Sie die SQL-Abfrage, die Sie benötigen...",
+      "generateSql": "SQL generieren"
+    },
     "edit": "Prompt bearbeiten",
     "delete": "Prompt löschen",
     "myPrompts": "Meine Prompts",
@@ -97,6 +108,8 @@
     "promptPublic": "Öffentlich",
     "feature": "Hervorheben",
     "featured": "Hervorgehoben",
+    "unlist": "Ausblenden",
+    "relist": "Wieder einblenden",
     "adminArea": "Admin-Bereich",
     "types": {
       "text": "Text",
@@ -134,6 +147,10 @@
     "promptCreated": "Prompt erstellt",
     "promptUpdated": "Prompt aktualisiert",
     "run": "Ausführen",
+    "promptCopied": "Prompt kopiert",
+    "promptCopiedDescription": "Der Prompt wurde in die Zwischenablage kopiert. Fügen Sie ihn in {platform} nach dem Öffnen ein.",
+    "openPlatform": "{platform} öffnen",
+    "cancel": "Abbrechen",
     "titleRequired": "Titel ist erforderlich",
     "contentRequired": "Inhalt ist erforderlich",
     "titlePlaceholder": "Geben Sie einen Titel für Ihren Prompt ein",
@@ -150,6 +167,12 @@
     "mediaUrl": "Medien-URL",
     "mediaUrlPlaceholder": "https://...",
     "mediaUrlDescription": "Geben Sie die URL zur Mediendatei für diesen Prompt ein",
+    "mediaImage": "Medienbild",
+    "clickToUpload": "Klicken Sie, um ein Bild hochzuladen",
+    "uploading": "Wird hochgeladen...",
+    "maxFileSize": "Max. Dateigröße: 5MB (JPEG, PNG, GIF, WebP)",
+    "fileTooLarge": "Datei zu groß. Maximale Größe ist 5MB.",
+    "invalidFileType": "Ungültiger Dateityp. Nur JPEG, PNG, GIF und WebP sind erlaubt.",
     "privateDescription": "Private Prompts sind nur für Sie sichtbar",
     "requiresMediaUpload": "Medien-Upload erforderlich",
     "requiresMediaUploadDescription": "Benutzer müssen Mediendateien bereitstellen, um diesen Prompt zu verwenden",
@@ -169,7 +192,15 @@
     "previous": "Zurück",
     "next": "Weiter",
     "mediaLoadError": "Das Medium für diesen Prompt konnte nicht geladen werden. Die URL ist möglicherweise ungültig oder die Ressource ist nicht mehr verfügbar.",
-    "mediaUnavailable": "Medium nicht verfügbar"
+    "mediaUnavailable": "Medium nicht verfügbar",
+    "variableWarningTitle": "Variablenähnliche Muster erkannt",
+    "variableWarningDescription": "Wir haben Platzhalter gefunden, die in dynamische Variablen umgewandelt werden können, sodass Benutzer Werte bei der Verwendung dieses Prompts anpassen können.",
+    "convertVariables": "Alle konvertieren",
+    "more": "weitere",
+    "supportedFormat": "Unterstütztes Format",
+    "or": "oder",
+    "detectedVariables": "Variablen",
+    "clickToEdit": "Zum Bearbeiten klicken"
   },
   "changeRequests": {
     "title": "Änderungsanfragen",
@@ -316,6 +347,7 @@
       "confirm": "Importieren",
       "delete": "Löschen",
       "generateEmbeddings": "Embeddings generieren",
+      "regenerateEmbeddings": "Alle Embeddings neu generieren",
       "pending": "ausstehend",
       "embeddingsSuccess": "{count} Embeddings generiert",
       "embeddingsResult": "Generiert: {success}, Fehlgeschlagen: {failed}"
@@ -482,7 +514,8 @@
     "search": "Suchen",
     "clear": "Löschen",
     "found": "{count} gefunden",
-    "aiSearch": "KI-Suche"
+    "aiSearch": "KI-Suche",
+    "searchTags": "Tags suchen..."
   },
   "user": {
     "profile": "Profil",

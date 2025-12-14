@@ -74,6 +74,17 @@
   "prompts": {
     "title": "Prompts",
     "create": "Create Prompt",
+    "hfDataStudio": {
+      "button": "HF Data Studio",
+      "sqlQuery": "SQL Query",
+      "openDataset": "Open Dataset",
+      "runQuery": "Run Query on HF",
+      "examples": "Examples",
+      "selectExample": "Select an example...",
+      "aiGenerate": "AI Generate",
+      "aiPlaceholder": "Describe the SQL query you need...",
+      "generateSql": "Generate SQL"
+    },
     "edit": "Edit Prompt",
     "delete": "Delete Prompt",
     "myPrompts": "My Prompts",
@@ -97,6 +108,8 @@
     "promptPublic": "Public",
     "feature": "Feature",
     "featured": "Featured",
+    "unlist": "Unlist",
+    "relist": "Relist",
     "adminArea": "Admin Area",
     "types": {
       "text": "Text",
@@ -134,6 +147,10 @@
     "promptCreated": "Prompt created",
     "promptUpdated": "Prompt updated",
     "run": "Run",
+    "promptCopied": "Prompt Copied",
+    "promptCopiedDescription": "The prompt has been copied to your clipboard. Paste it in {platform} after opening.",
+    "openPlatform": "Open {platform}",
+    "cancel": "Cancel",
     "titleRequired": "Title is required",
     "contentRequired": "Content is required",
     "titlePlaceholder": "Enter a title for your prompt",
@@ -150,6 +167,12 @@
     "mediaUrl": "Media URL",
     "mediaUrlPlaceholder": "https://...",
     "mediaUrlDescription": "Enter a URL to the media file for this prompt",
+    "mediaImage": "Media Image",
+    "clickToUpload": "Click to upload an image",
+    "uploading": "Uploading...",
+    "maxFileSize": "Max file size: 5MB (JPEG, PNG, GIF, WebP)",
+    "fileTooLarge": "File too large. Maximum size is 5MB.",
+    "invalidFileType": "Invalid file type. Only JPEG, PNG, GIF, and WebP are allowed.",
     "privateDescription": "Private prompts are only visible to you",
     "requiresMediaUpload": "Requires Media Upload",
     "requiresMediaUploadDescription": "Users need to provide media files to use this prompt",
@@ -169,7 +192,15 @@
     "previous": "Previous",
     "next": "Next",
     "mediaLoadError": "The media for this prompt could not be loaded. The URL may be invalid or the resource is no longer available.",
-    "mediaUnavailable": "Media unavailable"
+    "mediaUnavailable": "Media unavailable",
+    "variableWarningTitle": "Variable-like patterns detected",
+    "variableWarningDescription": "We found placeholders that could be converted to dynamic variables, allowing users to customize values when using this prompt.",
+    "convertVariables": "Convert All",
+    "more": "more",
+    "supportedFormat": "Supported format",
+    "or": "or",
+    "detectedVariables": "Variables",
+    "clickToEdit": "Click to edit"
   },
   "changeRequests": {
     "title": "Change Requests",
@@ -316,6 +347,7 @@
       "confirm": "Import",
       "delete": "Delete",
       "generateEmbeddings": "Generate Embeddings",
+      "regenerateEmbeddings": "Regenerate all embeddings",
       "pending": "pending",
       "embeddingsSuccess": "{count} embeddings generated",
       "embeddingsResult": "Generated: {success}, Failed: {failed}"
@@ -482,7 +514,8 @@
     "search": "Search",
     "clear": "Clear",
     "found": "{count} found",
-    "aiSearch": "AI Search"
+    "aiSearch": "AI Search",
+    "searchTags": "Search tags..."
   },
   "user": {
     "profile": "Profile",

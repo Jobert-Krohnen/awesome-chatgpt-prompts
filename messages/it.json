@@ -74,6 +74,17 @@
   "prompts": {
     "title": "Prompt",
     "create": "Crea Prompt",
+    "hfDataStudio": {
+      "button": "HF Data Studio",
+      "sqlQuery": "Query SQL",
+      "openDataset": "Apri Dataset",
+      "runQuery": "Esegui Query su HF",
+      "examples": "Esempi",
+      "selectExample": "Seleziona un esempio...",
+      "aiGenerate": "Genera AI",
+      "aiPlaceholder": "Descrivi la query SQL di cui hai bisogno...",
+      "generateSql": "Genera SQL"
+    },
     "edit": "Modifica Prompt",
     "delete": "Elimina Prompt",
     "myPrompts": "I miei Prompt",
@@ -97,6 +108,8 @@
     "promptPublic": "Pubblico",
     "feature": "In evidenza",
     "featured": "In evidenza",
+    "unlist": "Nascondi",
+    "relist": "Mostra",
     "adminArea": "Area Admin",
     "types": {
       "text": "Testo",
@@ -134,6 +147,10 @@
     "promptCreated": "Prompt creato",
     "promptUpdated": "Prompt aggiornato",
     "run": "Esegui",
+    "promptCopied": "Prompt copiato",
+    "promptCopiedDescription": "Il prompt è stato copiato negli appunti. Incollalo in {platform} dopo l'apertura.",
+    "openPlatform": "Apri {platform}",
+    "cancel": "Annulla",
     "titleRequired": "Il titolo è obbligatorio",
     "contentRequired": "Il contenuto è obbligatorio",
     "titlePlaceholder": "Inserisci un titolo per il tuo prompt",
@@ -150,6 +167,12 @@
     "mediaUrl": "URL Media",
     "mediaUrlPlaceholder": "https://...",
     "mediaUrlDescription": "Inserisci un URL al file multimediale per questo prompt",
+    "mediaImage": "Immagine Media",
+    "clickToUpload": "Clicca per caricare un'immagine",
+    "uploading": "Caricamento...",
+    "maxFileSize": "Dimensione max: 5MB (JPEG, PNG, GIF, WebP)",
+    "fileTooLarge": "File troppo grande. La dimensione massima è 5MB.",
+    "invalidFileType": "Tipo di file non valido. Sono consentiti solo JPEG, PNG, GIF e WebP.",
     "privateDescription": "I prompt privati sono visibili solo a te",
     "requiresMediaUpload": "Richiede Caricamento Media",
     "requiresMediaUploadDescription": "Gli utenti devono fornire file multimediali per usare questo prompt",
@@ -169,7 +192,15 @@
     "previous": "Precedente",
     "next": "Successivo",
     "mediaLoadError": "Il media per questo prompt non può essere caricato. L'URL potrebbe essere non valido o la risorsa non è più disponibile.",
-    "mediaUnavailable": "Media non disponibile"
+    "mediaUnavailable": "Media non disponibile",
+    "variableWarningTitle": "Rilevati pattern simili a variabili",
+    "variableWarningDescription": "Abbiamo trovato segnaposto che potrebbero essere convertiti in variabili dinamiche, permettendo agli utenti di personalizzare i valori quando usano questo prompt.",
+    "convertVariables": "Converti tutto",
+    "more": "altri",
+    "supportedFormat": "Formato supportato",
+    "or": "o",
+    "detectedVariables": "Variabili",
+    "clickToEdit": "Clicca per modificare"
   },
   "changeRequests": {
     "title": "Richieste di Modifica",
@@ -316,6 +347,7 @@
       "confirm": "Importa",
       "delete": "Elimina",
       "generateEmbeddings": "Genera Embedding",
+      "regenerateEmbeddings": "Rigenera tutti gli embedding",
       "pending": "in attesa",
       "embeddingsSuccess": "{count} embedding generati",
       "embeddingsResult": "Generati: {success}, Falliti: {failed}"
@@ -482,7 +514,8 @@
     "search": "Cerca",
     "clear": "Cancella",
     "found": "{count} trovati",
-    "aiSearch": "Ricerca AI"
+    "aiSearch": "Ricerca AI",
+    "searchTags": "Cerca tag..."
   },
   "user": {
     "profile": "Profilo",

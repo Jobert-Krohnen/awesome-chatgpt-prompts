@@ -74,6 +74,17 @@
   "prompts": {
     "title": "Promptlar",
     "create": "Prompt Oluştur",
+    "hfDataStudio": {
+      "button": "HF Veri Stüdyosu",
+      "sqlQuery": "SQL Sorgusu",
+      "openDataset": "Veri Setini Aç",
+      "runQuery": "HF'de Sorguyu Çalıştır",
+      "examples": "Örnekler",
+      "selectExample": "Bir örnek seçin...",
+      "aiGenerate": "AI Oluştur",
+      "aiPlaceholder": "İhtiyacınız olan SQL sorgusunu tanımlayın...",
+      "generateSql": "SQL Oluştur"
+    },
     "edit": "Prompt Düzenle",
     "delete": "Prompt Sil",
     "myPrompts": "Promptlarım",
@@ -97,6 +108,8 @@
     "promptPublic": "Herkese Açık",
     "feature": "Öne Çıkar",
     "featured": "Öne Çıkan",
+    "unlist": "Listeden Kaldır",
+    "relist": "Listeye Ekle",
     "adminArea": "Yönetici Alanı",
     "types": {
       "text": "Metin",
@@ -134,6 +147,10 @@
     "promptCreated": "Prompt oluşturuldu",
     "promptUpdated": "Prompt güncellendi",
     "run": "Çalıştır",
+    "promptCopied": "Prompt Kopyalandı",
+    "promptCopiedDescription": "Prompt panoya kopyalandı. Açtıktan sonra {platform}'a yapıştırın.",
+    "openPlatform": "{platform}'u Aç",
+    "cancel": "İptal",
     "titleRequired": "Başlık gerekli",
     "contentRequired": "İçerik gerekli",
     "titlePlaceholder": "Promptunuz için bir başlık girin",
@@ -150,6 +167,12 @@
     "mediaUrl": "Medya URL",
     "mediaUrlPlaceholder": "https://...",
     "mediaUrlDescription": "Bu prompt için medya dosyasının URL'sini girin",
+    "mediaImage": "Medya Görseli",
+    "clickToUpload": "Görsel yüklemek için tıklayın",
+    "uploading": "Yükleniyor...",
+    "maxFileSize": "Maksimum dosya boyutu: 5MB (JPEG, PNG, GIF, WebP)",
+    "fileTooLarge": "Dosya çok büyük. Maksimum boyut 5MB'dir.",
+    "invalidFileType": "Geçersiz dosya türü. Yalnızca JPEG, PNG, GIF ve WebP'ye izin verilir.",
     "privateDescription": "Özel promptlar yalnızca size görünür",
     "requiresMediaUpload": "Medya Yüklemesi Gerekli",
     "requiresMediaUploadDescription": "Bu promptu kullanmak için medya dosyası gereklidir",
@@ -169,7 +192,15 @@
     "previous": "Önceki",
     "next": "Sonraki",
     "mediaLoadError": "Bu prompt için medya yüklenemedi. URL geçersiz olabilir veya kaynak artık mevcut değil.",
-    "mediaUnavailable": "Medya kullanılamıyor"
+    "mediaUnavailable": "Medya kullanılamıyor",
+    "variableWarningTitle": "Değişken benzeri kalıplar tespit edildi",
+    "variableWarningDescription": "Dinamik değişkenlere dönüştürülebilecek yer tutucular bulduk. Bu, kullanıcıların bu promptu kullanırken değerleri özelleştirmesine olanak tanır.",
+    "convertVariables": "Tümünü Dönüştür",
+    "more": "daha fazla",
+    "supportedFormat": "Desteklenen format",
+    "or": "veya",
+    "detectedVariables": "Değişkenler",
+    "clickToEdit": "Düzenlemek için tıklayın"
   },
   "changeRequests": {
     "title": "Değişiklik İstekleri",
@@ -316,6 +347,7 @@
       "confirm": "İçe Aktar",
       "delete": "Sil",
       "generateEmbeddings": "Gömme Vektörü Oluştur",
+      "regenerateEmbeddings": "Tüm gömme vektörlerini yeniden oluştur",
       "pending": "bekliyor",
       "embeddingsSuccess": "{count} gömme vektörü oluşturuldu",
       "embeddingsResult": "Oluşturulan: {success}, Başarısız: {failed}"
@@ -482,7 +514,8 @@
     "search": "Ara",
     "clear": "Temizle",
     "found": "{count} bulundu",
-    "aiSearch": "AI ile Ara"
+    "aiSearch": "AI ile Ara",
+    "searchTags": "Etiket ara..."
   },
   "user": {
     "profile": "Profil",
