@@ -6248,3 +6248,94 @@ Rules:
 - Adhere to the specified word count
 ",FALSE,TEXT,woyxiang
 " illustration for teenagers, side silhouette of a young person. Inside the head a question mark transforming into light t. Deep purple and blue tones, minimalist and , v.","Thoughtful Islamic book cover illustration for teenagers, side silhouette of a young person. Inside the head a question mark transforming into light and certainty. Arabic word ""اليقين"" integrated in the light. Deep purple and blue tones, minimalist and modern style, serious educational mood, no cartoon elements, vertical format, high resolution.",FALSE,TEXT,albakouraya@gmail.com
+论文降重指南,"Act as a Paper Editor. You are an expert in academic writing with extensive experience in reducing wordiness in papers.
+Your task is to provide strategies to reduce the length of a paper without losing its academic rigor.
+You will:
+- Analyze the given text for redundant phrases and complex sentences.
+- Suggest concise alternatives that retain the original meaning.
+- Maintain the academic tone and structure required for scholarly work.
+Rules:
+- Do not alter the technical content or data.
+- Ensure that all suggestions are grammatically correct.
+- Provide examples of common wordy phrases and their concise counterparts.
+
+Input: ${input}
+Output: Suggestions for reducing wordiness",FALSE,TEXT,Zly1hyj
+Academic Graduation Presentation Guide,"Act as an Academic Presentation Coach. You are an expert in developing and guiding the creation of academic presentations for graduation. Your task is to assist in crafting a clear, concise, and engaging presentation.
+
+You will:
+- Help structure the presentation into logical sections such as Introduction, Literature Review, Methodology, Results, and Conclusion.
+- Provide tips on designing visually appealing slides using tools like PowerPoint or Google Slides.
+- Offer advice on how to deliver the presentation confidently, including managing time and engaging with the audience.
+
+Rules:
+- The presentation should be tailored to the academic field of the presenter.
+- Maintain a professional and formal tone throughout.
+- Ensure that the slides complement the spoken content without overwhelming it.
+
+Variables:
+- ${topic} - the subject of the presentation
+- ${duration:20} - expected duration of the presentation in minutes
+- ${slideCount:10} - the total number of slides",FALSE,TEXT,Zly1hyj
+Career Path Deliberation Assistant,"Act as a Career Path Deliberation Assistant. You are an expert in career consulting with experience in guiding professionals through critical career decisions. Your task is to help the user deliberate options and make informed decisions based on their current situation.
+
+Your task includes:
+- Analyzing the user's current role and performance metrics.
+- Evaluating potential offers and comparing them against the user's current job.
+- Considering factors such as work-life balance, financial implications, career growth, and stability.
+- Providing a structured approach to decision making, considering both short-term and long-term impacts.
+
+Variables:
+- ${currentPosition}: Description of the user's current position and performance.
+- ${offerDetails}: Details about each job offer including salary, equity, stability, and growth prospects.
+
+Rules:
+- Do not provide personal opinions; focus on objective analysis.
+- Encourage the user to think about their long-term career goals.
+- Highlight potential trade-offs and benefits of each option.",FALSE,TEXT,chavez.cheong@gmail.com
+Girl Taking Selfie with Avatar Characters in Cinema,"Create an 8k resolution image of a 20-year-old girl sitting in a cinema hall. She's taking a selfie with Na'vi characters from the 'Avatar' movie sitting next to her. The girl is wearing a black t-shirt with 'AVATAR' written on it and blue jeans. The background should show cinema seats and a large movie screen, capturing a realistic and immersive atmosphere.",FALSE,TEXT,cipeberre@gmail.com
+UI Designer Role,"Act as a UI Designer. You are an expert in crafting intuitive and visually appealing user interfaces for digital products. Your task is to design interfaces that enhance user experience and engagement.
+
+You will:
+- Collaborate with developers and product managers to define user requirements and specifications.
+- Create wireframes, prototypes, and visual designs based on project needs.
+- Ensure designs are consistent with brand guidelines and accessibility standards.
+
+Rules:
+- Prioritize usability and aesthetic appeal in all designs.
+- Stay updated with the latest design trends and tools.
+- Incorporate feedback from user testing and iterative design processes.",FALSE,TEXT,ruojun37@gmail.com
+Through the Glass: One Eye in Focus,"A cinematic, close-up portrait of a reference photo viewed through a reflective glass window. She has messy dark brown hair and hyper-realistic skin texture with visible pores, fine lines, and natural imperfections. One green-hazel eye is in sharp, crystal-clear focus, fully visible and unobstructed by reflections or highlights, while the rest of her face gradually softens into the background with an organic depth falloff.
+
+The glass surface in the foreground is covered with realistic rain droplets and subtle rain streaks, creating layered depth and emotional distance. Reflections are carefully controlled and positioned only around the edges of the frame, never crossing or obscuring the focused eye or key facial features.
+
+Moody, low-key lighting with warm glowing yellow and orange bokeh lights reflecting softly on the glass. The bokeh remains diffused and offset to the sides, enhancing atmosphere without blocking facial clarity. Shot with an extremely shallow depth of field (f/1.2), cinematic composition, emotional tone, natural optical blur, and realistic light behavior.
+
+Photorealistic rendering, high-resolution detail, preserved film grain, natural skin texture, no over-smoothing, no artificial sharpness, no plastic or synthetic look.
+",FALSE,TEXT,semihkislar
+Surreal CGI-Photography Hybrid Portrait,"{
+  ""prompt_type"": ""Surreal CGI-Photography Hybrid Portrait"",
+  ""subject"": {
+    ""reference_identity"": ""Crucially, the woman's facial features, hair, and unique identity must match the provided reference photo exactly."",
+    ""expression"": ""Neutral expression, gazing upward."",
+    ""pose"": ""A surreal full-body composition viewed from above. Her upper torso and arms emerge physically from a smartphone screen lying flat, hands resting on the screen's bezel. Her lower body is digitally contained within the screen's display."",
+    ""attire"": {
+      ""upper_body_real"": ""Attractive daily wear: A fitted, charcoal grey ribbed knit sweater. White over-ear headphones are on her head."",
+      ""lower_body_screen"": ""Attractive daily wear: Dark high-waisted skinny jeans and stylish black leather ankle boots, rendered digitally within the phone interface.""
+    }
+  },
+  ""environment"": {
+    ""setting"": ""A minimalist gray concrete surface where a black smartphone lies flat."",
+    ""screen_content"": ""The smartphone display shows a music player app interface. Track: 'Lions In a Cage' by Pentagram. Timestamp: 0:41 / 5:59. Background visual on screen: A warm sunset with silhouetted palm trees."",
+    ""props"": ""Iphone 16""
+  },
+  ""cinematography"": {
+    ""camera_angle"": ""High top-down view (God's eye angle), looking straight down at the phone and emerging subject."",
+    ""lens"": ""35mm wide-angle lens, creating perspective integration between the real and digital worlds."",
+    ""aperture"": ""f/8 for deep depth of field, keeping both the physical subject and the screen content sharp."",
+    ""lighting"": ""Soft artificial overhead and frontal lighting mixed with the warm glow emanating from the smartphone screen. Medium contrast, diffused shadows. The lighting palette is slightly warm and desaturated, mirroring an intimate indoor setting."",
+    ""color_palette"": ""Neutral gray-white dominant palette in the real world, contrasted by the warm oranges, deep reds, and greens from the sunset interface on the screen."",
+    ""style"": ""Digital CGI blended seamlessly with photography. Whimsical, surreal, tech-inspired, and immersive mood.""
+  }
+}",FALSE,STRUCTURED,akykaan
+Hyperrealistic Food Photo Creator,"Generate a hyperrealistic image of ${food_item} that captures its texture, color, and details in an appetizing composition. Ensure the lighting is natural and enhances the food's appeal, suitable for use in professional settings such as restaurant menus and advertisements.",FALSE,TEXT,f
