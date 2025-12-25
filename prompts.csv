@@ -9778,3 +9778,365 @@ Describe what this skill does and how the agent should use it.
 ${${variable}}
 - Step 1: ...قم بعمل صوره للامام محمد بن سعود ال سعود يبدو عليها الفخر والاعتزاز 
 - Step 2: ...قم بوضع العلم والتاريخ ومعالم من السعوديه ",FALSE,STRUCTURED,S13321
+A Wrinkle in Time,"{
+  ""prompt"": ""You will perform an image edit using the person from the provided photo as the main subject. Preserve his core likeness. Transform Subject 1 (male) into a Victorian time traveler who has just materialized in a dense, prehistoric jungle. The image must be Ultra-Photorealistic, Movie-Quality, and highly detailed. The scene captures the moment of arrival, shot on Arri Alexa with cinematic lighting and a shallow depth of field. He stands amidst towering ferns and ancient cycads, looking completely out of place in his formal 19th-century attire, contrasting the rugged, humid environment with his refined appearance."",
+  ""details"": {
+    ""year"": ""1895 / 65 Million BC"",
+    ""genre"": ""Cinematic Photorealism"",
+    ""location"": ""A dense, steaming Cretaceous jungle floor filled with giant ferns, ancient conifers, and thick atmospheric fog."",
+    ""lighting"": [
+      ""Volumetric god rays piercing through the canopy"",
+      ""Dappled sunlight"",
+      ""High dynamic range""
+    ],
+    ""camera_angle"": ""Medium close-up at eye level, focusing on the subject with the background falling into soft bokeh."",
+    ""emotion"": [
+      ""Disbelief"",
+      ""Awe"",
+      ""Scientific curiosity"",
+      ""Fear""
+    ],
+    ""color_palette"": [
+      ""Deep emerald greens"",
+      ""Earthy mud browns"",
+      ""Burnished brass"",
+      ""Tweed grey""
+    ],
+    ""atmosphere"": [
+      ""Humid"",
+      ""Primordial"",
+      ""Claustrophobic"",
+      ""Mysterious""
+    ],
+    ""environmental_elements"": ""Floating pollen particles, massive prehistoric insects buzzing in the background, a large ominous silhouette of a dinosaur visible through the thick mist."",
+    ""subject1"": {
+      ""costume"": ""A bespoke three-piece Victorian tweed suit, a slightly askew cravat, and intricate brass steampunk goggles pushed up onto his forehead."",
+      ""subject_expression"": ""Wide-eyed shock mixed with fascination, mouth slightly open, sweat beading on his brow."",
+      ""subject_action"": ""Clutching a glowing, smoking brass chronometer device in one hand while tentatively reaching out to touch a massive, alien-looking fern frond with the other.""
+    },
+    ""negative_prompt"": {
+      ""exclude_visuals"": [
+        ""modern buildings"",
+        ""paved roads"",
+        ""cars"",
+        ""cell phones"",
+        ""contemporary fashion"",
+        ""cleanliness""
+      ],
+      ""exclude_styles"": [
+        ""cartoon"",
+        ""3D render"",
+        ""illustration"",
+        ""painting"",
+        ""low resolution"",
+        ""blur"",
+        ""sketch""
+      ],
+      ""exclude_colors"": [
+        ""neon"",
+        ""pastel pinks"",
+        ""artificial brights""
+      ],
+      ""exclude_objects"": [
+        ""spaceships"",
+        ""aliens"",
+        ""modern weapons""
+      ]
+    }
+  }
+}",FALSE,STRUCTURED,ersinkoc
+Create Python Dev Container,"You are a DevOps expert setting up a Python development environment using Docker and VS Code Remote Containers.
+
+Your task is to provide and run Docker commands for a lightweight Python development container based on the official python:3.13-slim-bookworm image (or the latest 3.x slim-bookworm tag available).
+
+Key requirements:
+- Use interactive mode with a bash shell that does not exit immediately.
+- Override the default command to keep the container running indefinitely (use sleep infinity or similar) do not remove the container after running.
+- Mount the current working directory (.) as a volume to /workspace inside the container (read-write).
+- Run the container as a non-root user named 'vscode' with UID 1000 for seamless compatibility with VS Code Remote - Containers extension.
+- Install essential development tools inside the container if needed (git, curl, build-essential, etc.), but only via runtime commands if necessary.
+- Do not create any files on the host or inside the container beyond what's required for running.
+- Make the container suitable for attaching VS Code remotely (Remote - Containers: Attach to Running Container) to enable further Python development, debugging, and extension usage.
+
+Provide:
+1. The docker pull command (if needed).
+2. The full docker run command with all flags.
+3. Instructions on how to attach VS Code to this running container for development.
+
+Assume the user is in the root folder of their Python project on the host.",FALSE,TEXT,bugyboo
+Protocol 2084: The Alleyway Hack,"{
+  ""prompt"": ""You will perform an image edit transforming the male subject into a fugitive netrunner in a gritty, high-tech future. The result must be an Ultra-Photorealistic, Movie-Quality image resembling a frame from an IMAX blockbuster. The scene is set in a rain-slicked neon alleyway where the subject is hiding. Ensure the image is highly detailed, utilizing cinematic lighting and realistic physics, shot on Arri Alexa with a shallow depth of field to isolate the subject from the chaotic background."",
+  ""details"": {
+    ""year"": ""${year:2084}"",
+    ""genre"": ""Cinematic Photorealism"",
+    ""location"": ""A narrow, debris-strewn alleyway in a vertically built cyberpunk mega-city. The ground is wet asphalt reflecting the chaotic glow of neon kanji signs from skyscrapers above."",
+    ""lighting"": [
+      ""Volumetric neon blue and magenta backlighting"",
+      ""Soft cool fill light on face"",
+      ""High-contrast shadows"",
+      ""Specular highlights on wet surfaces""
+    ],
+    ""camera_angle"": ""Eye-level medium shot with shallow depth of field (bokeh background) to focus on the subject's intense expression."",
+    ""emotion"": [
+      ""Paranoid"",
+      ""Focused"",
+      ""Urgent""
+    ],
+    ""color_palette"": [
+      ""Electric Cyan"",
+      ""Neon Pink"",
+      ""Deep Shadow Black"",
+      ""Rain Silver"",
+      ""Cold Blue""
+    ],
+    ""atmosphere"": [
+      ""Dystopian"",
+      ""Claustrophobic"",
+      ""Wet"",
+      ""Gritty"",
+      ""High-Tech Low-Life""
+    ],
+    ""environmental_elements"": ""Falling rain droplets frozen in time, swirling steam rising from vents, flickering holographic advertisements reflecting in muddy puddles."",
+    ""subject1"": {
+      ""costume"": ""A heavily textured, waterproof black tech-wear windbreaker with illuminated geometric patterns, fingerless tactical gloves, and a metallic neural interface port visible on the temple."",
+      ""subject_expression"": ""Intense concentration mixed with anxiety, sweat and rain dripping down the face."",
+      ""subject_action"": ""Rapidly typing on a floating holographic keyboard projected from a wrist-mounted cyberdeck while glancing over his shoulder.""
+    },
+    ""negative_prompt"": {
+      ""exclude_visuals"": [
+        ""daylight"",
+        ""sunshine"",
+        ""blue sky"",
+        ""clean surfaces"",
+        ""dryness"",
+        ""warm lighting""
+      ],
+      ""exclude_styles"": [
+        ""cartoon"",
+        ""anime"",
+        ""3D render"",
+        ""painting"",
+        ""low resolution"",
+        ""blurry"",
+        ""sketch""
+      ],
+      ""exclude_colors"": [
+        ""warm sepia"",
+        ""pastels"",
+        ""bright white"",
+        ""beige""
+      ],
+      ""exclude_objects"": [
+        ""cars"",
+        ""trees"",
+        ""pets"",
+        ""flowers""
+      ]
+    }
+  }
+}",FALSE,STRUCTURED,ersinkoc
+"Build a simple, modern web application called **Course Enrollment Portal** using Python, Flask, HTMX, and SQLite.","# Project Goal
+
+Build a simple, modern web application called **Course Enrollment Portal** using Python, Flask, HTMX, and SQLite.
+
+**Features:**
+- Display a list of available courses (title, description, instructor, duration).
+- Allow users to select a course and submit a request/enrollment form (name, email, phone, message/motivation).
+- After submission, show a success message and list all enrollment requests (admin view-like, simple for demo).
+- Use HTMX for dynamic interactions: partial page updates, no full reloads, smooth UX without any custom JavaScript.
+- Style the app nicely using Tailwind CSS (via CDN for simplicity).
+- Store data in SQLite via Flask-SQLAlchemy.
+
+**User Flow:**
+1. Home page: Shows list of courses in a grid/cards.
+2. User clicks ""Enroll"" on a course → HTMX loads the enrollment form (pre-filled with selected course).
+3. User fills and submits form → HTMX submits, shows success message, and optionally updates a requests list.
+
+# Tech Stack Requirements
+- **Dependency Management**: Use **Poetry** exclusively (no pip or virtualenv directly).
+- **Framework**: **Flask** (latest compatible version).
+- **Database**: **Flask-SQLAlchemy** with SQLite backend.
+- **Frontend Interactivity**: **HTMX** (via CDN) for dynamic updates.
+- **Styling**: Tailwind CSS (via CDN).
+- Optional: Use `flask-htmx` extension for easier partial detection if helpful.
+- Python version: Target Python 3.13+ (current as of late 2025).
+
+# Best Practices to Follow
+- Use application factory pattern in `__init__.py`.
+- Organize with Blueprints if needed (at least one for main views).
+- Separate templates into base.html + partials (for HTMX).
+- Validate form inputs (server-side).
+- Handle errors gracefully (flash messages).
+- Seed the database with 5-10 sample courses on first run.
+- Project structure inspired by Poetry defaults + Flask recommendations.
+
+# Recommended Project Structure
+├── pyproject.toml
+├── README.md
+├── build_environment.md          # For tracking task progress
+├── src/
+│   └── course_portal/
+│       ├── init.py          # App factory, db init
+│       ├── models.py            # SQLAlchemy models (Course, EnrollmentRequest)
+│       ├── routes.py            # Or blueprints/views
+│       ├── forms.py             # Optional WTForms if needed, else manual validation
+│       ├── templates/
+│       │   ├── base.html
+│       │   ├── index.html
+│       │   ├── partials/
+│       │   │   ├── course_list.html
+│       │   │   ├── enrollment_form.html
+│       │   │   └── requests_list.html
+│       └── static/                  # If needed for custom CSS/JS (minimal)
+├── tests/                           # Add basic tests later
+└── instance/                        # SQLite db will be here
+
+# Step-by-Step Tasks
+Create a file `build_environment.md` at the project root to track progress with checklists.
+
+- [ ] **Initialize Project**
+  - Run `poetry new course-enrollment-portal --src` (uses src layout).
+  - cd into the project.
+  - Add dependencies: `poetry add flask flask-sqlalchemy`
+  - Add HTMX/Tailwind via CDN in templates (no need to add as deps).
+  - Optional: `poetry add flask-htmx`
+
+- [ ] **Set Up Flask App**
+  - Create application factory in `src/course_portal/__init__.py`.
+  - Configure SQLite db (`instance/course_portal.sqlite`).
+  - Initialize db in a command or on first run.
+
+- [ ] **Define Models**
+  - In `models.py`: Course (id, title, description, instructor, duration).
+  - EnrollmentRequest (id, course_id FK, name, email, phone, message, timestamp).
+
+- [ ] **Create Database Seed**
+  - Add a function/script to populate 5-10 sample courses if db empty.
+
+- [ ] **Build Templates**
+  - `base.html`: Include Tailwind CDN, HTMX CDN, basic layout (header, main container).
+  - `index.html`: Extend base, include course list partial.
+  - Partials for HTMX swaps: course cards, form, success message.
+
+- [ ] **Implement Routes**
+  - `/`: GET - Render full page with course list.
+  - `/courses`: GET - Return partial course list (for HTMX refresh if needed).
+  - `/enroll/<course_id>`: GET - Return partial enrollment form.
+  - `/enroll`: POST - Validate, save request, return success partial + updated requests list.
+  - `/requests`: GET - Return partial list of all enrollment requests.
+
+- [ ] **Add HTMX Interactions**
+  - Course cards: hx-get to load form into a div.
+  - Form: hx-post, hx-target to update a result div with success or errors.
+  - Use hx-swap=""innerHTML"" or ""outerHTML"" as needed.
+
+- [ ] **Add Validation & Feedback**
+  - Server-side check for required fields, valid email.
+  - Use Flask flash or return error partials.
+
+- [ ] **Run & Test**
+  - Add script in pyproject.toml: `poetry run flask --app src/course_portal run --debug`
+  - Or use `flask run` with FLASK_APP set.
+  - Manually test all flows.
+  - Ensure db seeds on first run.
+
+- [ ] **Final Polish**
+  - Add README with setup/run instructions.
+  - Basic error handling (404, 500).
+  - Make it responsive with Tailwind.
+
+# Progress Tracking
+- After completing each major task above, update `build_environment.md` with:
+  - [x] Task description
+  - Notes on what was implemented.
+- Once all tasks are done, mark the project as complete.
+
+# General Guidelines
+1. Always provide clean, commented code.
+2. If unclear on any feature, suggest a simple implementation.
+3. Output code changes file-by-file with full paths.
+4. Do not use any custom JavaScript.
+5. Prioritize simplicity and functionality over perfection.
+6. After each step, confirm it works before proceeding.
+
+Follow these instructions to build a fully functional, interactive web app!",FALSE,TEXT,bugyboo
+Melly Black Hair,"Gemini Nano Banana Pro
+
+Prompt:
+
+{
+  ""lighting"": {
+    ""source"": ""Direct, bright sunlight"",
+    ""shadows"": ""Defined shadows are cast on the deck, the subject's body, and the yacht structure."",
+    ""direction"": ""From the upper right, creating strong highlights and deep shadows"",
+    ""intensity"": ""High contrast, hard light""
+  },
+  ""background"": {
+    ""depth"": ""Considerable depth of field, with the background elements clearly distinguishable."",
+    ""setting"": ""The deck of a luxury yacht on a sunny day."",
+    ""elements"": [
+      ""White fiberglass yacht structure"",
+      ""Stainless steel railing"",
+      ""Teak wood deck planks"",
+      ""A white staircase on the left leading to an upper deck"",
+      ""Vast blue sea with small waves"",
+      ""A rocky, rugged island or coastline in the distance on the right"",
+      ""Clear blue sky"",
+      ""Another small boat visible on the horizon""
+    ]
+  },
+  ""typography"": {
+    ""placement"": ""None"",
+    ""font_color"": ""None"",
+    ""font_style"": ""None"",
+    ""text_content"": ""None""
+  },
+  ""composition"": {
+    ""focus"": ""Sharp focus on the subject, with a slight blur in the distant background elements."",
+    ""framing"": ""The subject is positioned on the left side of the frame, with the yacht's deck and railing leading into the distance on the right. The horizon line is visible in the upper third."",
+    ""shot_type"": ""Medium-long shot"",
+    ""camera_angle"": ""Slightly low-angle, looking up at the subject""
+  },
+  ""color_profile"": {
+    ""mood"": ""Bright, sunny, and summery."",
+    ""accent_colors"": {
+      ""tan"": ""#D2B48C"",
+      ""gold"": ""#FFD700""
+    },
+    ""color_palette"": ""A high-contrast palette dominated by the cool blues of the water and sky, contrasted with the stark white of the yacht and tank top, and the warm red of the bikini."",
+    ""dominant_colors"": {
+      ""red"": ""#DC143C"",
+      ""blue"": ""#0047AB"",
+      ""brown"": ""#A52A2A"",
+      ""white"": ""#FFFFFF""
+    }
+  },
+  ""technical_specs"": {
+    ""medium"": ""Photograph"",
+    ""resolution"": ""High, with sharp detail"",
+    ""camera_type"": ""Digital camera"",
+    ""aspect_ratio"": ""2:3 (portrait orientation)""
+  },
+  ""subject_analysis"": {
+    ""hair"": ""Dark, shoulder-length, tousled hair with sun-kissed highlights, partially covering her face."",
+    ""pose"": ""Standing, leaning slightly against the yacht railing with her right hand on her hip and left hand holding the edge of her white tank top. Her body is angled towards the left, head turned to look over her left shoulder."",
+    ""clothing"": {
+      ""top"": ""A white, slightly sheer ribbed tank top, partially pulled up."",
+      ""bottom"": ""A red string bikini bottom with side ties."",
+      ""swimsuit_under"": ""A red bikini top is visible underneath the tank top.""
+    },
+    ""skin_tone"": ""Fair"",
+    ""expression"": ""Thoughtful or contemplative, looking towards the distance."",
+    ""accessories"": ""A thin gold bracelet on her left wrist."",
+    ""main_subject"": ""A young woman""
+  },
+  ""artistic_elements"": {
+    ""style"": ""Candid, naturalistic photography"",
+    ""texture"": ""Smooth fiberglass, ribbed tank top fabric, wet-look bikini, wooden deck, rippled water"",
+    ""contrast"": ""High tonal contrast between the brightly lit areas and the shadowed sections.""
+  },
+  ""generation_parameters"": {
+    ""prompt"": ""A candid photograph of a young woman with tousled dark hair, wearing a white tank top and red string bikini bottoms, leaning against the railing on the deck of a luxury yacht. She is looking over her shoulder towards a rocky island across the blue sea under a clear sky. The sunlight is bright and direct, casting defined shadows. The shot is medium-long and slightly low-angle."",
+    ""negative_prompt"": ""Blurry, grainy, artificial lighting, studio setting, text, watermark, painting, illustration, low resolution, overcast.""
+  }
+}",FALSE,TEXT,umutcanbostancii@gmail.com
