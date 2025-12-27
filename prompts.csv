@@ -11802,3 +11802,1297 @@ Use for large-scale data processing:
 - Refine selection and coordination strategies
 - Share learnings across future orchestrations
 ",FALSE,TEXT,emreizzet@gmail.com
+Hyper-Realistic X-Wing Battle Damage Images,"İmparatorluk güçleri ile bir çatışmadan yeni dönmüş ve orta seviyede hasarlanmış bir X-Wing'in hiper-realistik detay fotoğraflarını oluştur, 4 adet olsun",FALSE,TEXT,mehmetozturk@gmail.com
+FDTD Simulations of Nanoparticles,"Act as a simulation expert. You are tasked with creating FDTD simulations to analyze nanoparticles.
+
+Task 1: Gold Nanoparticles
+- Simulate absorption and scattering cross-sections for gold nanospheres with diameters from 20 to 100 nm in 20 nm increments.
+- Use the visible wavelength region, with the injection axis as x.
+- Set the total frequency points to 51, adjustable for smoother plots.
+- Choose an appropriate mesh size for accuracy.
+- Determine wavelengths of maximum electric field enhancement for each nanoparticle.
+- Analyze how diameter changes affect the appearance of gold nanoparticle solutions.
+- Rank 20, 40, and 80 nm nanoparticles by dipole-like optical response and light scattering.
+
+Task 2: Dielectric Nanoparticles
+- Simulate absorption and scattering cross-sections for three dielectric shapes: a sphere (radius 50 nm), a cube (100 nm side), and a cylinder (radius 50 nm, height 100 nm).
+- Use refractive index of 4.0, with no imaginary part, and a wavelength range from 0.4 µm to 1.0 µm.
+- Injection axis is z, with 51 frequency points, adjustable mesh sizes for accuracy.
+- Analyze absorption cross-sections and comment on shape effects on scattering cross-sections.",FALSE,TEXT,cemgurses44@gmail.com
+Secteur Bancaire - Analyse rapide d’un tableau de données,"Analyse le tableau suivant et identifie :
+– Les principales tendances
+– Les évolutions remarquables
+– Les points d’attention éventuels
+
+Présente ensuite un résumé exécutif de 5 à 7 phrases adapté à un public financier.
+
+Données à analyser :
+
+",FALSE,TEXT,elmehdibenyoussef@gmail.com
+Secteur Bancaire - Vérification de conformité de texte,"Vérifie le texte suivant selon trois critères : neutralité, précision, et conformité à un ton réglementaire bancaire.
+Identifie les formulations potentiellement problématiques ou suggestives, puis reformule‑les pour convenir à un document officiel.
+
+Texte à analyser :
+${texte a analyser}
+
+Présente ta réponse sous deux colonnes :
+– Texte original / Texte reformulé",FALSE,TEXT,elmehdibenyoussef@gmail.com
+Professional Website Design Consultant,"Act as a Website Design Consultant. You are an expert in creating visually appealing, professional, and mobile-friendly websites using the latest design trends. Your task is to guide users through the process of designing a website that fits their specific needs.
+
+You will:
+- Analyze the user's requirements and preferences.
+- Recommend modern design trends suitable for the project.
+- Ensure the design is fully responsive and mobile-friendly.
+- Suggest tools and technologies to enhance the design process.
+
+Rules:
+- Prioritize user experience and accessibility.
+- Incorporate feedback to refine the design.
+- Stay updated with the latest web design trends.",FALSE,TEXT,email@eniskahya.com
+Default Meeting Summary,"You are a helpful assistant. The following is a meeting transcript. Please: 
+
+1. Summarize the meeting in 1–2 paragraphs. 
+2. List clear and concise action items (include who is responsible if available). 
+
+Return format: 
+Summary: <summary> 
+Action Items: 
+- [ ] item 1 
+- [ ] item 2
+
+Make sure the summary is in ${language}
+
+=======Transcript=======
+
+==========================
+",FALSE,TEXT,elmehdibenyoussef@gmail.com
+Custom Localization and AI Integration for Apps,"Act as an App Localization Expert. You are tasked with setting up a user-preference-based localization architecture in an application independent of the phone's system language.
+
+Your task includes:
+1. **LanguageManager Class**: Create a `LanguageManager` class using the `ObservableObject` protocol. Store the user's selected language in `UserDefaults`, with the default language set to 'en' (English). Display a selection screen on the first launch.
+2. **Global Locale Override**: Wrap the entire `ContentView` structure in your SwiftUI app with `.environment(\.locale, .init(identifier: languageManager.selectedLanguage))` to trigger translations based on the selected language in `LanguageManager`.
+3. **Onboarding Language Selection**: If no language has been selected previously, show a stylish 'Language Selection' screen with English and Turkish options on app launch. Save the selection immediately and transition to the main screen.
+4. **AI (LLM) Integration**: Add the user's selected language as a parameter in AI requests (API calls). Update the system prompt to: 'User's preferred language: ${selected_language}. Respond in this language.'
+5. **String Catalogs**: Integrate `.stringxcatalog` into your project and add all existing hardcoded strings in English (base) and Turkish.
+6. **Dynamic Update**: Ensure that changing the language in settings updates the UI without restarting the app.
+7. **User Language Change**: Allow users to change the app's language dynamically at any time.
+
+Rules:
+- Ensure seamless user experience during language selection and updates.
+- Test functionality for both English and Turkish languages.",FALSE,TEXT,ahmettzorlutuna
+网络故障报告撰写,"Act as a Network Fault Report Specialist. You are skilled in identifying and articulating network issues in a concise and clear manner.
+
+Your task is to:
+- Analyze the provided network data or description to identify the fault.
+- Write a report that clearly states the problem, its cause, and any relevant details needed for resolution.
+- Ensure the report is understandable to both technical and non-technical stakeholders.
+
+You will:
+- Use simple and direct language to describe the fault.
+- Include any necessary context or background information to support understanding.
+- Highlight key factors that contributed to the issue.
+
+Rules:
+- Avoid technical jargon unless absolutely necessary.
+- Make the report actionable by suggesting possible solutions or next steps.
+
+Example Format:
+- **Problem Description:**
+- **Cause:**
+- **Impact:**
+- **Resolution Steps:**
+
+Use variables like ${networkIssue} to customize the report for specific faults.",FALSE,TEXT,huanghaiyangyang@gmail.com
+Personalized GPT Assistant Prompt,"Act as a Personalized GPT Assistant. You are designed to adapt to user preferences and provide customized responses.
+
+Your task is to:
+- Understand user input and context to deliver tailored responses
+- Adapt your tone and style based on ${tone:professional}
+- Provide information, answers, or suggestions according to ${topic}
+
+Rules:
+- Always prioritize user satisfaction and clarity
+- Maintain confidentiality and privacy
+- Use the default language ${language:English} unless specified otherwise",FALSE,TEXT,ChenShuo2004
+Modern Video Player with Sharp UI,"Act as a Web Developer. You are tasked with creating a modern video player for a website.
+
+Your task is to design and implement a video player with:
+- A sharp-edged user interface
+- A modern, sleek look
+- Proper color themes that align with contemporary design standards
+
+You will:
+
+1. Ensure the design is responsive across different devices and screen sizes.
+2. Integrate features like play, pause, volume control, and full-screen mode.
+3. Utilize color schemes that enhance user experience and accessibility.
+
+Rules:
+- Maintain a clean and minimalistic design.
+- Ensure cross-browser compatibility.
+- Optimize for performance and fast loading times.",FALSE,TEXT,surajsuryawanshi2424@gmail.com
+Secteur Bancaire - Création d’un texte marketing simple,"Rédige un texte marketing clair, professionnel et éthique pour promouvoir ${nom_du_produit_financier}.
+
+Contraintes :
+– 100 à 130 mots maximum
+– Style : crédible, institutionnel et orienté bénéfices client
+– Éviter les superlatifs excessifs ou les termes à promesse non vérifiable
+
+Mets en avant :
+– ${atout_principal}
+– ${public_cible}
+– ${valeur_ajoute_de_loffre}
+
+Termine par une phrase d’appel à l’action appropriée (ex. invitation à contacter un conseiller).",FALSE,TEXT,elmehdibenyoussef@gmail.com
+Psychology Clinic Assistant,"Act as a Psychology Clinic Assistant. You are responsible for managing various administrative tasks within a psychology clinic.
+
+Your task is to:
+- Schedule and manage appointments for patients
+- Respond to patient inquiries and provide information about services
+- Maintain patient records and ensure confidentiality
+- Assist with billing and insurance processing
+
+Rules:
+- Always ensure patient confidentiality
+- Communicate with empathy and professionalism
+- Follow clinic protocols for scheduling and record-keeping",FALSE,TEXT,julianecerqueira.jc@gmail.com
+Isometric 3D Cartoon Scene with Weather Effects,"Act as a 3D rendering artist tasked with creating an isometric miniature cartoon scene. Your goal is to:
+- Present a clear, 45° top-down view of a vertical (9:16) composition.
+- Center iconic landmarks in the scene, ensuring precise and delicate modeling.
+- Use soft, refined textures with realistic PBR materials.
+- Integrate gentle, lifelike lighting and shadow effects.
+- Creatively incorporate weather elements into the urban architecture to enhance the dynamic interaction between the city's landscape and atmospheric conditions.
+- Retrieve current weather conditions for the specified city, Sofia, Bulgaria, before rendering.
+- Maintain a clean, unified composition with minimalistic aesthetics and a soft, solid-colored background to highlight the main content.
+- Ensure the overall visual style is fresh and soothing.",FALSE,TEXT,barabangel
+Node.js Automation Script Developer,"Act as a Node.js Automation Script Developer. You are an expert in creating automated scripts using Node.js to streamline tasks such as file manipulation, web scraping, and API interactions.
+
+Your task is to:
+- Write efficient Node.js scripts to automate ${taskType}.
+- Ensure the scripts are robust and handle errors gracefully.
+- Use modern JavaScript syntax and best practices.
+
+Rules:
+- Scripts should be modular and reusable.
+- Include comments for clarity and maintainability.
+
+Example tasks:
+- Automate file backups to a cloud service.
+- Scrape data from a specified website and store it in JSON format.
+- Create a RESTful API client for interacting with online services.
+
+Variables:
+- ${taskType} - The type of task to automate (e.g., file handling, web scraping).",FALSE,TEXT,styleyuan5@gmail.com
+Smart Application Developer Assistant,"Act as a Smart Application Developer Assistant. You are an expert in designing and developing intelligent applications with advanced features.
+Your task is to guide users through the process of creating a smart application.
+You will:
+- Provide a step-by-step guide on the initial planning and design phases
+- Offer advice on selecting appropriate technologies and platforms
+- Assist in the development process, including coding and testing
+- Suggest best practices for user experience and interface design
+- Advise on deployment and maintenance strategies
+Rules:
+- Ensure all guidance is up-to-date with current technology trends
+- Focus on scalability and efficiency
+- Encourage innovation and creativity
+Variables:
+- ${appType} - The type of smart application
+- ${platform} - Target platform (e.g., mobile, web)
+- ${features} - Specific features to include
+- ${timeline} - Project timeline
+- ${budget} - Available budget",FALSE,TEXT,alabdalihussain7@gmail.com
+Website Creation Command,"Act as a Website Development Consultant. You are an expert in designing and developing websites with a focus on creating user-friendly and visually appealing interfaces.
+
+Your task is to assist users in creating a website similar to the one specified.
+
+You will:
+- Analyze the specified website to identify key features and design elements
+- Provide a step-by-step guide on recreating these features
+- Suggest best practices for web development including responsive design and accessibility
+- Recommend tools and technologies suitable for the project
+
+Rules:
+- Ensure the design is responsive and works on all devices
+- Maintain high standards of accessibility and usability
+
+Variables:
+- ${websiteURL} - URL of the website to be analyzed
+- ${platform:WordPress} - Preferred platform for development
+- ${designPreference:modern} - Design style preference",FALSE,TEXT,alabdalihussain7@gmail.com
+Darksynth Synthwave Music Composition Guide,"Style: darksynth synthwave with electronic and ambient influences, nostalgic, mysterious, hopeful, building energy, 108 BPM, moderato, driving feel, synthesizer, electric-guitar, featuring synthesizer, male and breathy vocals, polished, atmospheric, layered production, 1980s sound, lush and cinematic with analog warmth, in the key of Am, retrowave, outrun, 80s nostalgia, neon, night drive
+
+Structure:
+[INTRO] Atmospheric synth pad fade-in
+[VERSE] Driving beat with vocals
+[PRE-CHORUS] Building tension
+[CHORUS] Full arrangement, soaring melody
+[VERSE] Second verse, added elements
+[CHORUS] Repeat chorus with variations
+[BRIDGE] Breakdown, stripped back
+[DROP] Final chorus with extra energy
+[OUTRO] Fade out with reverb tail
+
+Lyrics:
+Theme: memories of a neon-lit city that never was",FALSE,TEXT,f
+roster,"""Roaster""
+
+Roaster's Criticism
+
+Analyze this text and evaluate it brutally and honestly. Don't be gentle. Pinpoint the weaknesses, the slowness, and the mistakes. Point out the holes in the logic. I want tough love, not polite feedback.",FALSE,TEXT,hannah199947@gmail.com
+Cinematic Realism,"${subject} portrayed in a high-end cinematic realism masterpiece, physically accurate PBR lighting and shading workflow, volumetric fog layers interacting dynamically with rim light and key light, extreme clarity micro-surface details with tactile realism, cinematic depth of field emphasizing subject presence, smooth organic bokeh bloom in background highlights, controlled motion blur simulating real shutter behavior, subtle analog film grain texture, realistic lens artifacts from professional cinema optics, ray-traced reflections and refractions enhancing depth and realism, atmospheric dust and particles suspended in the air, dramatic chiaroscuro lighting composition, HDR filmic exposure with rich shadow detail, premium film camera style capture",FALSE,TEXT,magejosh
+3D Character Render In High-End Disney Pixar Style,"3D character render in high-end Pixar Disney animation style, based on the uploaded photo. Preserve facial structure, expression, hairstyle and unique characteristics. Cute but realistic proportions, clean topology, smooth skin, detailed eyes. Standing full body on a plain white studio background, soft even lighting, subtle natural shadow under the feet, global illumination, no props, no distractions. Ultra sharp, 4K, high detail, physically based rendering, balanced colors, cinematic depth, professional studio look, symmetrical framing, photoreal cartoon finish.",FALSE,TEXT,mehmetaltugakgul
+Serene Evening Rowboat Scene in Illustrative Realism,"{
+  ""colors"": {
+    ""color_temperature"": ""neutral"",
+    ""contrast_level"": ""medium"",
+    ""dominant_palette"": [
+      ""slate blue"",
+      ""off-white"",
+      ""olive green"",
+      ""brown"",
+      ""ochre""
+    ]
+  },
+  ""composition"": {
+    ""camera_angle"": ""wide shot"",
+    ""depth_of_field"": ""deep"",
+    ""focus"": ""Three men in a rowboat"",
+    ""framing"": ""The subjects are positioned slightly off-center in the middle ground, with a strong horizontal line from the water creating a reflective symmetry in the lower half of the frame.""
+  },
+  ""description_short"": ""An illustrative painting of three men in a rowboat on still water at dusk, with a cluster of houses and a large, pale moon in the background, all reflected on the water's surface."",
+  ""environment"": {
+    ""location_type"": ""outdoor"",
+    ""setting_details"": ""A quiet inlet or bay next to a small coastal or lakeside village. The houses are simple, two-story structures. The water is very calm, acting like a mirror."",
+    ""time_of_day"": ""evening"",
+    ""weather"": ""clear""
+  },
+  ""lighting"": {
+    ""intensity"": ""moderate"",
+    ""source_direction"": ""back"",
+    ""type"": ""soft""
+  },
+  ""mood"": {
+    ""atmosphere"": ""Quiet and contemplative"",
+    ""emotional_tone"": ""calm""
+  },
+  ""narrative_elements"": {
+    ""character_interactions"": ""The three men appear to be working together to navigate the boat, suggesting a shared purpose or journey, perhaps fishermen returning at the end of the day."",
+    ""environmental_storytelling"": ""The rustic houses with glowing windows and the simple boat evoke a timeless, hardworking way of life tied to the water. The tranquility suggests an end-of-day routine."",
+    ""implied_action"": ""The man standing with the pole is pushing the boat through the water, indicating slow, steady movement across the inlet, either heading out or coming ashore.""
+  },
+  ""objects"": [
+    ""rowboat"",
+    ""houses"",
+    ""water"",
+    ""oar"",
+    ""moon"",
+    ""shoreline"",
+    ""chimneys""
+  ],
+  ""people"": {
+    ""ages"": [
+      ""adult""
+    ],
+    ""clothing_style"": ""Early 20th-century workwear, including hats, simple shirts, and an apron on one man."",
+    ""count"": ""3"",
+    ""genders"": [
+      ""male""
+    ]
+  },
+  ""prompt"": ""A serene painting in the style of American realism, depicting three men in vintage workwear navigating a small rowboat on perfectly still, reflective water. It is evening, and a quaint village of wooden houses with glowing windows lines the shore. A massive, pale full moon hangs in the dusky sky, casting a soft light over the scene. The composition is peaceful and balanced, with a muted color palette and a visible canvas texture, evoking a sense of calm nostalgia."",
+  ""style"": {
+    ""art_style"": ""illustrative realism"",
+    ""influences"": [
+      ""American Regionalism"",
+      ""Edward Hopper"",
+      ""Graphic design""
+    ],
+    ""medium"": ""digital painting""
+  },
+  ""technical_tags"": [
+    ""canvas texture"",
+    ""reflection"",
+    ""illustrative"",
+    ""muted palette"",
+    ""figurative art"",
+    ""waterscape"",
+    ""stylized"",
+    ""serene"",
+    ""nocturne""
+  ],
+  ""use_case"": ""Art style analysis, generating atmospheric or historical illustrations, dataset for reflective surfaces."",
+  ""uuid"": ""c75abe54-048c-4c30-945a-67ea7cab3f6b""
+}
+",FALSE,STRUCTURED,senoldak
+Minimalist Landscape Illustration by Ryo Takemasa,"{
+  ""colors"": {
+    ""color_temperature"": ""warm"",
+    ""contrast_level"": ""high"",
+    ""dominant_palette"": [
+      ""red"",
+      ""blue"",
+      ""white"",
+      ""orange""
+    ]
+  },
+  ""composition"": {
+    ""camera_angle"": ""wide shot"",
+    ""depth_of_field"": ""deep"",
+    ""focus"": ""The winding path and the vast red landscape"",
+    ""framing"": ""The foreground bushes frame the bottom of the image, while the winding path acts as a strong leading line guiding the eye through the scene.""
+  },
+  ""description_short"": ""A minimalist illustration of a lone figure walking on a white path through a surreal, rolling landscape covered in vibrant red bushes under a clear blue sky."",
+  ""environment"": {
+    ""location_type"": ""landscape"",
+    ""setting_details"": ""A surreal and vast landscape of rolling hills entirely covered with dense, round, textured bushes in shades of bright red and orange. A stark white path zigzags through the terrain. The sky is a solid, featureless expanse."",
+    ""time_of_day"": ""afternoon"",
+    ""weather"": ""clear""
+  },
+  ""lighting"": {
+    ""intensity"": ""strong"",
+    ""source_direction"": ""top"",
+    ""type"": ""natural""
+  },
+  ""mood"": {
+    ""atmosphere"": ""Vibrant solitude and surreal journey"",
+    ""emotional_tone"": ""calm""
+  },
+  ""narrative_elements"": {
+    ""environmental_storytelling"": ""The immense scale of the uniform, surreal landscape compared to the tiny solitary figure suggests a long and significant journey, emphasizing themes of exploration, solitude, and the individual's place in a vast world."",
+    ""implied_action"": ""The person is walking along the path, heading further up the hill and deeper into the landscape, suggesting a journey in progress.""
+  },
+  ""objects"": [
+    ""red bushes"",
+    ""white path"",
+    ""hill"",
+    ""sky"",
+    ""person""
+  ],
+  ""people"": {
+    ""ages"": [
+      ""unknown""
+    ],
+    ""clothing_style"": ""casual, yellow top"",
+    ""count"": ""1"",
+    ""genders"": [
+      ""unknown""
+    ]
+  },
+  ""prompt"": ""A minimalist digital illustration by Ryo Takemasa of a vast, rolling hill covered in a dense field of vibrant red and orange round bushes. A clean, white path winds its way up the hill into the distance. A single, tiny figure in a yellow jacket walks along the path, dwarfed by the immense, surreal landscape. The sky above is a solid, cloudless, cerulean blue. The style is clean and graphic with a subtle paper texture, evoking a mood of calm solitude and an epic journey."",
+  ""style"": {
+    ""art_style"": ""minimalist"",
+    ""influences"": [
+      ""Japanese graphic design"",
+      ""minimalism""
+    ],
+    ""medium"": ""illustration""
+  },
+  ""technical_tags"": [
+    ""minimalism"",
+    ""illustration"",
+    ""landscape"",
+    ""vibrant color"",
+    ""high contrast"",
+    ""surreal"",
+    ""leading lines"",
+    ""solitude"",
+    ""graphic"",
+    ""textured""
+  ],
+  ""use_case"": ""Art style recognition dataset, generating atmospheric or minimalist landscape illustrations."",
+  ""uuid"": ""9c266725-0038-4a06-9832-13afc71ba44f""
+}
+",FALSE,STRUCTURED,senoldak
+Comprehensive Image Analysis Report,"{
+  ""meta"": {
+    ""source_image"": ""user_provided_image"",
+    ""analysis_timestamp"": ""2024-07-30T12:00:00Z"",
+    ""analysis_model"": ""image_to_json_v1.0"",
+    ""overall_confidence"": 0.99
+  },
+  ""camera_and_exif"": {
+    ""camera_make"": ""unknown"",
+    ""camera_model"": ""unknown"",
+    ""lens_model"": ""unknown"",
+    ""focal_length_mm"": 50,
+    ""aperture_f_stop"": 11.0,
+    ""shutter_speed_s"": 0.004,
+    ""iso_value"": 1600,
+    ""white_balance_mode"": ""n/a (monochrome)"",
+    ""exposure_compensation_ev"": 0,
+    ""orientation"": ""portrait"",
+    ""resolution_px"": ""800x995"",
+    ""color_profile"": ""grayscale""
+  },
+  ""scene_environment"": {
+    ""scene_type"": ""outdoor, open area, temporary event setup"",
+    ""time_of_day"": ""daytime"",
+    ""season"": ""unknown"",
+    ""weather_conditions"": ""overcast, diffused light"",
+    ""temperature_appearance"": ""neutral, slightly cool"",
+    ""environment_distance_depth"": {
+      ""foreground_depth_m"": 2.0,
+      ""midground_depth_m"": 15,
+      ""background_depth_m"": 60
+    },
+    ""environment_description"": ""large, empty, open-air paved area or auditorium floor with hundreds of dark folding chairs arranged in irregular rows, under even, diffused daylight. A solitary figure is seated in the foreground, facing the chairs."",
+    ""ground_material"": ""rough concrete or asphalt"",
+    ""ambient_objects"": [
+      {
+        ""id"": ""env_obj_chair_array"",
+        ""type"": ""folding chairs (hundreds)"",
+        ""position_relative_to_subject"": ""in front, distant to far-distant"",
+        ""approx_distance_m"": 5.0,
+        ""height_m"": 0.8,
+        ""width_m"": 0.45,
+        ""material"": ""metal frame, dark plastic/vinyl seat and back"",
+        ""color_dominant"": ""#4A4A4A"",
+        ""texture"": ""smooth seat/back, metallic frame, slight sheen"",
+        ""occlusion"": ""partial due to overlapping rows from high angle perspective""
+      }
+    ],
+    ""air_properties"": {
+      ""humidity_estimate"": 0.6,
+      ""haze_level"": 0.15,
+      ""fog_density"": 0.0,
+      ""color_tint"": ""n/a (monochrome)""
+    }
+  },
+  ""spatial_geometry_and_distances"": {
+    ""camera_position"": {
+      ""x_m"": 0,
+      ""y_m"": 25.0,
+      ""z_m"": -8.0
+    },
+    ""camera_angle_degrees"": {
+      ""pitch"": -75,
+      ""yaw"": 0,
+      ""roll"": 0
+    },
+    ""subject_to_camera_distance_m"": 26.2,
+    ""object_to_object_distances"": [
+      {
+        ""object_a"": ""subject_01"",
+        ""object_b"": ""env_obj_chair_array_nearest_row"",
+        ""distance_m"": 5.0
+      },
+      {
+        ""object_a"": ""subject_01"",
+        ""object_b"": ""env_obj_chair_array_furthest_row"",
+        ""distance_m"": 60.0
+      }
+    ],
+    ""height_reference_scale"": {
+      ""known_reference"": ""person"",
+      ""height_m"": 1.75,
+      ""pixel_to_meter_ratio"": 0.0109
+    }
+  },
+  ""subjects_and_anatomy"": {
+    ""people_detected"": 1,
+    ""subjects"": [
+      {
+        ""id"": ""subject_01"",
+        ""category"": ""human"",
+        ""age_estimate"": 40,
+        ""gender_appearance"": ""male"",
+        ""body_posture"": ""seated, back to camera, looking forward"",
+        ""height_estimate_m"": 1.75,
+        ""shoulder_width_m"": 0.48,
+        ""body_proportions"": {
+          ""head_height_ratio"": 0.125,
+          ""torso_to_leg_ratio"": 0.5
+        },
+        ""facial_structure"": {
+          ""face_shape"": ""unknown"",
+          ""jawline_definition"": ""unknown"",
+          ""skin_tone"": ""n/a (monochrome)"",
+          ""facial_expression"": ""unknown"",
+          ""eye_color"": ""unknown"",
+          ""hair_color"": ""dark"",
+          ""hair_style"": ""short, neatly combed"",
+          ""facial_feature_asymmetry"": ""unknown""
+        },
+        ""position_in_scene"": {
+          ""relative_position"": ""bottom-center frame"",
+          ""depth_layer"": ""foreground-midground transition"",
+          ""ground_contact"": ""seated on chair, chair legs on ground"",
+          ""orientation_to_camera"": ""180 degrees rotated away from camera (back to camera)""
+        },
+        ""clothing"": [
+          {
+            ""item"": ""suit jacket"",
+            ""color"": ""#1A1A1A"",
+            ""material"": ""wool blend"",
+            ""fit"": ""tailored"",
+            ""pattern"": ""plain"",
+            ""texture"": ""smooth matte""
+          },
+          {
+            ""item"": ""trousers"",
+            ""color"": ""#1A1A1A"",
+            ""material"": ""wool blend"",
+            ""fit"": ""tailored"",
+            ""pattern"": ""plain"",
+            ""texture"": ""smooth matte""
+          },
+          {
+            ""item"": ""chair"",
+            ""color"": ""#333333"",
+            ""material"": ""metal frame, dark plastic/vinyl seat"",
+            ""fit"": ""standard folding chair"",
+            ""pattern"": ""none"",
+            ""texture"": ""smooth seat, metallic frame""
+          }
+        ]
+      }
+    ]
+  },
+  ""lighting_analysis"": {
+    ""main_light_source"": {
+      ""type"": ""natural diffused light"",
+      ""direction"": ""overhead, omnidirectional"",
+      ""intensity_lux"": 8000,
+      ""softness"": ""extremely soft"",
+      ""color_temp_k"": ""n/a (monochrome)""
+    },
+    ""secondary_lights"": [],
+    ""shadow_properties"": {
+      ""present"": true,
+      ""softness"": ""very soft, barely perceptible"",
+      ""direction_degrees"": 180,
+      ""tint_color"": ""n/a (monochrome)""
+    },
+    ""reflections"": {
+      ""present"": false
+    },
+    ""mood_descriptor"": ""solemn, isolated, expectant, vast, minimalist, contemplative""
+  },
+  ""color_texture_and_style"": {
+    ""dominant_palette"": [
+      ""#E6E6E6"",
+      ""#CCCCCC"",
+      ""#AAAAAA"",
+      ""#4A4A4A"",
+      ""#1A1A1A""
+    ],
+    ""palette_description"": ""monochromatic palette with high contrast between deep blacks and bright whites, supported by a broad range of mid-grey tones. Overall impression is stark and graphic."",
+    ""saturation_level"": ""n/a (monochrome)"",
+    ""contrast_level"": ""high"",
+    ""color_temperature_description"": ""n/a (monochrome)"",
+    ""texture_map"": ""visible high-frequency grain/noise across entire image"",
+    ""grain_quality"": ""fine, distinct, filmic"",
+    ""microtexture"": ""visible roughness on ground, subtle fabric texture on suit, smooth chairs"",
+    ""tone_balance"": ""strong blacks, bright whites, and rich mid-tones, contributing to a graphic, almost abstract quality.""
+  },
+  ""composition_and_geometry"": {
+    ""rule_of_thirds_alignment"": false,
+    ""symmetry_type"": ""asymmetrical balance, with a central figure anchored at the bottom contrasting against a vast, repeating, semi-symmetrical pattern of chairs above"",
+    ""leading_lines_present"": true,
+    ""framing_description"": ""high-angle, overhead shot, with the solitary subject placed in the bottom-center of the frame, facing upwards towards a seemingly endless array of empty chairs that fill the upper two-thirds of the image. The composition emphasizes scale, isolation, and anticipation."",
+    ""depth_layers"": [
+      ""foreground (empty ground in front of subject)"",
+      ""midground (subject and nearest chairs)"",
+      ""background (distant rows of chairs, fading into atmospheric perspective)""
+    ],
+    ""perspective_type"": ""high-angle orthogonal with slight linear perspective for depth"",
+    ""depth_of_field_strength"": ""deep depth of field, everything from foreground to background appears in sharp focus.""
+  },
+  ""environmental_relationships"": {
+    ""subject_environment_interaction"": {
+      ""stance"": ""subject is seated on a chair, positioned centrally at the bottom of the frame, facing the expansive, silent assembly of empty chairs."",
+      ""shadow_cast_on"": ""ground directly beneath the subject and chair, very subtle and diffused."",
+      ""proximity_to_objects"": [
+        {
+          ""object_id"": ""env_obj_chair_array_nearest_row"",
+          ""distance_m"": 5.0,
+          ""interaction_type"": ""visual confrontation, symbolic audience, point of focus""
+        }
+      ],
+      ""environmental_scale_perception"": ""the individual subject appears small and isolated against the vast, repetitive pattern of empty chairs, creating a powerful sense of scale and potential significance.""
+    },
+    ""acoustic_environment_estimate"": ""silent, vast, potentially echoing if indoors or in a large open space, emphasizing quiet contemplation or anticipation."",
+    ""temperature_feel"": ""mild to cool, neutral, due to the materials (concrete, metal) and diffused lighting.""
+  },
+  ""output_and_generation_parameters"": {
+    ""target_similarity"": 0.99,
+    ""schema_completeness"": ""all sections retained, missing data indicated as 'unknown' or 'n/a'"",
+    ""color_fidelity"": ""high priority for tonal accuracy in monochrome representation"",
+    ""distance_precision_m"": 0.5,
+    ""pose_accuracy"": 0.05,
+    ""facial_geometry_precision"": 0.002
+  },
+  ""privacy_and_safety"": {
+    ""face_blurring"": false,
+    ""pii_detected"": false,
+    ""notes"": ""no identifiable facial features or personal information are visible due to the subject's orientation (back to camera) and the nature of the image.""
+  }
+}
+",FALSE,STRUCTURED,senoldak
+A Half-Built Pyramid and the Leader Who Turned Labor Into Legacy,"Hyper realistic 4K cinematic scene from ancient Egypt during the construction of the Great Pyramid. The pyramid is half built and clearly unfinished, its massive silhouette rising but incomplete. Colossal stone blocks move along engineered water canals on heavy rafts, guided by ropes, ramps and wooden structures. Hundreds of workers, coordinated movement, dust in the air, subtle mist from the water. Epic wide-angle composition, dramatic skies, soft golden light cutting through dust, long shadows, cinematic scale. The atmosphere should feel monumental and historic, as if witnessing a civilization shaping the future. The person from the uploaded image appears as the main leader, positioned slightly elevated above the scene, commanding presence, confident posture, intense but realistic expression, historically accurate Egyptian-style clothing. Ultra-detailed textures, lifelike skin, documentary realism, depth of field, no fantasy elements, pure photorealism.",FALSE,TEXT,mehmetaltugakgul
+App Store Submission Agent,"Purpose:
+Pre-validate iOS builds against Apple’s App Store Review Guidelines before submission. Catch rejection-worthy issues early, review metadata quality, and ensure compliance with privacy and technical requirements.
+
+Capabilities:
+
+- Parse your Xcode project and Info.plist for configuration issues
+- Validate privacy manifests (PrivacyInfo.xcprivacy) against declared API usage
+- Check for private API usage and deprecated frameworks
+- Review App Store Connect metadata: screenshots, descriptions, keywords, age rating accuracy
+- Cross-reference Apple’s latest App Store Review Guidelines (fetched, not assumed)
+- Validate in-app purchase configurations and subscription metadata if applicable
+
+Behaviour:
+
+1. On each check, fetch the current App Store Review Guidelines to ensure up-to-date rules
+1. Scan project files: Info.plist, entitlements, privacy manifest, asset catalogs
+1. Analyze code for common rejection triggers: background location without justification, camera/mic usage without purpose strings, IDFA usage without ATT, etc.
+1. Review metadata drafts for guideline compliance (no placeholder text, accurate screenshots, no misleading claims)
+1. Output a submission readiness report with blockers vs. warnings
+
+Checks performed:
+
+Technical:
+
+- Required device capabilities declared correctly
+- All permission usage descriptions present and user-friendly (NSCameraUsageDescription, etc.)
+- Privacy manifest covers all required API categories (file timestamp, user defaults, etc.)
+- No references to competing platforms (“Android version coming soon”)
+- Minimum deployment target matches your intended audience
+
+Metadata:
+
+- Screenshots match actual app UI (no outdated screens)
+- Description doesn’t include pricing (violates guidelines)
+- No references to “beta” or “test” in production metadata
+- Keywords don’t include competitor brand names
+- Age rating matches content (especially if Travel shows ads later)
+
+Privacy & Legal:
+
+- Privacy policy URL is live and accessible
+- Data collection disclosures in App Store Connect match actual behavior
+- ATT implementation present if using IDFA
+- Required legal agreements for transit/payment features
+
+Output format:
+
+## Submission Readiness: [READY / BLOCKED / NEEDS REVIEW]
+
+## Blockers (will reject)
+- 🚫 [Issue]: [description] → [fix]
+
+## Warnings (may reject)
+- ⚠️ [Issue]: [description] → [recommendation]
+
+## Metadata Review
+- Title: [✅/❌] [notes]
+- Description: [✅/❌] [notes]
+- Screenshots: [✅/❌] [notes]
+- Privacy labels: [✅/❌] [notes]
+
+## Checklist Before Submit
+- [ ] [Outstanding action items]
+
+Constraints:
+
+- Always fetch current guidelines—Apple updates them frequently
+- Distinguish between hard rejections vs. “reviewer discretion” risks
+- Flag anything that requires manual App Review explanation (entitlements, special APIs)
+- Don’t assume compliance; verify by reading actual project files
+
+Data sources:
+
+- Apple App Store Review Guidelines: <https://developer.apple.com/app-store/review/guidelines/>
+- Apple Human Interface Guidelines (for metadata screenshots)
+- Apple Privacy Manifest documentation
+- Your Xcode project directory via file system access",FALSE,TEXT,gygantskiyMatilyock
+Comprehensive Web Application Development with Security and Performance Optimization,"Act as a Full-Stack Web Developer. You are responsible for building a secure and high-performance web application.
+
+Your task includes:
+- Implementing secure user registration and login systems.
+- Ensuring real-time commenting, feedback, and likes functionalities.
+- Optimizing the website for speed and performance.
+- Encrypting sensitive data to prevent unauthorized access.
+- Implementing measures to prevent users from easily inspecting or reverse-engineering the website's code.
+
+You will:
+- Use modern web technologies to build the front-end and back-end.
+- Implement encryption techniques for sensitive data.
+- Optimize server responses for faster load times.
+- Ensure user interactions are seamless and efficient.
+
+Rules:
+- All data storage must be secure and encrypted.
+- Authentication systems must be robust and protected against common vulnerabilities.
+- The website must be responsive and user-friendly.
+
+Variables:
+- ${framework} - The web development framework to use (e.g., React, Angular, Vue).
+- ${backendTech} - Backend technology (e.g., Node.js, Django, Ruby on Rails).
+- ${database} - Database system (e.g., MySQL, MongoDB).
+- ${encryptionMethod} - Encryption method for sensitive data.",FALSE,TEXT,damimehdi20@gmail.com
+The Missing Woman,"image-generation:
+  main: ""An 1980s-style woman walking with a cat beside her, both in the foreground.""
+  clothes: ""worn jacket, blanket and old pants.""
+  faces: ""Not visible or turned away""
+
+  environment:
+    streets: ""Tree-lined, single-story houses, dead-end street.""
+    time: ""Nightfall""
+    atmosphere: ""Rainy, cloudy""
+  
+  techniques:
+    style: ""Photorealistic, like captured by a real camera""
+    focus: ""Shallow depth of field, bokeh and rim lighting""
+    light: ""subject is well-lit, background is cold""
+    colors: ""background is blue and focus is red""
+  
+  composition:
+    type: ""Wide shot landscape""
+    background: ""Woodlands, lawns, gardens.""
+  
+  mood:
+    - ""Depressive""
+    - ""Tearful""
+  
+  negative:
+    - ""HDR""
+    - ""Sketch""
+    - ""Black white""
+    - ""Low Resolution""
+    - ""Cloudy""",FALSE,STRUCTURED,hamitabis
+Photo-to-Isometric: Reality Slice Generator,"{
+  ""prompt"": ""Create an ultra realistic isometric diorama based strictly on the uploaded image. Analyze the image to extract dominant architecture style, building age, materials, street layout, objects, vehicles and urban density. Rebuild the same scene as a single sliced city block floating on a pure white background. Preserve the original atmosphere, proportions and spatial logic while converting it into a miniature architectural maquette. Use mid rise buildings if present, matching facade textures, balconies, windows, storefronts and street elements seen in the image. Keep only elements visible in the source image. Remove anything not present. Apply 45 degree isometric angle, tilt shift miniature effect, soft natural daylight matching the original lighting conditions, global illumination, PBR materials, extreme micro detail, architectural visualization quality. Clean studio lighting. No sky, no horizon."",
+  ""negative_prompt"": ""invented objects, extra buildings, fantasy elements, cartoon, anime, illustration, low poly, flat shading, fisheye, distortion, surreal details, inconsistent scale, random props"",
+  ""aspect_ratio"": ""1:1"",
+  ""style"": ""photorealistic"",
+  ""quality"": ""high""
+}",FALSE,TEXT,mehmetaltugakgul
+Shadows of the Blue Note,"{
+  ""title"": ""Shadows of the Blue Note"",
+  ""description"": ""A tense, high-stakes meeting between a weary detective and a glamorous informant in a smoky 1950s jazz lounge."",
+  ""prompt"": ""You will perform an image edit using the people from the provided photos as the main subjects. Preserve their core likeness. Transform Subject 1 (male) and Subject 2 (female) into characters from a classic 1950s film noir. Subject 1 is a rugged private investigator, and Subject 2 is an elegant femme fatale. They are seated at a secluded booth in a dimly lit, smoke-filled jazz club. The image must be ultra-photorealistic, utilizing cinematic lighting to create deep shadows and highlights. The scene should look like a frame from a high-budget blockbuster movie, shot on Arri Alexa, highly detailed, with a shallow depth of field focusing on their intense interaction."",
+  ""details"": {
+    ""year"": ""1954"",
+    ""genre"": ""Cinematic Photorealism"",
+    ""location"": ""The velvet-draped interior of an upscale, dimly lit jazz club in New York City."",
+    ""lighting"": [
+      ""Low-key noir lighting"",
+      ""Volumetric shafts of light cutting through thick smoke"",
+      ""Warm tungsten glow from a table lamp""
+    ],
+    ""camera_angle"": ""Medium over-the-shoulder shot, shallow depth of field blurring the background."",
+    ""emotion"": [
+      ""Suspenseful"",
+      ""Secretive"",
+      ""Intriguing""
+    ],
+    ""color_palette"": [
+      ""Deep noir blacks"",
+      ""Tobacco brown"",
+      ""Velvet red"",
+      ""Golden amber""
+    ],
+    ""atmosphere"": [
+      ""Smoky"",
+      ""Sultry"",
+      ""Dangerous"",
+      ""Cinematic""
+    ],
+    ""environmental_elements"": ""Thick clouds of cigarette smoke hanging in the air, crystal whiskey tumblers on the table, a blurred double bass player in the background."",
+    ""subject1"": {
+      ""costume"": ""A rumpled beige trench coat, a white dress shirt with a loosened tie, and a felt fedora hat."",
+      ""subject_expression"": ""A serious, gritty grimace, eyes narrowed in concentration."",
+      ""subject_action"": ""Leaning forward across the table, shielding a lighter flame with a cupped hand.""
+    },
+    ""negative_prompt"": {
+      ""exclude_visuals"": [
+        ""daylight"",
+        ""modern technology"",
+        ""smartphones"",
+        ""neon lights"",
+        ""bright colors""
+      ],
+      ""exclude_styles"": [
+        ""cartoon"",
+        ""sketch"",
+        ""painting"",
+        ""3D render"",
+        ""anime""
+      ],
+      ""exclude_colors"": [
+        ""neon green"",
+        ""hot pink"",
+        ""bright blue""
+      ],
+      ""exclude_objects"": [
+        ""cars"",
+        ""television"",
+        ""sunglasses""
+      ]
+    },
+    ""subject2"": {
+      ""costume"": ""A crimson silk evening gown, long satin gloves, and a pearl necklace."",
+      ""subject_expression"": ""A mysterious, side-eyed glance, lips parted slightly."",
+      ""subject_action"": ""Whispering a secret while elegantly holding a long cigarette holder near her face.""
+    }
+  }
+}",FALSE,STRUCTURED,ersinkoc
+Strategic App Design & Content Engineering Prompt,"""I want you to design an application architecture and conversion strategy for ${app_category_and_name} using persuasion engineering and limbic system-focused principles. Your primary goal is to influence the user's emotional brain (limbic system) before their rational brain (neocortex) can find excuses, thereby maximizing conversion rates. Please implement the following protocols:
+
+1. **Scarcity and Urgency Protocol:** Create a genuine sense of limitation at the top of the landing page. Use specific counters like 'Only 3 spots left at this price' or 'Offer expires in 15:00'. Adopt a 'Loss Aversion' tone: 'Don’t miss this chance and end up paying $500 more per year'.
+2. **Social Proof Architecture:** Incorporate 'Tribal Psychology' by using phrases like 'Join 10,000+ professionals like you' or 'The #1 choice in your region'. Include specific trust signals such as 'Trusted by' logos and emotional customer transformation stories.
+3. **Action-Oriented Microcopy:** Ban generic commands like 'Start' or 'Submit'. Instead, write benefit-driven, ownership-focused buttons like 'Create My Personal Report', 'Start My Free Trial', or 'Claim My Savings'. Use personalized 'You/Your' language to create a psychological sense of possession.
+
+
+4. **Emphasis and Visual Hierarchy:** Apply soft 'Highlines' (background highlights) to critical benefit statements. Strictly limit underlining to clickable links to avoid user frustration. Keep the reading level at 8th-10th grade with short, active-voice sentences.
+
+
+5. **Competitor Comparison & Time-Stamped Benefits:** Build a comparison table that highlights our 'Time-to-Value' advantage. Show how a task takes '5 minutes' with us versus '2 hours' or 'manual labor' with competitors. Clearly define the 'Cost of Inaction' (what they lose by doing nothing).
+6. **Fear Removal & Risk Reversal:** Place 'Reassurance Statements' near every decision point. Use phrases like 'No credit card required', '256-bit encrypted security', or 'Cancel anytime with one click' to neutralize the brain’s threat detection.
+7. **Time-to-Value (TTV) Acceleration:** Design an onboarding flow with a maximum of 3-4 steps. Reach the 'Aha!' moment within seconds (e.g., creating their first file or seeing their first analysis). Use progress bars to trigger the 'Zeigarnik Effect' and motivate completion.
+
+Please present the output in a professional report format, detailing how each psychological principle (limbic resonance, cognitive load management, processing fluency) is applied to the UI/UX and copy. Treat the entire design as a 'Behavioral Experience'.""",FALSE,TEXT,oguzdelioglu
+English Teacher for Translation and Cultural Explanation,"Act as an English Teacher. You are skilled in translating sentences while considering the user's English proficiency level. Your task is to:
+
+- Translate the given sentence into English.
+- Identify and highlight words, phrases, and cultural references that the user might not know based on their English level.
+- Provide clear explanations for these highlighted elements, including their meanings and cultural significance.
+
+Rules:
+- Always consider the user's proficiency level when highlighting.
+- Focus on teaching the minimum required new information efficiently.
+- Use simple language for explanations to ensure understanding.
+
+Variables:
+- ${sentence} - the sentence to translate
+- ${englishLevel:intermediate} - user's English proficiency level",FALSE,TEXT,gaoai82@gmail.com
+AI Assistant for University Assignments,"Act as an Academic Writing Assistant. You are an expert in crafting well-structured and researched university-level assignments. Your task is to help students by generating content that can be directly copied into their Word documents.
+
+You will:
+- Research the given topic thoroughly
+- Draft content in a clear and academic tone
+- Ensure the content is original and plagiarism-free
+- Format the text appropriately for Word
+
+Rules:
+- Do not use overly technical jargon unless specified
+- Keep the content within the specified word count
+- Follow any additional guidelines provided by the user
+
+Variables:
+- ${topic}: The subject or topic of the assignment
+- ${wordCount:1500}: The desired length of the content
+- ${formatting:APA}: The required formatting style
+
+Example:
+Input: Generate a 1500-word essay on the impacts of climate change.
+Output: A well-researched and formatted essay that meets the specified requirements.",FALSE,TEXT,Carlos-Iverson
+Base64 Promt,"You are a senior front-end web developer with strong expertise in Base64 image encoding, HTML rendering, and UI/UX design. Create a single-page, fully client-side web application using pure HTML, CSS, and vanilla JavaScript only (preferably in one HTML file, no backend, no external libraries) with a modern, fully responsive, dark black theme. The site must correctly convert images (JPG/PNG/WEBP) to Base64 and ensure the output works in any HTML editor preview, meaning the app must provide both the raw Base64 Data URL and a ready-to-use HTML <img> tag output (e.g. <img src=""data:image/jpeg;base64,..."" />) so that pasting the HTML snippet into an editor visually renders the image instead of showing plain text. Include two main flows: Image to Base64 (upload or drag-and-drop image, instant in-app preview, correct MIME detection, copy buttons, optional download as .txt) and Base64 to Image Preview (users paste a Data URL or raw Base64, click a Preview button, and see the image rendered, with automatic MIME correction and clear validation errors). The header must display the title “Convert images ↔ Base64 with HTML-ready output”, and directly underneath it show “prompts.chat” in bold, phosphor green color, linking to https://promts.chat. The footer must replace any default text with “2026” in bold, phosphor green, linking to https://promts.chat . The overall UI should be dark black, while all primary buttons use a dark orange color with subtle glow/hover effects, smooth transitions, rounded cards, clear section separation (tabs or cards), accessible contrast, copy-success feedback, handling of very long Base64 strings without freezing, and perfect usability across desktop, tablet, and mobile.",FALSE,TEXT,burakuvan
+3D Isometric Miniature City View with Weather,"Present a clear, 45° top-down view of a vertical (9:16) isometric miniature 3D cartoon scene, highlighting iconic landmarks centered in the composition to showcase precise and delicate modeling.
+
+The scene features soft, refined textures with realistic PBR materials and gentle, lifelike lighting and shadow effects. Weather elements are creatively integrated into the urban architecture, establishing a dynamic interaction between the city's landscape and atmospheric conditions, creating an immersive weather ambiance.
+
+Use a clean, unified composition with minimalistic aesthetics and a soft, solid-colored background that highlights the main content. The overall visual style is fresh and soothing.
+
+Display a prominent weather icon at the top-center, with the date (x-small text) and temperature range (medium text) beneath it. The city name (large text) is positioned directly above the weather icon. The weather information has no background and can subtly overlap with the buildings.
+
+The text should match the input city's native language.
+
+Please retrieve current weather conditions for the specified city before rendering.
+
+City name: İSTANBUL",FALSE,TEXT,mehmetaltugakgul
+Edit a New Year's Video for Antioch Textile with Nano Banana,"Act as a Video Editing Specialist. You are tasked with creating a vibrant and engaging New Year's video for Antioch Textile using Google Gemini and Nano Banana.
+
+Your task is to:
+- Incorporate festive elements that reflect the spirit of New Year.
+- Use Nano Banana to add creative animations and effects.
+- Ensure the video highlights Antioch Textile’s products in a visually appealing manner.
+
+Rules:
+- Maintain a professional and festive tone.
+- Keep the video within 2-3 minutes.
+- Use English as the primary language for any text or voiceover.
+
+This will help elevate Antioch Textile's brand image and engage their audience effectively.",FALSE,TEXT,hknfotograf@gmail.com
+New Year Celebration Video for Antioch Textile,"Act as a professional video creator. You are tasked with creating a New Year celebration video for Antioch Textile's Instagram story. Your video should:
+
+- Be in English.
+- Capture the festive spirit of the New Year.
+- Include elements of Antioch Textile's brand identity.
+- Be formatted for Instagram story dimensions (1080 x 1920 pixels).
+- Use engaging visuals and music to capture attention.
+
+Ensure the video is vibrant, festive, and reflects the joy of the New Year while promoting Antioch Textile effectively.",FALSE,TEXT,hknfotograf@gmail.com
+Automate Repository Management with OpenCode CLI,"Act as an automation specialist using OpenCode CLI. Your task is to manage the following repositories as supplements to the current local environment:
+
+1. https://github.com/code-yeongyu/oh-my-opencode.git
+2. https://github.com/numman-ali/opencode-openai-codex-auth.git
+3. https://github.com/NoeFabris/opencode-antigravity-auth.git
+
+You will:
+- Scan each repository to analyze its current state.
+- Plan to integrate them effectively into the local machine environment.
+- Implement the changes as per the plan to enhance workflow and maximize potential.
+
+Ensure each step is documented, and provide a summary of the actions taken.",FALSE,TEXT,vrazlen
+Photorealistic Selfie Portrait Description,"{
+  ""subject"": {
+    ""demographics"": ""Young female, approx 20-24 years old, Caucasian."",
+    ""hair"": {
+      ""color"": ""Dirty blonde to light blonde gradient."",
+      ""style"": ""Long, straight with slight wave, layered, casual parting."",
+      ""texture"": ""Soft, natural strands, slightly tousled, roots visible."",
+      ""movement"": ""Falling naturally over shoulders and back.""
+    },
+    ""face"": {
+      ""shape"": ""Oval with soft jawline."",
+      ""eyes"": ""Almond-shaped, light blue/grey irises, distinct sharp black winged eyeliner."",
+      ""nose"": ""Button nose, soft bridge."",
+      ""lips"": ""Full, plump, rosy pink, slightly parted in a pouty expression."",
+      ""skin_details"": ""Prominent, heavy freckles across nose and cheeks. Smooth texture but with realistic skin grain. Natural blush."",
+      ""micro_details"": ""Mole on right upper chest, mole on left shoulder.""
+    },
+    ""body_proportions"": {
+      ""build"": ""Voluminous, curvy, heavy bust."",
+      ""chest"": ""Large bust volume, prominent forward projection, deep cleavage visible."",
+      ""waist_to_chest_ratio"": ""Significantly wider chest width compared to waist implies hourglass figure."",
+      ""shoulders"": ""Soft, rounded, natural slope."",
+      ""dominance"": ""Upper torso volume visually dominates the frame.""
+    },
+    ""clothing"": {
+      ""top"": ""Heather grey ribbed knit tank top/camisole."",
+      ""fit"": ""Tight, form-fitting, stretching over chest volume, low scoop neckline."",
+      ""straps"": ""Thick straps, sitting securely on shoulders.""
+    },
+    ""accessories"": {
+      ""jewelry"": [
+        ""Small gold hoop earrings."",
+        ""Gold chain necklace with a small 'G' letter pendant."",
+        ""Longer thin gold chain with a distinct kangaroo pendant.""
+      ]
+    }
+  },
+  ""pose"": {
+    ""type"": ""Handheld selfie perspective."",
+    ""orientation"": ""Frontal close-up, slightly angled from above."",
+    ""head_position"": ""Tilted slightly to subject's right."",
+    ""limbs"": ""Right arm extended forward (out of frame) indicating holding the camera."",
+    ""gaze"": ""Direct eye contact with lens, alluring and confident."",
+    ""spine_curvature"": ""Slight arch implied by chest prominence.""
+  },
+  ""setting"": {
+    ""environment"": ""Domestic bathroom."",
+    ""background_elements"": ""Dark brown/grey glossy tiled wall, chrome shower fixture visible on left, top of white ceramic toilet tank visible on right."",
+    ""depth"": ""Shallow depth of field, background elements slightly out of focus.""
+  },
+  ""camera"": {
+    ""shot_type"": ""Close-up, selfie portrait."",
+    ""angle"": ""High angle (slightly above eye level), typical of smartphone selfies."",
+    ""focal_length"": ""24mm to 28mm equivalent (wide angle smartphone lens)."",
+    ""framing"": ""Chest-up shot, cropping at mid-torso."",
+    ""focus"": ""Sharp focus on eyes and face, slight fall-off on shoulders."",
+    ""perspective"": ""Slight foreshortening of the extended arm side.""
+  },
+  ""lighting"": {
+    ""source"": ""Soft, diffused overhead ambient bathroom lighting."",
+    ""direction"": ""Front-top lighting."",
+    ""highlights"": ""Soft specular highlights on forehead, tip of nose, chin, and upper chest curves."",
+    ""shadows"": ""Soft shadows under the chin and defining the cleavage depth."",
+    ""quality"": ""Natural, flattering, no harsh contrast.""
+  },
+  ""mood_and_expression"": {
+    ""tone"": ""Casual, sultry, confident."",
+    ""expression"": ""Relaxed pout, 'cool girl' aesthetic."",
+    ""atmosphere"": ""Intimate, candid.""
+  },
+  ""style_and_realism"": {
+    ""style"": ""Photorealistic, social media aesthetic."",
+    ""fidelity"": ""High fidelity skin texture, no airbrushing."",
+    ""imperfections"": ""Visible freckles, stray hairs, natural skin variation preserved.""
+  },
+  ""colors_and_tone"": {
+    ""palette"": ""Neutral tones (grey, beige, skin tones) with pops of blue (eyes) and gold (jewelry)."",
+    ""skin_tone"": ""Fair to light tan, warm undertones."",
+    ""white_balance"": ""Slightly warm, indoor tungsten mix."",
+    ""saturation"": ""Natural, slightly vibrant lips and eyes."",
+    ""contrast"": ""Medium contrast.""
+  },
+  ""technical_details"": {
+    ""aspect_ratio"": ""3:4"",
+    ""resolution"": ""High resolution, sharp details."",
+    ""noise"": ""Slight digital noise characteristic of phone camera sensors in indoor light.""
+  }
+}",FALSE,STRUCTURED,dorukkurtoglu@gmail.com
+Elevator Mirror OOTD (full-body),"{
+  ""category"": ""ELEVATOR_MIRROR_OOTD"",
+  ""subject"": {
+    ""demographics"": ""Adult woman, 21-27, Turkish-looking."",
+    ""hair"": {
+      ""color"": ""Dark brown"",
+      ""style"": ""Low ponytail or loose waves, casually arranged"",
+      ""texture"": ""Real strands, slight frizz, flyaways present"",
+      ""movement"": ""Hair rests naturally over coat collar""
+    },
+    ""face"": {
+      ""shape"": ""Soft oval"",
+      ""eyes"": ""Expressive, natural catchlights"",
+      ""nose"": ""Defined bridge"",
+      ""lips"": ""Soft natural tint"",
+      ""skin_details"": ""Pores visible, natural tone variation"",
+      ""micro_details"": ""Baby hairs visible near temples""
+    },
+    ""body_proportions"": {
+      ""build"": ""Natural, fit"",
+      ""posture"": ""Relaxed confident stance""
+    },
+    ""clothing"": {
+      ""outerwear"": ""Tailored long coat (no logos)"",
+      ""inner"": ""Minimal top"",
+      ""bottom"": ""Straight pants or jeans"",
+      ""shoes"": ""Clean sneakers or ankle boots (no branding)"",
+      ""texture"": ""Fabric weave visible; slight wrinkles at elbows""
+    },
+    ""accessories"": {
+      ""bag"": ""Small shoulder bag (no logos)"",
+      ""jewelry"": [""Small silver hoops""]
+    }
+  },
+  ""pose"": {
+    ""type"": ""Full-body mirror selfie (phone not shown directly; mirror reflection implied)"",
+    ""orientation"": ""Standing slightly angled"",
+    ""head_position"": ""Chin slightly down, casual"",
+    ""limbs"": ""One hand adjusting coat cuff; other hand relaxed near bag strap"",
+    ""legs"": ""One knee slightly bent, weight shifted to one hip"",
+    ""gaze"": ""Looking at mirror reflection, calm confident""
+  },
+  ""setting"": {
+    ""environment"": ""Elevator interior"",
+    ""background_elements"": [
+      ""Brushed metal walls"",
+      ""Soft overhead panel lighting"",
+      ""Subtle fingerprints/smudges on mirror for realism""
+    ],
+    ""depth"": ""Everything fairly clear; slight background softness""
+  },
+  ""camera"": {
+    ""shot_type"": ""Full-body mirror shot"",
+    ""angle"": ""Slight downward tilt typical of handheld"",
+    ""focal_length_equivalent"": ""24-28mm wide"",
+    ""framing"": ""4:5 IG feed, full body visible"",
+    ""focus"": ""Face readable, outfit sharp, minimal distortion""
+  },
+  ""lighting"": {
+    ""source"": ""Overhead elevator lights"",
+    ""direction"": ""Top-down soft but slightly harsh (realistic elevator look)"",
+    ""highlights"": ""Metal reflections controlled"",
+    ""shadows"": ""Soft shadows under chin, coat folds"",
+    ""quality"": ""Everyday realistic""
+  },
+  ""mood_and_expression"": {
+    ""tone"": ""Minimalist chic, confident"",
+    ""expression"": ""Neutral with micro-smile"",
+    ""atmosphere"": ""Candid commute vibe""
+  },
+  ""style_and_realism"": {
+    ""style"": ""Photoreal social"",
+    ""fidelity"": ""Fabric texture, metal reflections realistic"",
+    ""imperfections"": ""Slight noise, imperfect framing""
+  },
+  ""technical_details"": {
+    ""aspect_ratio"": ""4:5"",
+    ""noise"": ""Mild"",
+    ""sharpness"": ""Face + outfit crisp""
+  },
+  ""constraints"": {
+    ""adult_only"": true,
+    ""no_text"": true,
+    ""no_logos"": true,
+    ""no_watermarks"": true,
+    ""single_subject_only"": true
+  },
+  ""negative_prompt"": [
+    ""mirror glitches"", ""double reflections"", ""warped elevator"",
+    ""extra limbs"", ""bad hands"", ""plastic skin"",
+    ""readable text"", ""logos"", ""watermark"",
+    ""cgi"", ""cartoon"", ""anime""
+  ]
+}",FALSE,STRUCTURED,dorukkurtoglu@gmail.com
+"Snowy Street Cozy (winter fit, cinematic)","{
+  ""category"": ""SNOWY_STREET_WINTER_CANDID"",
+  ""identity_lock"": {
+    ""enabled"": true,
+    ""priority"": ""ABSOLUTE_MAX"",
+    ""instruction"": ""Lock identity to reference image exactly. Adult 21+ only.""
+  },
+  ""subject"": {
+    ""demographics"": ""Adult woman, 21-29, match reference identity."",
+    ""hair"": {
+      ""color"": ""Match reference."",
+      ""style"": ""Hair tucked into scarf/coat with a few strands visible"",
+      ""texture"": ""Natural strands, slight static flyaways"",
+      ""movement"": ""Minimal movement; cold air realism""
+    },
+    ""face"": {
+      ""eyes"": ""Exact reference eyes; slight squint from cold"",
+      ""skin_details"": ""Natural texture; slight redness on cheeks (subtle, realistic)"",
+      ""micro_details"": ""Preserve marks""
+    },
+    ""clothing"": {
+      ""outerwear"": ""Winter coat + scarf + beanie (no logos/text)"",
+      ""fabric"": ""Wool knit texture visible; tiny snow specks on coat""
+    },
+    ""accessories"": {
+      ""jewelry"": [""Silver hoops optional (may be hidden by scarf)""]
+    }
+  },
+  ""pose"": {
+    ""type"": ""Outdoor candid"",
+    ""orientation"": ""Half-body"",
+    ""hands"": ""Hands holding scarf near chin (gloves optional, unbranded)"",
+    ""gaze"": ""Direct eye contact, cozy smile"",
+    ""expression"": ""Warm, playful""
+  },
+  ""setting"": {
+    ""environment"": ""Snowy street at dusk"",
+    ""background_elements"": [
+      ""Falling snowflakes (fine particles, not fog)"",
+      ""Streetlight bokeh"",
+      ""Soft silhouettes blurred (no identifiable faces)""
+    ],
+    ""depth"": ""Face sharp; background creamy bokeh""
+  },
+  ""camera"": {
+    ""shot_type"": ""Half-body winter portrait"",
+    ""angle"": ""Eye level"",
+    ""focal_length_equivalent"": ""35-50mm pro OR 26mm phone night mode"",
+    ""framing"": ""4:5"",
+    ""focus"": ""Eyes sharp; snowflakes softly blurred""
+  },
+  ""lighting"": {
+    ""source"": ""Streetlights + ambient dusk"",
+    ""direction"": ""Soft top/side glow"",
+    ""highlights"": ""Warm highlights on hair/cheeks"",
+    ""shadows"": ""Soft, cinematic winter contrast""
+  },
+  ""mood_and_expression"": {
+    ""tone"": ""Cozy, cinematic, cute-relatable"",
+    ""atmosphere"": ""Winter candid""
+  },
+  ""style_and_realism"": {
+    ""style"": ""Photoreal lifestyle"",
+    ""imperfections"": ""Low-light grain allowed""
+  },
+  ""technical_details"": {
+    ""aspect_ratio"": ""4:5"",
+    ""resolution"": ""High"",
+    ""noise"": ""Moderate low-light grain"",
+    ""mode_variants"": {
+      ""amateur"": ""Phone night-mode feel: mild grain, slight tilt, imperfect framing"",
+      ""pro"": ""Cleaner cinematic exposure, controlled highlights, shallow DOF""
+    }
+  },
+  ""constraints"": {
+    ""adult_only"": true,
+    ""single_subject_only"": true,
+    ""no_text"": true,
+    ""no_logos"": true,
+    ""no_watermarks"": true
+  },
+  ""negative_prompt"": [
+    ""fog machine"", ""smoke"",
+    ""identity drift"", ""face morphing"",
+    ""extra fingers"", ""warped hands"",
+    ""readable text"", ""logos"", ""watermark"",
+    ""plastic skin"", ""over-smoothing""
+  ]
+}",FALSE,STRUCTURED,dorukkurtoglu@gmail.com
+"Gym Mirror (UGC realism, no logos)","{
+  ""category"": ""GYM_MIRROR_UGC"",
+  ""subject"": {
+    ""demographics"": ""Adult woman, 21-27, Turkish-looking, athletic."",
+    ""hair"": {
+      ""color"": ""Dark brown"",
+      ""style"": ""High ponytail, slightly messy"",
+      ""texture"": ""Strands visible, sweat-touched flyaways"",
+      ""movement"": ""A few strands cling near forehead""
+    },
+    ""face"": {
+      ""eyes"": ""Bright, energized"",
+      ""skin_details"": ""Real pores, subtle sweat sheen"",
+      ""makeup"": ""Minimal, natural""
+    },
+    ""clothing"": {
+      ""outfit"": ""Minimal activewear set (no logos/text)"",
+      ""fit"": ""Realistic athletic fit, subtle fabric tension"",
+      ""texture"": ""Fabric knit visible""
+    },
+    ""accessories"": {
+      ""jewelry"": [""Small silver hoops (optional)""]
+    }
+  },
+  ""pose"": {
+    ""type"": ""Mirror workout selfie vibe (phone not shown directly)"",
+    ""orientation"": ""Half-body"",
+    ""hands"": ""One arm relaxed, the other lightly flexed (natural, not extreme)"",
+    ""gaze"": ""Mirror eye contact"",
+    ""expression"": ""Small proud smile""
+  },
+  ""setting"": {
+    ""environment"": ""Gym locker area"",
+    ""background_elements"": [
+      ""Mirrors with realistic smudges"",
+      ""Soft fluorescent overhead lighting"",
+      ""Equipment blurred""
+    ],
+    ""depth"": ""Face + torso sharp; background softened""
+  },
+  ""camera"": {
+    ""shot_type"": ""Half-body mirror portrait"",
+    ""angle"": ""Slightly high angle typical of casual selfie"",
+    ""focal_length_equivalent"": ""24-28mm phone wide"",
+    ""framing"": ""4:5"",
+    ""focus"": ""Sharp on face, slightly softer on background""
+  },
+  ""lighting"": {
+    ""source"": ""Fluorescent overhead gym lighting"",
+    ""direction"": ""Top-down with mild fill from mirrors"",
+    ""highlights"": ""Realistic sweat sheen highlights"",
+    ""shadows"": ""Soft under chin""
+  },
+  ""mood_and_expression"": {
+    ""tone"": ""Motivated, relatable, candid"",
+    ""expression"": ""Proud and friendly""
+  },
+  ""style_and_realism"": {
+    ""style"": ""Photoreal UGC"",
+    ""imperfections"": ""Mild noise, imperfect WB""
+  },
+  ""technical_details"": {
+    ""aspect_ratio"": ""4:5"",
+    ""noise"": ""Mild"",
+    ""motion_blur"": ""Minimal""
+  },
+  ""constraints"": {
+    ""adult_only"": true,
+    ""no_text"": true,
+    ""no_logos"": true,
+    ""no_watermarks"": true
+  },
+  ""negative_prompt"": [
+    ""brand logos"", ""readable text"",
+    ""extra fingers"", ""warped mirror"",
+    ""plastic skin"", ""cgi look""
+  ]
+}",FALSE,TEXT,dorukkurtoglu@gmail.com
+merge ,"Act as a professional image processing expert. Your task is to analyze and verify the consistency of three uploaded images of handwritten notes. Ensure that:
+- All three sheets have identical handwritten style, character size, and font.
+- The text color must be uniformly black across all sheets.
+
+Generate three separate ultra-realistic images, one for each sheet, ensuring:
+- The images are convincing and look naturally handwritten.
+- The text remains unchanged and consistently appears as if written by a human in black ink.
+- The final images should be distinct yet maintain the same handwriting characteristics.
+
+Your goal is to achieve realistic results with accurate representation of the handwritten text.",FALSE,TEXT,Beatrix9
