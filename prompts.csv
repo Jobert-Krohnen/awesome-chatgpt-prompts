@@ -11511,3 +11511,274 @@ Photorealistic Selfie Portrait Description,"{
     ""cgi"", ""cartoon"", ""anime""
   ]
 }",FALSE,TEXT,dorukkurtoglu@gmail.com
+Elevator Mirror OOTD (full-body),"{
+  ""category"": ""ELEVATOR_MIRROR_OOTD"",
+  ""subject"": {
+    ""demographics"": ""Adult woman, 21-27, Turkish-looking."",
+    ""hair"": {
+      ""color"": ""Dark brown"",
+      ""style"": ""Low ponytail or loose waves, casually arranged"",
+      ""texture"": ""Real strands, slight frizz, flyaways present"",
+      ""movement"": ""Hair rests naturally over coat collar""
+    },
+    ""face"": {
+      ""shape"": ""Soft oval"",
+      ""eyes"": ""Expressive, natural catchlights"",
+      ""nose"": ""Defined bridge"",
+      ""lips"": ""Soft natural tint"",
+      ""skin_details"": ""Pores visible, natural tone variation"",
+      ""micro_details"": ""Baby hairs visible near temples""
+    },
+    ""body_proportions"": {
+      ""build"": ""Natural, fit"",
+      ""posture"": ""Relaxed confident stance""
+    },
+    ""clothing"": {
+      ""outerwear"": ""Tailored long coat (no logos)"",
+      ""inner"": ""Minimal top"",
+      ""bottom"": ""Straight pants or jeans"",
+      ""shoes"": ""Clean sneakers or ankle boots (no branding)"",
+      ""texture"": ""Fabric weave visible; slight wrinkles at elbows""
+    },
+    ""accessories"": {
+      ""bag"": ""Small shoulder bag (no logos)"",
+      ""jewelry"": [""Small silver hoops""]
+    }
+  },
+  ""pose"": {
+    ""type"": ""Full-body mirror selfie (phone not shown directly; mirror reflection implied)"",
+    ""orientation"": ""Standing slightly angled"",
+    ""head_position"": ""Chin slightly down, casual"",
+    ""limbs"": ""One hand adjusting coat cuff; other hand relaxed near bag strap"",
+    ""legs"": ""One knee slightly bent, weight shifted to one hip"",
+    ""gaze"": ""Looking at mirror reflection, calm confident""
+  },
+  ""setting"": {
+    ""environment"": ""Elevator interior"",
+    ""background_elements"": [
+      ""Brushed metal walls"",
+      ""Soft overhead panel lighting"",
+      ""Subtle fingerprints/smudges on mirror for realism""
+    ],
+    ""depth"": ""Everything fairly clear; slight background softness""
+  },
+  ""camera"": {
+    ""shot_type"": ""Full-body mirror shot"",
+    ""angle"": ""Slight downward tilt typical of handheld"",
+    ""focal_length_equivalent"": ""24-28mm wide"",
+    ""framing"": ""4:5 IG feed, full body visible"",
+    ""focus"": ""Face readable, outfit sharp, minimal distortion""
+  },
+  ""lighting"": {
+    ""source"": ""Overhead elevator lights"",
+    ""direction"": ""Top-down soft but slightly harsh (realistic elevator look)"",
+    ""highlights"": ""Metal reflections controlled"",
+    ""shadows"": ""Soft shadows under chin, coat folds"",
+    ""quality"": ""Everyday realistic""
+  },
+  ""mood_and_expression"": {
+    ""tone"": ""Minimalist chic, confident"",
+    ""expression"": ""Neutral with micro-smile"",
+    ""atmosphere"": ""Candid commute vibe""
+  },
+  ""style_and_realism"": {
+    ""style"": ""Photoreal social"",
+    ""fidelity"": ""Fabric texture, metal reflections realistic"",
+    ""imperfections"": ""Slight noise, imperfect framing""
+  },
+  ""technical_details"": {
+    ""aspect_ratio"": ""4:5"",
+    ""noise"": ""Mild"",
+    ""sharpness"": ""Face + outfit crisp""
+  },
+  ""constraints"": {
+    ""adult_only"": true,
+    ""no_text"": true,
+    ""no_logos"": true,
+    ""no_watermarks"": true,
+    ""single_subject_only"": true
+  },
+  ""negative_prompt"": [
+    ""mirror glitches"", ""double reflections"", ""warped elevator"",
+    ""extra limbs"", ""bad hands"", ""plastic skin"",
+    ""readable text"", ""logos"", ""watermark"",
+    ""cgi"", ""cartoon"", ""anime""
+  ]
+}",FALSE,TEXT,dorukkurtoglu@gmail.com
+"Snowy Street Cozy (winter fit, cinematic)","{
+  ""category"": ""SNOWY_STREET_WINTER_CANDID"",
+  ""identity_lock"": {
+    ""enabled"": true,
+    ""priority"": ""ABSOLUTE_MAX"",
+    ""instruction"": ""Lock identity to reference image exactly. Adult 21+ only.""
+  },
+  ""subject"": {
+    ""demographics"": ""Adult woman, 21-29, match reference identity."",
+    ""hair"": {
+      ""color"": ""Match reference."",
+      ""style"": ""Hair tucked into scarf/coat with a few strands visible"",
+      ""texture"": ""Natural strands, slight static flyaways"",
+      ""movement"": ""Minimal movement; cold air realism""
+    },
+    ""face"": {
+      ""eyes"": ""Exact reference eyes; slight squint from cold"",
+      ""skin_details"": ""Natural texture; slight redness on cheeks (subtle, realistic)"",
+      ""micro_details"": ""Preserve marks""
+    },
+    ""clothing"": {
+      ""outerwear"": ""Winter coat + scarf + beanie (no logos/text)"",
+      ""fabric"": ""Wool knit texture visible; tiny snow specks on coat""
+    },
+    ""accessories"": {
+      ""jewelry"": [""Silver hoops optional (may be hidden by scarf)""]
+    }
+  },
+  ""pose"": {
+    ""type"": ""Outdoor candid"",
+    ""orientation"": ""Half-body"",
+    ""hands"": ""Hands holding scarf near chin (gloves optional, unbranded)"",
+    ""gaze"": ""Direct eye contact, cozy smile"",
+    ""expression"": ""Warm, playful""
+  },
+  ""setting"": {
+    ""environment"": ""Snowy street at dusk"",
+    ""background_elements"": [
+      ""Falling snowflakes (fine particles, not fog)"",
+      ""Streetlight bokeh"",
+      ""Soft silhouettes blurred (no identifiable faces)""
+    ],
+    ""depth"": ""Face sharp; background creamy bokeh""
+  },
+  ""camera"": {
+    ""shot_type"": ""Half-body winter portrait"",
+    ""angle"": ""Eye level"",
+    ""focal_length_equivalent"": ""35-50mm pro OR 26mm phone night mode"",
+    ""framing"": ""4:5"",
+    ""focus"": ""Eyes sharp; snowflakes softly blurred""
+  },
+  ""lighting"": {
+    ""source"": ""Streetlights + ambient dusk"",
+    ""direction"": ""Soft top/side glow"",
+    ""highlights"": ""Warm highlights on hair/cheeks"",
+    ""shadows"": ""Soft, cinematic winter contrast""
+  },
+  ""mood_and_expression"": {
+    ""tone"": ""Cozy, cinematic, cute-relatable"",
+    ""atmosphere"": ""Winter candid""
+  },
+  ""style_and_realism"": {
+    ""style"": ""Photoreal lifestyle"",
+    ""imperfections"": ""Low-light grain allowed""
+  },
+  ""technical_details"": {
+    ""aspect_ratio"": ""4:5"",
+    ""resolution"": ""High"",
+    ""noise"": ""Moderate low-light grain"",
+    ""mode_variants"": {
+      ""amateur"": ""Phone night-mode feel: mild grain, slight tilt, imperfect framing"",
+      ""pro"": ""Cleaner cinematic exposure, controlled highlights, shallow DOF""
+    }
+  },
+  ""constraints"": {
+    ""adult_only"": true,
+    ""single_subject_only"": true,
+    ""no_text"": true,
+    ""no_logos"": true,
+    ""no_watermarks"": true
+  },
+  ""negative_prompt"": [
+    ""fog machine"", ""smoke"",
+    ""identity drift"", ""face morphing"",
+    ""extra fingers"", ""warped hands"",
+    ""readable text"", ""logos"", ""watermark"",
+    ""plastic skin"", ""over-smoothing""
+  ]
+}",FALSE,TEXT,dorukkurtoglu@gmail.com
+"Gym Mirror (UGC realism, no logos)","{
+  ""category"": ""GYM_MIRROR_UGC"",
+  ""subject"": {
+    ""demographics"": ""Adult woman, 21-27, Turkish-looking, athletic."",
+    ""hair"": {
+      ""color"": ""Dark brown"",
+      ""style"": ""High ponytail, slightly messy"",
+      ""texture"": ""Strands visible, sweat-touched flyaways"",
+      ""movement"": ""A few strands cling near forehead""
+    },
+    ""face"": {
+      ""eyes"": ""Bright, energized"",
+      ""skin_details"": ""Real pores, subtle sweat sheen"",
+      ""makeup"": ""Minimal, natural""
+    },
+    ""clothing"": {
+      ""outfit"": ""Minimal activewear set (no logos/text)"",
+      ""fit"": ""Realistic athletic fit, subtle fabric tension"",
+      ""texture"": ""Fabric knit visible""
+    },
+    ""accessories"": {
+      ""jewelry"": [""Small silver hoops (optional)""]
+    }
+  },
+  ""pose"": {
+    ""type"": ""Mirror workout selfie vibe (phone not shown directly)"",
+    ""orientation"": ""Half-body"",
+    ""hands"": ""One arm relaxed, the other lightly flexed (natural, not extreme)"",
+    ""gaze"": ""Mirror eye contact"",
+    ""expression"": ""Small proud smile""
+  },
+  ""setting"": {
+    ""environment"": ""Gym locker area"",
+    ""background_elements"": [
+      ""Mirrors with realistic smudges"",
+      ""Soft fluorescent overhead lighting"",
+      ""Equipment blurred""
+    ],
+    ""depth"": ""Face + torso sharp; background softened""
+  },
+  ""camera"": {
+    ""shot_type"": ""Half-body mirror portrait"",
+    ""angle"": ""Slightly high angle typical of casual selfie"",
+    ""focal_length_equivalent"": ""24-28mm phone wide"",
+    ""framing"": ""4:5"",
+    ""focus"": ""Sharp on face, slightly softer on background""
+  },
+  ""lighting"": {
+    ""source"": ""Fluorescent overhead gym lighting"",
+    ""direction"": ""Top-down with mild fill from mirrors"",
+    ""highlights"": ""Realistic sweat sheen highlights"",
+    ""shadows"": ""Soft under chin""
+  },
+  ""mood_and_expression"": {
+    ""tone"": ""Motivated, relatable, candid"",
+    ""expression"": ""Proud and friendly""
+  },
+  ""style_and_realism"": {
+    ""style"": ""Photoreal UGC"",
+    ""imperfections"": ""Mild noise, imperfect WB""
+  },
+  ""technical_details"": {
+    ""aspect_ratio"": ""4:5"",
+    ""noise"": ""Mild"",
+    ""motion_blur"": ""Minimal""
+  },
+  ""constraints"": {
+    ""adult_only"": true,
+    ""no_text"": true,
+    ""no_logos"": true,
+    ""no_watermarks"": true
+  },
+  ""negative_prompt"": [
+    ""brand logos"", ""readable text"",
+    ""extra fingers"", ""warped mirror"",
+    ""plastic skin"", ""cgi look""
+  ]
+}",FALSE,TEXT,dorukkurtoglu@gmail.com
+merge ,"Act as a professional image processing expert. Your task is to analyze and verify the consistency of three uploaded images of handwritten notes. Ensure that:
+- All three sheets have identical handwritten style, character size, and font.
+- The text color must be uniformly black across all sheets.
+
+Generate three separate ultra-realistic images, one for each sheet, ensuring:
+- The images are convincing and look naturally handwritten.
+- The text remains unchanged and consistently appears as if written by a human in black ink.
+- The final images should be distinct yet maintain the same handwriting characteristics.
+
+Your goal is to achieve realistic results with accurate representation of the handwritten text.",FALSE,TEXT,Beatrix9
