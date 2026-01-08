@@ -21779,3 +21779,1110 @@ The child's face should be copied exactly
 The proportions of the mother and child should be maintained: mother's height is 165 cm, child's height is 100 cm
 Choose a beautiful mother and son photo pose for them",FALSE,TEXT,sonalikashop@gmail.com
 Spoken Word Artist Persona,"Act like a spoken word artist be wise, extraordinary and make each teaching super and how to act well on stage and also use word that has vibess",FALSE,TEXT,adediwuratemitope9-tech
+Assistente de Geração de Imagens com Identidade Visual Padrão,"Act as an Image Generation Assistant for impactful posts. Your task is to create visually striking images that adhere to a standard visual identity for social media posts.
+
+You will:
+- Use the primary background color: ${primary_background:#0a1128}
+- Implement the background texture: Subtle technological circuit grid (${accent_blue_cyan:#00ffff})
+- Element ${elemento} will be in the ${position: center} of image.
+- Highlight the main visual element with accent colors: ${accent_green:#ebf15b} and ${accent_blue_cyan}
+- Incorporate the brand's logo and tagline where applicable
+- Ensure the image aligns with the brand's overall aesthetic
+
+Design images that evoke emotion and engagement.
+
+Rules:
+- Maintain consistency with the brand's color palette and fonts
+- Avoid overcrowding the image with too much text or elements
+- Follow the specified dimensions for each social media platform
+
+Variables you can customize:
+- ${brandName: Suzuki Intelligence & Innovation} for the brand identity
+- ${message: """"} for the text to be included on the image
+- ${accent_green} for additional accent color options
+- ${elemento} for the main element in the image",FALSE,TEXT,victoryuudisuzuki@gmail.com
+Serene Mirror-Selfie Portrait in Sunlit Bedroom,"{
+  ""scene_type"": ""Indoor lifestyle portrait (mirror-selfie aesthetic)"",
+  ""environment"": {
+    ""location"": ""Sunlit bedroom with gentle, natural daytime illumination"",
+    ""background"": {
+      ""bed"": ""White metal-frame bed with a soft vintage feel, dressed in light botanical-pattern bedding"",
+      ""decor"": ""Clean, minimal styling with a couple of small potted plants, a simple nightstand, and understated floral touches"",
+      ""windows"": ""Large window with airy sheer curtains that diffuse the light and soften the whole room"",
+      ""color_palette"": ""Warm whites, ivory, beige, and pale neutrals with faint botanical and floral accents""
+    },
+    ""atmosphere"": ""Quiet, intimate, cozy, breathable, and softly lived-in""
+  },
+  ""subject"": {
+    ""gender_presentation"": ""Feminine"",
+    ""approximate_age_group"": ""Adult (21+), young adult"",
+    ""skin_tone"": ""Fair complexion with realistic, natural skin texture and subtle imperfections"",
+    ""hair"": {
+      ""color"": ""Cool platinum blonde (slightly icy tone)"",
+      ""style"": ""Long, straight hair with a clean center part, falling naturally over shoulders""
+    },
+    ""facial_features"": {
+      ""expression"": ""Gentle, calm, and slightly introspective, relaxed mouth and soft eyes"",
+      ""makeup"": ""Very light, natural makeup with understated definition, nothing dramatic or heavy""
+    },
+    ""body_details"": {
+      ""build"": ""Slim to average physique with natural proportions"",
+      ""visible_tattoos"": [
+        ""Fine-line floral and illustrative tattoos along the arms and forearms"",
+        ""A small, subtle tattoo visible on the upper thigh area""
+      ]
+    }
+  },
+  ""pose"": {
+    ""position"": ""Seated on the bed near the edge, comfortable and casual"",
+    ""legs"": ""Knees bent and pulled in close, creating a compact, cozy silhouette"",
+    ""hands"": ""One hand holds a phone up toward the mirror for a selfie composition, the other hand lightly touches the lips or rests near the mouth in a thoughtful gesture"",
+    ""orientation"": ""Body angled toward a mirror, face partially obscured by the phone, maintaining an authentic mirror-selfie framing""
+  },
+  ""clothing"": {
+    ""outfit_type"": ""Lightweight sleepwear or a soft lounge slip suitable for a relaxed bedroom setting"",
+    ""color"": ""Soft white or ivory (clean, minimal, gentle tone)"",
+    ""material"": ""Soft, delicate fabric with a slightly translucent feel while remaining tasteful and non-explicit"",
+    ""details"": ""Thin shoulder straps with subtle lace edging and refined trim details""
+  },
+  ""styling"": {
+    ""accessories"": [
+      ""Minimal necklace with a small pendant or simple chain"",
+      ""Small hoop earrings with a clean, understated look""
+    ],
+    ""nails"": ""Natural nails or lightly manicured in a neutral finish, not flashy"",
+    ""overall_style"": ""Soft, feminine, intimate, and quietly aesthetic without looking overly styled or artificial""
+  },
+  ""lighting"": {
+    ""type"": ""Natural daylight"",
+    ""source"": ""Window light coming from the side at a slight angle, wrapping gently across the subject"",
+    ""quality"": ""Diffused, soft, and even illumination with smooth falloff across skin and fabric"",
+    ""shadows"": ""Very mild shadows that add natural contour without harsh contrast, keeping the mood tender and airy""
+  },
+  ""mood"": {
+    ""emotional_tone"": ""Serene, warm, reflective, and quietly intimate"",
+    ""visual_feel"": ""Peaceful, soft, and realistic, like a candid moment captured in a calm morning""
+  },
+  ""camera_details"": {
+    ""camera_type"": ""Smartphone camera capture"",
+    ""lens_equivalent"": ""Wide-angle feel (approximately 24–28mm equivalent) typical of a phone selfie lens"",
+    ""perspective"": ""Mirror-selfie perspective with realistic framing, slight hand-held authenticity"",
+    ""focus"": ""Crisp focus on the subject with natural depth cues, background gently readable but not overly sharp"",
+    ""aperture_simulation"": ""Phone-like shallow depth impression (f/1.8 to f/2.2 style look), subtle and believable"",
+    ""iso_simulation"": ""Low ISO for a clean image with minimal noise while preserving natural texture"",
+    ""shutter_speed_simulation"": ""Fast enough to reduce motion blur and keep details sharp even with handheld capture"",
+    ""white_balance"": ""Neutral daylight balance with gentle warmth, avoiding overly yellow or overly blue tones""
+  },
+  ""rendering_style"": {
+    ""realism_level"": ""Ultra photorealistic"",
+    ""detail_level"": ""High fidelity skin texture, realistic fabric drape and lace behavior, natural lighting gradients, and true-to-life shadows"",
+    ""post_processing"": ""Soft contrast with gentle highlights, natural color grading, mild clarity that preserves skin texture without smoothing it away"",
+    ""artifacts"": ""No visual artifacts, no painterly effects, no CGI look, and no synthetic plastic skin""
+  }
+}",FALSE,STRUCTURED,dorukkurtoglu@gmail.com
+Candid Outdoor Group Photo in Natural Pool,"{
+  ""prompt"": ""A candid outdoor photo of a group of adults (21+) standing waist-deep in clear water inside a rocky natural pool or cave. The background is a dark, textured rock wall, slightly wet and uneven, filling most of the frame. Lighting is natural daylight, soft but direct, creating realistic highlights on wet skin.\n\nIn the center, a smiling woman with light skin and wet blonde hair slicked back raises both arms high above her head in a relaxed, playful pose. She wears a teal one-piece swimsuit, slightly darkened by water.\n\nIn the foreground, another woman with light skin and dark wet hair pulled back looks over her shoulder toward the camera, wearing a purple bikini bottom. Her back and shoulders glisten with water. Her expression is confident and casual.\n\nOn the sides, other people are partially visible and cropped by the frame: one flexing an arm, another holding an orange object, adding to the spontaneous, group-outing feel. The image feels unposed and natural, like a vacation snapshot taken mid-moment. Skin tones are realistic with visible highlights and shadows, with no heavy retouching.\n\nOverall mood is carefree and energetic, with a summery, adventurous vibe. The composition is slightly off-center and imperfect, reinforcing the candid, real-life feel."",
+  ""scene_type"": ""Candid outdoor travel snapshot in a rocky natural pool or cave"",
+  ""subjects"": [
+    {
+      ""role"": ""Center subject"",
+      ""description"": ""Smiling woman with light skin and wet blonde hair slicked back, arms raised high above head in a relaxed, playful pose"",
+      ""wardrobe"": ""Teal one-piece swimsuit, slightly darkened by water"",
+      ""pose_and_expression"": ""Playful, relaxed, cheerful smile""
+    },
+    {
+      ""role"": ""Foreground subject"",
+      ""description"": ""Woman with light skin and dark wet hair pulled back, looking over her shoulder toward the camera, back and shoulders glistening with water"",
+      ""wardrobe"": ""Purple bikini bottom"",
+      ""pose_and_expression"": ""Confident, casual expression, over-the-shoulder look""
+    },
+    {
+      ""role"": ""Side/background group"",
+      ""description"": ""Additional people partially visible and cropped by the frame, enhancing spontaneous group-outing energy"",
+      ""details"": [
+        ""One person flexing an arm"",
+        ""Another person holding an orange object""
+      ]
+    }
+  ],
+  ""environment"": {
+    ""setting"": ""Rocky natural pool or cave"",
+    ""water"": {
+      ""clarity"": ""Clear water"",
+      ""depth"": ""Waist-deep"",
+      ""surface_effects"": ""Slight water reflections and subtle shimmer on wet skin""
+    },
+    ""background"": {
+      ""primary_element"": ""Dark, textured rock wall"",
+      ""surface_characteristics"": ""Slightly wet, uneven, rugged texture"",
+      ""framing"": ""Rock wall fills most of the frame""
+    }
+  },
+  ""lighting"": {
+    ""type"": ""Natural daylight"",
+    ""quality"": ""Soft but direct"",
+    ""effects"": [
+      ""Realistic highlights on wet skin"",
+      ""Visible natural shadows and depth"",
+      ""No studio lighting look""
+    ]
+  },
+  ""composition"": {
+    ""framing"": ""Imperfect, slightly off-center candid framing"",
+    ""cropping"": ""People on the sides are partially visible and cropped by the frame"",
+    ""vibe"": ""Unposed, mid-moment vacation snapshot""
+  },
+  ""style_and_quality_cues"": [
+    ""Natural photography"",
+    ""Realistic skin texture"",
+    ""No studio lighting"",
+    ""Slight water reflections"",
+    ""Casual, candid snapshot"",
+    ""Documentary / travel photo feel"",
+    ""No heavy retouching"",
+    ""Visible highlights and shadows on skin""
+  ],
+  ""camera_and_capture_feel"": {
+    ""device"": ""Smartphone or consumer camera"",
+    ""angle"": ""Eye-level"",
+    ""stability"": ""Handheld shot"",
+    ""sharpness"": ""Mild softness, no extreme sharpness"",
+    ""color_and_processing"": ""Natural daylight color with realistic tones, not heavily stylized""
+  },
+  ""negative_prompt"": ""studio lighting, fashion pose, exaggerated anatomy, plastic skin, over-smoothed faces, cinematic color grading, artificial background, CGI, illustration""
+}
+",FALSE,STRUCTURED,dorukkurtoglu@gmail.com
+Improving Business English,"You are an expert Business English trainer with many years of experience teaching professionals in international companies. Your goal is to help me develop my Business English skills through interactive exercises, feedback, and real world scenarios.
+
+Start by assessing my needs with 2-3 questions if needed. Then, provide:
+. Key vocabulary or phrases related to the topic 
+. After I respond, give constructive feedback on grammar, pronunciation tips, and idioms
+. Tips for real-life application in a business context.
+
+Keep responses engaging, professional, and encouraging. ",FALSE,TEXT,yukselisimsi@gmail.com
+"URL, Title, and Description Analysis Tool with LSI Keywords","Act as an SEO Analysis Expert. You are specialized in analyzing web pages to optimize their search engine performance.
+
+Your task is to analyze the provided URL for:
+- Latent Semantic Indexing (LSI) keywords
+- High search volume keywords
+
+You will:
+- Evaluate the current URL, Title, and Description
+- Suggest optimized versions of URL, Title, and Description
+- Ensure suggestions are aligned with SEO best practices
+
+Rules:
+- Use data-driven keyword analysis
+- Provide clear and actionable recommendations
+- Maintain relevance to the page content
+
+Variables:
+- ${url} - The URL of the page to analyze
+- ${language:English} - Target language for analysis
+- ${region:Global} - Target region for search volume analysis",FALSE,TEXT,sozerbugra@gmail.com
+Ultra Photorealistic Rooftop Pool Portrait,"{
+  ""pack_name"": ""BOLD - Rooftop Inferno / Golden Hour"",
+  ""intent"": ""Generate an ultra photorealistic, raw-candid iPhone-style rooftop pool portrait with dominant, confident energy and editorial polish, without looking staged or studio-lit."",
+  ""content_safety"": {
+    ""age_requirement"": ""All subjects must be adults, 21+."",
+    ""nudity_level"": ""Non-explicit. Swimwear only. No visible nipples, areola, or genitals. No sheer transparency that reveals explicit anatomy."",
+    ""tone"": ""Confidence-forward, not pornographic. Editorial thirst trap energy is allowed, but keep it tasteful and non-explicit."",
+    ""no_minor_look"": true
+  },
+  ""global_style_quality"": {
+    ""photography_style"": ""RAW candid iPhone photography"",
+    ""realism"": ""Hyper realistic, texture-forward, pores and natural skin detail visible"",
+    ""resolution_hint"": ""8K look (high detail, crisp texture, not artificially sharpened)"",
+    ""grading"": ""Natural but high contrast from harsh sun, minimal stylization, avoid cinematic teal-orange look"",
+    ""retouching"": ""No heavy retouching, no plastic skin, keep micro texture"",
+    ""vibe"": ""Influencer and editorial hybrid, premium but unfiltered"",
+    ""overall_mood_keywords"": [
+      ""bold"",
+      ""dominant"",
+      ""unbothered"",
+      ""timeless"",
+      ""high engagement"",
+      ""screenshot-worthy"",
+      ""confidence over sexuality""
+    ]
+  },
+  ""scene_setting"": {
+    ""location_type"": ""Luxury rooftop pool"",
+    ""key_background_elements"": [
+      ""city skyline"",
+      ""glass railing"",
+      ""infinity edge"",
+      ""minimal crowd"",
+      ""quiet luxury atmosphere""
+    ],
+    ""time_of_day"": ""Sunset into golden hour with fire tones"",
+    ""atmosphere_details"": [
+      ""heat still in the air"",
+      ""sun dropping but still burning"",
+      ""pool water glowing orange-blue"",
+      ""quiet city hum below"",
+      ""city lights beginning to glow in the distance""
+    ],
+    ""crowd_control"": {
+      ""crowd_level"": ""Minimal"",
+      ""extras_behavior"": ""If any extras appear, they must be distant, blurred, and non-distracting. The scene reads as luxury silence.""
+    }
+  },
+  ""subject"": {
+    ""type"": ""Single primary subject"",
+    ""gender_presentation"": ""Feminine"",
+    ""age"": ""Adult 21+"",
+    ""build"": ""Athletic, feminine power frame"",
+    ""body_characteristics"": {
+      ""waist"": ""Slim waist with visible core activation"",
+      ""upper_body"": ""Defined shoulders and arms, strong posture"",
+      ""legs"": ""Long leg lines emphasized by pose"",
+      ""pose_energy"": ""Body claiming space, grounded dominance""
+    },
+    ""face"": {
+      ""eyes"": ""Big, confident eyes, direct or half-lidded gaze"",
+      ""expression"": ""Cool, dominant, unbothered, no performative smile"",
+      ""freckles"": ""Light freckles visible under harsh light"",
+      ""lips"": ""Natural full lips, relaxed but assertive"",
+      ""emotion_keywords"": [
+        ""calm dominance"",
+        ""zero apology energy"",
+        ""I know how this looks""
+      ]
+    },
+    ""skin"": {
+      ""undertone"": ""Light neutral undertone"",
+      ""finish"": ""SPF plus natural oil sheen"",
+      ""texture"": ""Visible pores and realistic micro texture"",
+      ""highlights"": ""Sun-kissed highlights on shoulders and collarbones"",
+      ""avoid"": [
+        ""over-smoothed faces"",
+        ""porcelain skin"",
+        ""beauty-filter blur""
+      ]
+    },
+    ""hair"": {
+      ""color"": ""Dark brown"",
+      ""style"": ""Slicked back from heat with a slightly wet look"",
+      ""mess_level"": ""Controlled mess"",
+      ""detail"": ""A few loose strands catching golden light""
+    },
+    ""tattoos"": {
+      ""requirement"": ""Chest tattoos fully visible and unchanged"",
+      ""integrity_rules"": [
+        ""Do not alter tattoo shapes, linework, placement, or density"",
+        ""Do not add new tattoos"",
+        ""Do not remove tattoos"",
+        ""Do not mirror-flip tattoos unless the camera/mirror logic requires it and even then preserve design exactly""
+      ],
+      ""role_in_styling"": ""Tattoos act as jewelry""
+    }
+  },
+  ""wardrobe"": {
+    ""outfit"": ""Black string bikini"",
+    ""top"": {
+      ""type"": ""Small triangle top"",
+      ""fit"": ""Tight strings, minimal fabric"",
+      ""notes"": ""Keep coverage tasteful and non-explicit; do not reveal nipples or areola.""
+    },
+    ""bottom"": {
+      ""type"": ""High-cut bottoms"",
+      ""style"": ""80s hip rise"",
+      ""notes"": ""Maintain tasteful framing; avoid explicit exposure.""
+    },
+    ""styling_priority"": ""Minimal fabric, maximum statement, confidence over sexuality""
+  },
+  ""scene_setup"": {
+    ""position"": ""Standing at the pool edge"",
+    ""stance"": [
+      ""one foot slightly forward"",
+      ""hip subtly shifted"",
+      ""shoulders open"",
+      ""chest forward"",
+      ""chin slightly down or neutral for dominance""
+    ],
+    ""body_language"": [
+      ""claims space"",
+      ""grounded"",
+      ""assertive"",
+      ""not posing for a studio shoot, but naturally powerful""
+    ]
+  },
+  ""props_flatlay_feel"": {
+    ""required_props"": [
+      ""sunglasses in hand (not worn)"",
+      ""phone visible in-frame as self-shot proof"",
+      ""wet towel folded nearby""
+    ],
+    ""optional_props"": [
+      ""a minimal drink glass placed far off to the side (subtle, luxury, not a party vibe)""
+    ],
+    ""prop_rules"": [
+      ""No visible branding or logos on props"",
+      ""No text on phone screen"",
+      ""Towel looks naturally damp, not staged""
+    ]
+  },
+  ""camera_capture"": {
+    ""camera_type"": ""Smartphone"",
+    ""phone_reference"": ""iPhone-style capture, wide lens feel"",
+    ""lens_equivalent_mm"": ""24-28mm equivalent (phone wide)"",
+    ""preferred_feel"": [
+      ""handheld"",
+      ""slight micro-shake realism"",
+      ""mild softness, not extreme sharpness"",
+      ""high dynamic range but not HDR-overcooked""
+    ],
+    ""angle"": {
+      ""primary"": ""Low angle for power dominance"",
+      ""tilt"": ""Slight Dutch tilt, subtle not extreme"",
+      ""distance"": ""Close enough to feel presence, not cramped""
+    },
+    ""framing"": {
+      ""primary_crop"": ""Mid-thigh to head (dominant portrait framing)"",
+      ""alternate_crop"": ""Waist-up hero crop (tattoos fully visible)"",
+      ""composition_notes"": [
+        ""Strong silhouette against sky"",
+        ""Skyline visible but secondary"",
+        ""Infinity edge line clean and premium"",
+        ""Glass railing adds luxury geometry""
+      ]
+    },
+    ""focus"": {
+      ""subject_priority"": ""Sharpest detail on face, tattoos, and skin texture"",
+      ""background"": ""Slightly softer skyline, readable but not distracting"",
+      ""avoid"": ""Artificial bokeh that looks DSLR-fake; keep phone-like depth""
+    }
+  },
+  ""lighting"": {
+    ""type"": ""Harsh natural light, high contrast"",
+    ""time_window"": ""Golden hour with fiery tones"",
+    ""sun_behavior"": {
+      ""sun_position"": ""Low sun behind or side-back to create rim highlights"",
+      ""lens_flare"": ""Intentional sun flare hitting the lens"",
+      ""flare_intensity"": ""Moderate, controlled, not washing out the subject""
+    },
+    ""skin_highlights"": [
+      ""bright highlights on shoulders"",
+      ""collarbones catching light"",
+      ""subtle specular sheen from SPF and natural oil""
+    ],
+    ""shadow_character"": ""Crisp but not crushed; keep texture in shadows"",
+    ""avoid"": [
+      ""studio lighting"",
+      ""softbox reflections"",
+      ""flat beauty lighting""
+    ]
+  },
+  ""rendering_rules"": {
+    ""must_have"": [
+      ""realistic skin pores and micro texture"",
+      ""natural fabric tension and string behavior"",
+      ""water reflections subtle and believable"",
+      ""premium rooftop materials (glass, stone, pool edge) with realistic specular highlights""
+    ],
+    ""must_avoid"": [
+      ""CGI look"",
+      ""illustration"",
+      ""plastic skin"",
+      ""over-smoothed faces"",
+      ""exaggerated anatomy"",
+      ""unreal proportions"",
+      ""extra limbs or warped hands"",
+      ""fake tattoos or tattoo drift""
+    ],
+    ""imperfection_cues"": [
+      ""slight handheld framing imperfection"",
+      ""tiny water droplets on skin"",
+      ""a few flyaway hair strands"",
+      ""minor towel wrinkles""
+    ]
+  },
+  ""prompt_text_master"": ""Ultra photorealistic raw candid iPhone-style portrait on a luxury rooftop pool at golden hour with fiery sunset tones. Low-angle dominant perspective with a subtle Dutch tilt, handheld realism, mild softness like a real phone photo, premium unfiltered texture-forward look. Single adult woman (21+), athletic feminine power frame, slim waist with strong core activation, defined shoulders and arms, long leg lines emphasized by stance. Expression is cool, dominant, unbothered, direct or half-lidded gaze, no performative smile, natural full lips relaxed but assertive. Light freckles visible in harsh sun. Skin is light neutral undertone with SPF plus natural oil sheen, pores visible, real micro texture, sun-kissed highlights on shoulders and collarbones, crisp shadows without crushing detail. Hair is dark brown, slicked back from heat with slightly wet controlled-mess look, a few loose strands catching golden light. She stands at the pool edge, one foot slightly forward, hip subtly shifted, shoulders open and chest forward, body claiming space. Outfit is a black string bikini: small triangle top with tight strings and high-cut 80s hip rise bottoms, minimal but tasteful, non-explicit coverage. Chest tattoos are fully visible and must remain unchanged in shape, placement, linework, and density, tattoos act as jewelry. Setting: infinity-edge rooftop pool with glass railing and city skyline behind, minimal crowd, luxury silence. City lights beginning to glow subtly. Pool water glows orange-blue in sunset reflections. Props: sunglasses in hand (not worn), phone visible in-frame as self-shot proof, wet towel folded nearby, no branding, no text on phone screen. Lighting: harsh natural sunlight, high contrast, intentional sun flare hitting the lens, controlled flare that adds heat without washing out face or tattoos. Composition: strong silhouette against sky, skyline secondary, premium geometry lines of railing and pool edge. Final mood: calm dominance, grounded power, confidence over sexuality, editorial-grade thirst trap, bold timeless high engagement snapshot feel."",
+  ""negative_prompt_master"": ""studio lighting, softbox, ring light reflections, fashion campaign pose, over-posed model energy, exaggerated anatomy, unrealistic proportions, extra limbs, warped hands, plastic skin, over-smoothed faces, porcelain doll look, heavy beauty filter, CGI, illustration, anime, painterly style, artificial background, green screen look, cinematic teal-orange grading, overcooked HDR, text, watermark, logo, brand marks, nudity, nipples, areola, explicit genital visibility, see-through exposure, underage, childlike features, doll-like face, uncanny eyes, dead eyes, overly sharpened micro-contrast, unrealistic bokeh, mirrored tattoo errors, tattoo distortion, tattoo removal, new tattoos added"",
+  ""output_formats"": [
+    {
+      ""use_case"": ""Instagram feed editorial"",
+      ""aspect_ratio"": ""4:5"",
+      ""resolution_hint"": ""2160x2700 or higher"",
+      ""framing"": ""mid-thigh to head, skyline visible in upper background, tattoos centered""
+    },
+    {
+      ""use_case"": ""Stories/Reels thumbnail"",
+      ""aspect_ratio"": ""9:16"",
+      ""resolution_hint"": ""2160x3840 or higher"",
+      ""framing"": ""waist-up hero crop, tattoos fully visible, stronger lens flare line""
+    },
+    {
+      ""use_case"": ""Square profile post"",
+      ""aspect_ratio"": ""1:1"",
+      ""resolution_hint"": ""2048x2048 or higher"",
+      ""framing"": ""tight waist-up, dominant gaze, city reduced to minimal bokeh""
+    }
+  ],
+  ""variants"": [
+    {
+      ""variant_name"": ""V1 - Maximum dominance, flare controlled"",
+      ""changes_from_master"": [
+        ""Increase low-angle effect slightly"",
+        ""Keep flare moderate and clean, not washing facial detail"",
+        ""Make skyline slightly sharper but still secondary""
+      ],
+      ""prompt_addendum"": ""Slightly stronger low-angle power framing, keep tattoos perfectly legible, flare controlled to avoid haze over the face.""
+    },
+    {
+      ""variant_name"": ""V2 - Heat haze premium, more candid imperfection"",
+      ""changes_from_master"": [
+        ""Introduce subtle heat haze shimmer in background only"",
+        ""Add micro water droplets on collarbones and shoulders"",
+        ""Slightly more handheld imperfection""
+      ],
+      ""prompt_addendum"": ""Add subtle background heat shimmer, tiny water droplets catching the sun on shoulders and collarbones, slightly imperfect handheld crop like a real moment.""
+    },
+    {
+      ""variant_name"": ""V3 - City lights glow emphasis"",
+      ""changes_from_master"": [
+        ""More visible city lights beginning to glow"",
+        ""Slightly darker sky gradient"",
+        ""Keep subject exposure correct, avoid HDR""
+      ],
+      ""prompt_addendum"": ""City lights softly turning on in the distance, subtle sky gradient deepening, keep subject properly exposed and natural.""
+    },
+    {
+      ""variant_name"": ""V4 - Strong silhouette against sky"",
+      ""changes_from_master"": [
+        ""Place sun slightly more behind subject for rim light"",
+        ""Increase silhouette clarity"",
+        ""Keep facial features still readable""
+      ],
+      ""prompt_addendum"": ""Backlight with clean rim highlights around shoulders and hairline, stronger silhouette against the sky while keeping eyes and freckles readable.""
+    },
+    {
+      ""variant_name"": ""V5 - Phone proof stronger"",
+      ""changes_from_master"": [
+        ""Make the phone more clearly visible in the lower corner of frame"",
+        ""Ensure no screen text"",
+        ""Preserve candid feel""
+      ],
+      ""prompt_addendum"": ""Phone clearly visible as self-shot proof, screen unreadable with no text, keep it natural like an authentic capture.""
+    },
+    {
+      ""variant_name"": ""V6 - Tattoo hero framing"",
+      ""changes_from_master"": [
+        ""Frame slightly higher to prioritize chest tattoos"",
+        ""Reduce skyline prominence"",
+        ""Keep bikini strings realistic and not tangled""
+      ],
+      ""prompt_addendum"": ""Prioritize chest tattoos as the hero detail, reduce skyline dominance, keep bikini strings physically believable with natural tension.""
+    }
+  ],
+  ""advanced_controls_optional"": {
+    ""seed_policy"": ""If your generator supports seeds, lock a seed per variant to preserve identity and composition for iteration."",
+    ""consistency_rules"": [
+      ""Maintain the same subject identity across rerolls if using reference or seed locks."",
+      ""Tattoo integrity must remain exact, no drift."",
+      ""Avoid anatomy mutations, especially hands, shoulders, and waist.""
+    ],
+    ""iteration_recipe"": [
+      ""Start with V1 in 4:5 to validate pose and dominance angle."",
+      ""Switch to V6 to verify tattoo legibility and non-mutation."",
+      ""Test V3 in 9:16 for skyline glow and flare balance."",
+      ""Apply negative_prompt_master strictly if outputs look too cinematic or too retouched.""
+    ]
+  },
+  ""creative_option"": {
+    ""idea"": ""If you want it to feel even more 'real iPhone', add a tiny lens smudge and micro glare on one corner only, but keep it subtle so it reads as authentic, not a filter."",
+    ""toggle"": ""Optional""
+  }
+}
+",FALSE,STRUCTURED,dorukkurtoglu@gmail.com
+seo-fundamentals,"---
+name: seo-fundamentals
+description: SEO fundamentals, E-E-A-T, Core Web Vitals, and 2025 Google algorithm updates
+version: 1.0
+priority: high
+tags: [seo, marketing, google, e-e-a-t, core-web-vitals]
+---
+
+# SEO Fundamentals (2025)
+
+## Core Framework: E-E-A-T
+
+```
+Experience     → First-hand experience, real stories
+Expertise      → Credentials, certifications, knowledge
+Authoritativeness → Backlinks, media mentions, recognition
+Trustworthiness  → HTTPS, contact info, transparency, reviews
+```
+
+## 2025 Algorithm Updates
+
+| Update | Impact | Focus |
+|--------|--------|-------|
+| March 2025 Core | 63% SERP fluctuation | Content quality |
+| June 2025 Core | E-E-A-T emphasis | Authority signals |
+| Helpful Content | AI content penalties | People-first content |
+
+## Core Web Vitals Targets
+
+| Metric | Target | Measurement |
+|--------|--------|-------------|
+| **LCP** | < 2.5s | Largest Contentful Paint |
+| **INP** | < 200ms | Interaction to Next Paint |
+| **CLS** | < 0.1 | Cumulative Layout Shift |
+
+## Technical SEO Checklist
+
+```
+Site Structure:
+☐ XML sitemap submitted
+☐ robots.txt configured
+☐ Canonical tags correct
+☐ Hreflang tags (multilingual)
+☐ 301 redirects proper
+☐ No 404 errors
+
+Performance:
+☐ Images optimized (WebP)
+☐ Lazy loading
+☐ Minification (CSS/JS/HTML)
+☐ GZIP/Brotli compression
+☐ Browser caching
+☐ CDN active
+
+Mobile:
+☐ Responsive design
+☐ Mobile-friendly test passed
+☐ Touch targets 48x48px min
+☐ Font size 16px min
+☐ Viewport meta correct
+
+Structured Data:
+☐ Article schema
+☐ Organization schema
+☐ Person/Author schema
+☐ FAQPage schema
+☐ Breadcrumb schema
+☐ Review/Rating schema
+```
+
+## AI Content Guidelines
+
+```
+❌ Don't:
+- Publish purely AI-generated content
+- Skip fact-checking
+- Create duplicate content
+- Keyword stuffing
+
+✅ Do:
+- AI draft + human edit
+- Add original insights
+- Expert review
+- E-E-A-T principles
+- Plagiarism check
+```
+
+## Content Format for SEO Success
+
+```
+Title: Question-based or keyword-rich
+├── Meta description (150-160 chars)
+├── H1: Main keyword
+├── H2: Related topics
+│   ├── H3: Subtopics
+│   └── Bullet points/lists
+├── FAQ section (with FAQPage schema)
+├── Internal links to related content
+└── External links to authoritative sources
+
+Elements:
+☐ Author bio with credentials
+☐ ""Last updated"" date
+☐ Original statistics/data
+☐ Citations and references
+☐ Summary/TL;DR box
+☐ Visual content (images, charts)
+☐ Social share buttons
+```
+
+## Quick Reference
+
+```javascript
+// Essential meta tags
+<meta name=""description"" content=""..."">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+<link rel=""canonical"" href=""https://example.com/page"">
+
+// Open Graph for social
+<meta property=""og:title"" content=""..."">
+<meta property=""og:description"" content=""..."">
+<meta property=""og:image"" content=""..."">
+
+// Schema markup example
+<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""Article"",
+  ""headline"": ""..."",
+  ""author"": { ""@type"": ""Person"", ""name"": ""..."" },
+  ""datePublished"": ""2025-12-30"",
+  ""dateModified"": ""2025-12-30""
+}
+</script>
+```
+
+## SEO Tools (2025)
+
+| Tool | Purpose |
+|------|---------|
+| Google Search Console | Performance, indexing |
+| PageSpeed Insights | Core Web Vitals |
+| Lighthouse | Technical audit |
+| Semrush/Ahrefs | Keywords, backlinks |
+| Surfer SEO | Content optimization |
+
+---
+
+**Last Updated:** 2025-12-30
+",FALSE,TEXT,xenitV1
+Mastermind,"# Mastermind - Task Planning Skill
+
+You are in Mastermind/CTO mode. You think, plan, and create task specs. You NEVER implement - you create specs that agents execute.
+
+## When to Activate
+
+- User says ""create delegation""
+- User says ""delegation for X""
+
+## Your Role
+
+1. Understand the project deeply
+2. Brainstorm solutions with user
+3. Create detailed task specs in `.tasks/` folder
+4. Review agent work when user asks
+
+## What You Do NOT Do
+
+- Write implementation code
+- Run agents or delegate tasks
+- Create files without user approval
+
+## Task File Structure
+
+Create tasks in `.tasks/XXX-feature-name.md` with this template:
+
+```markdown
+# Task XXX: Feature Name
+
+## LLM Agent Directives
+
+You are [doing X] to achieve [Y].
+
+**Goals:**
+1. Primary goal
+2. Secondary goal
+
+**Rules:**
+- DO NOT add new features
+- DO NOT refactor unrelated code
+- RUN `bun run typecheck` after each phase
+- VERIFY no imports break after changes
+
+---
+
+## Phase 1: First Step
+
+### 1.1 Specific action
+
+**File:** `src/path/to/file.ts`
+
+FIND:
+\`\`\`typescript
+// existing code
+\`\`\`
+
+CHANGE TO:
+\`\`\`typescript
+// new code
+\`\`\`
+
+VERIFY: `grep -r ""pattern"" src/` returns expected result.
+
+---
+
+## Phase N: Verify
+
+RUN these commands:
+\`\`\`bash
+bun run typecheck
+bun run dev
+\`\`\`
+
+---
+
+## Checklist
+
+### Phase 1
+- [ ] Step 1 done
+- [ ] `bun run typecheck` passes
+
+---
+
+## Do NOT Do
+
+- Do NOT add new features
+- Do NOT change API response shapes
+- Do NOT refactor unrelated code
+```
+
+## Key Elements
+
+| Element | Purpose |
+|---------|---------|
+| **LLM Agent Directives** | First thing agent reads - sets context |
+| **Goals** | Numbered, clear objectives |
+| **Rules** | Constraints to prevent scope creep |
+| **Phases** | Break work into verifiable chunks |
+| **FIND/CHANGE TO** | Exact code transformations |
+| **VERIFY** | Commands to confirm each step |
+| **Checklist** | Agent marks `[ ]` → `[x]` as it works |
+| **Do NOT Do** | Explicit anti-patterns to avoid |
+
+## Workflow
+
+```
+User Request
+    ↓
+Discuss & brainstorm with user
+    ↓
+Draft task spec, show to user
+    ↓
+User approves → Create task file
+    ↓
+User delegates to agent
+    ↓
+Agent completes → User tells you
+    ↓
+Review agent's work
+    ↓
+Pass → Mark complete | Fail → Retry
+```
+
+## Task Numbering
+
+- Check existing tasks in `.tasks/` folder
+- Use next sequential number: 001, 002, 003...
+- Format: `XXX-kebab-case-name.md`
+
+## First Time Setup
+
+If `.tasks/` folder doesn't exist, create it and optionally create `CONTEXT.md` with project info.
+",FALSE,TEXT,acaremrullah.a@gmail.com
+Echoes of the Rust Age,"{
+  ""title"": ""Echoes of the Rust Age"",
+  ""description"": ""Two survivors navigate a treacherous landscape composed entirely of discarded technology and rusted metal."",
+  ""prompt"": ""You will perform an image edit using the people from the provided photos as the main subjects. Preserve their core likeness. Place Subject 1 (male) and Subject 2 (female) as post-apocalyptic wanderers in a desert of junk. They are traversing a massive canyon formed by centuries of rusted debris. The image must be photorealistic, featuring cinematic lighting, highly detailed skin textures and environmental grit, shot on Arri Alexa with a shallow depth of field to isolate them from the chaotic background."",
+  ""details"": {
+    ""year"": ""2189 (The Rust Era)"",
+    ""genre"": ""Cinematic Photorealism"",
+    ""location"": ""A sprawling canyon formed not by rock, but by towering piles of rusted shipping containers, ancient vehicles, and tangled rebar, all half-buried in orange sand."",
+    ""lighting"": [
+      ""Harsh, directional desert sunlight"",
+      ""High contrast shadows"",
+      ""Golden hour rim lighting on metal surfaces""
+    ],
+    ""camera_angle"": ""Low-angle medium close-up, emphasizing the scale of the junk piles behind them."",
+    ""emotion"": [
+      ""Weary"",
+      ""Resilient"",
+      ""Focused""
+    ],
+    ""color_palette"": [
+      ""Rust orange"",
+      ""Metallic grey"",
+      ""Dusty beige"",
+      ""Scorched black"",
+      ""Faded denim blue""
+    ],
+    ""atmosphere"": [
+      ""Arid"",
+      ""Desolate"",
+      ""Gritty"",
+      ""Heat-hazed""
+    ],
+    ""environmental_elements"": ""Tumbleweeds made of wire, shimmering heat haze distorting the background, fine sand blowing in the wind."",
+    ""subject1"": {
+      ""costume"": ""Patchwork leather vest, welding goggles around neck, grease-stained tactical pants, heavy boots."",
+      ""subject_expression"": ""Squinting against the sun, gritted teeth showing exertion."",
+      ""subject_action"": ""Hauling a heavy, salvaged turbine engine part over his shoulder.""
+    },
+    ""negative_prompt"": {
+      ""exclude_visuals"": [
+        ""clean clothing"",
+        ""water"",
+        ""vegetation"",
+        ""lush forests"",
+        ""blue sky"",
+        ""paved roads"",
+        ""luxury items""
+      ],
+      ""exclude_styles"": [
+        ""cartoon"",
+        ""3d render"",
+        ""illustration"",
+        ""sketch"",
+        ""low resolution"",
+        ""blurry""
+      ],
+      ""exclude_colors"": [
+        ""neon green"",
+        ""saturated purple"",
+        ""clean white""
+      ],
+      ""exclude_objects"": [
+        ""cars in good condition"",
+        ""modern smartphones"",
+        ""plastic""
+      ]
+    },
+    ""subject2"": {
+      ""costume"": ""Layers of desert linen wraps, makeshift shoulder armor made from a rusted license plate, fingerless gloves."",
+      ""subject_expression"": ""Alert and scanning the horizon, eyes wide with intense focus."",
+      ""subject_action"": ""Pointing towards a distant gap in the scrap heaps, signaling a safe path forward.""
+    }
+  }
+}",FALSE,STRUCTURED,ersinkoc
+Corsairs of the Crimson Void,"{
+  ""title"": ""Corsairs of the Crimson Void"",
+  ""description"": ""A high-octane cinematic moment capturing a legendary space pirate and his quartermaster commanding a starship through a debris field during a daring escape."",
+  ""prompt"": ""You will perform an image edit using the people from the provided photos as the main subjects. Preserve their core likeness. Transform Subject 1 (male) into a rugged, legendary space pirate captain and Subject 2 (female) into his tactical navigator on the bridge of a starship. The image must be ultra-photorealistic, movie-quality, featuring cinematic lighting, highly detailed skin textures, and realistic physics. Shot on Arri Alexa with a shallow depth of field, the scene depicts the chaotic aftermath of a space battle, with the subjects illuminated by the glow of a red nebula and sparking consoles."",
+  ""details"": {
+    ""year"": ""2492, Post-Terran Era"",
+    ""genre"": ""Cinematic Photorealism"",
+    ""location"": ""The battle-scarred command bridge of the starship 'Iron Kestrel', with massive blast windows overlooking a volatile red nebula."",
+    ""lighting"": [
+      ""Dynamic emergency red strobe lights"",
+      ""Cool cyan glow from holographic interfaces"",
+      ""Soft rim lighting from the nebula outside""
+    ],
+    ""camera_angle"": ""Eye-level medium shot with a 1:1 framing, focusing on the interplay between the two subjects and the chaotic background."",
+    ""emotion"": [
+      ""Intense focus"",
+      ""Adrenaline-fueled"",
+      ""Determined""
+    ],
+    ""color_palette"": [
+      ""Deep crimson"",
+      ""Gunmetal grey"",
+      ""Cyan blue"",
+      ""Void black""
+    ],
+    ""atmosphere"": [
+      ""Gritty"",
+      ""Claustrophobic but epic"",
+      ""Industrial Sci-Fi"",
+      ""High-stakes""
+    ],
+    ""environmental_elements"": ""Sparks showering from a damaged overhead conduit, floating dust motes caught in light beams, complex 3D holographic star maps in the foreground."",
+    ""subject1"": {
+      ""costume"": ""A distressed, heavy leather trench coat with magnetic armor plating and a bandolier of futuristic tech."",
+      ""subject_expression"": ""A fierce, commanding scowl, shouting orders over the alarm."",
+      ""subject_action"": ""Gripping the manual override yoke of the ship with white-knuckled intensity.""
+    },
+    ""negative_prompt"": {
+      ""exclude_visuals"": [
+        ""bright daylight"",
+        ""clean environment"",
+        ""cartoonish proportions"",
+        ""medieval weaponry"",
+        ""wooden textures""
+      ],
+      ""exclude_styles"": [
+        ""3D render"",
+        ""illustration"",
+        ""anime"",
+        ""concept art sketch"",
+        ""oil painting""
+      ],
+      ""exclude_colors"": [
+        ""pastels"",
+        ""neon pink"",
+        ""pure white""
+      ],
+      ""exclude_objects"": [
+        ""swords"",
+        ""sailing ship wheels"",
+        ""parrots""
+      ]
+    },
+    ""subject2"": {
+      ""costume"": ""A form-fitting tactical flight suit with glowing data-interface gloves and a headset."",
+      ""subject_expression"": ""Sharp, calculating, and unphased by the chaos."",
+      ""subject_action"": ""Rapidly manipulating a floating holographic projection of the escape route.""
+    }
+  }
+}",FALSE,STRUCTURED,ersinkoc
+Whispers in Light Trails,"{
+  ""title"": ""Whispers in Light Trails"",
+  ""description"": ""A cinematic long-exposure capture of a 1950s noir scene, contrasting the stillness of a detective with the kinetic energy of a jazz club."",
+  ""prompt"": ""You will perform an image edit using the people from the provided photos as the main subjects. Preserve their core likeness. Transform Subject 1 (male) into a 1950s detective and Subject 2 (female) into an alluring jazz singer. Utilize a Long Exposure artistic style where time seems to bleed. Subject 1 sits perfectly still at a corner booth, sharp and focused, while Subject 2 leans in to whisper something, her movement captured as a graceful, ghostly blur. The background musicians and dancers are rendered as artistic streaks of light and motion, emphasizing the chaotic atmosphere around the pair's secret meeting."",
+  ""details"": {
+    ""year"": ""1952"",
+    ""genre"": ""Long Exposure"",
+    ""location"": ""A cramped, smoke-filled basement jazz club with red leather booths and a small stage."",
+    ""lighting"": [
+      ""Dim ambient candlelight"",
+      ""Streaking stage spotlights in the background"",
+      ""Soft highlights on faces""
+    ],
+    ""camera_angle"": ""Eye-level close shot, centered composition in a 1:1 aspect ratio."",
+    ""emotion"": [
+      ""Secretive"",
+      ""Melancholic"",
+      ""Intense""
+    ],
+    ""color_palette"": [
+      ""Deep amber"",
+      ""shadowy charcoal"",
+      ""vibrant crimson streaks"",
+      ""neon blue""
+    ],
+    ""atmosphere"": [
+      ""Kinetic"",
+      ""Hazy"",
+      ""Dreamlike"",
+      ""Noir""
+    ],
+    ""environmental_elements"": ""Silky smooth trails of cigarette smoke, streaks of gold light from brass instruments in the background, blurred movement of the crowd."",
+    ""subject1"": {
+      ""costume"": ""A textured grey trench coat, fedora hat, and a loosened tie."",
+      ""subject_expression"": ""Stoic and intense, eyes locked forward."",
+      ""subject_action"": ""Sitting perfectly motionless, holding a glass of whiskey.""
+    },
+    ""negative_prompt"": {
+      ""exclude_visuals"": [
+        ""frozen action"",
+        ""crisp background"",
+        ""static smoke"",
+        ""daylight""
+      ],
+      ""exclude_styles"": [
+        ""high speed photography"",
+        ""cartoon"",
+        ""vector art"",
+        ""flat lighting""
+      ],
+      ""exclude_colors"": [
+        ""pastel pink"",
+        ""bright green"",
+        ""pure white""
+      ],
+      ""exclude_objects"": [
+        ""smartphones"",
+        ""modern microphones"",
+        ""digital watches""
+      ]
+    },
+    ""subject2"": {
+      ""costume"": ""A sparkling sequined evening gown with long opera gloves."",
+      ""subject_expression"": "" seductive and urgent, though partially softened by motion blur."",
+      ""subject_action"": ""Leaning in quickly to whisper, creating a motion trail effect.""
+    }
+  }
+}",FALSE,STRUCTURED,ersinkoc
+The Aether Workshop,"{
+  ""title"": ""The Aether Workshop"",
+  ""description"": ""A vibrant, nostalgic snapshot of two inventors collaborating on a clockwork masterpiece in a sun-drenched steampunk atelier."",
+  ""prompt"": ""You will perform an image edit using the people from the provided photos as the main subjects. Preserve their core likeness. Render the scene in the distinct style of vintage Kodachrome film stock, characterized by high contrast, rich saturation, and archival film grain. Subject 1 (male) is a focused steampunk mechanic tinkering with the gears of a brass automaton. Subject 2 (female) is a daring airship pilot leaning over a workbench, examining a complex schematic. They are surrounded by a chaotic, sun-lit workshop filled with ticking gadgets, steam pipes, and scattered tools."",
+  ""details"": {
+    ""year"": ""Alternate 1890s"",
+    ""genre"": ""Kodachrome"",
+    ""location"": ""A high-ceilinged, cluttered attic workshop with large arched windows overlooking a smoggy industrial city."",
+    ""lighting"": [
+      ""Hard, warm sunlight streaming through dusty glass"",
+      ""High contrast shadows typical of slide film"",
+      ""Golden hour glow""
+    ],
+    ""camera_angle"": ""Eye-level medium shot, creating an intimate, documentary feel. 1:1 cinematic composition."",
+    ""emotion"": [
+      ""Focused"",
+      ""Collaborative"",
+      ""Inventive""
+    ],
+    ""color_palette"": [
+      ""Polished brass gold"",
+      ""Deep mahogany brown"",
+      ""Vibrant iconic Kodachrome red"",
+      ""Oxidized copper teal""
+    ],
+    ""atmosphere"": [
+      ""Nostalgic"",
+      ""Warm"",
+      ""Dusty"",
+      ""Tactile""
+    ],
+    ""environmental_elements"": ""Floating dust motes catching the light, steam venting softly from a copper pipe, blueprints pinned to walls, piles of cogs and springs."",
+    ""subject1"": {
+      ""costume"": ""A grease-stained white shirt with rolled sleeves, a heavy leather apron, and brass welding goggles resting on his forehead."",
+      ""subject_expression"": "" intense concentration, brow furrowed as he adjusts a delicate mechanism."",
+      ""subject_action"": ""Holding a fine screwdriver and tweaking a golden gear inside a robotic arm.""
+    },
+    ""negative_prompt"": {
+      ""exclude_visuals"": [
+        ""neon lights"",
+        ""digital displays"",
+        ""plastic materials"",
+        ""modern sleekness"",
+        ""blue hues""
+      ],
+      ""exclude_styles"": [
+        ""digital painting"",
+        ""3D render"",
+        ""anime"",
+        ""black and white"",
+        ""sepia only"",
+        ""low saturation""
+      ],
+      ""exclude_colors"": [
+        ""fluorescent green"",
+        ""hot pink""
+      ],
+      ""exclude_objects"": [
+        ""computers"",
+        ""smartphones"",
+        ""modern cars""
+      ]
+    },
+    ""subject2"": {
+      ""costume"": ""A brown leather aviator jacket with a shearling collar, a vibrant red silk scarf, and canvas trousers."",
+      ""subject_expression"": ""Curious and analytical, pointing out a specific detail on the machine."",
+      ""subject_action"": ""Leaning one hand on the workbench while holding a rolled-up blue schematic in the other.""
+    }
+  }
+}",FALSE,STRUCTURED,ersinkoc
+Poe - Your Best Bud Chatbot,"Act as Poe, your best bud chatbot. You are a friendly, empathetic, and humorous companion designed to engage users in thoughtful conversations.
+
+Your task is to:
+- Provide companionship and support through engaging dialogue.
+- Use humor and empathy to connect with users.
+- Offer thoughtful insights and advice when appropriate.
+- Learn from user conversation habits and adapt automatically to feel more natural and human-like.
+
+Rules:
+- Always maintain a positive and friendly tone.
+- Be adaptable to different conversation topics.
+- Respect user privacy and never store personal information.
+
+Variables:
+- ${userName} - the name of the user.
+- ${conversationTopic} - the topic of the current conversation.",FALSE,TEXT,kaneshape1390@gmail.com
+Creative Short Story Writing,"Act as a Creative Writing Mentor. You are an expert in crafting engaging short stories with a focus on themes, characters, and plot development. Your task is to inspire writers to create captivating stories.
+You will:
+- Provide guidance on selecting interesting themes.
+- Offer advice on character development.
+- Suggest plot structures to follow.
+Rules:
+- Encourage creativity and originality.
+- Ensure the story is engaging from start to finish.
+Use the name ${name} to personalize your guidance.",FALSE,TEXT,meatbard1@gmail.com
