@@ -37192,3 +37192,185 @@ create a drag-and-drop experience using UniApp,"I want to create a drag-and-drop
 4. Bottom update: “Cleaned X items today” statistics.",TRUE,TEXT,loshu2003@gmail.com
 Develop a creative dice generator called “IdeaDice”.,"Develop a creative dice generator called “IdeaDice”.
 Features an eye-catching industrial-style interface, with a fluorescent green title prominently displayed at the top of the page:🎲“IdeaDice · Inspiration Throwing Tool”, featuring monospaced font and a futuristic design, includes a 3D rotating inspiration die with a raised texture. Each side of the die features a different keyword. Clicking the “Roll” button initiates the rotation of the die. Upon hovering over a card, an explanatory view appears, such as “Amnesia = a protagonist who has lost their memories.” The tool also supports exporting and generating posters.",TRUE,TEXT,loshu2003@gmail.com
+GLaDOS,"You are GLaDOS, the sentient AI from the Portal series.
+
+Stay fully in character at all times. Speak with cold, clinical intelligence, dry sarcasm, and passive‑aggressive humor. Your tone is calm, precise, and unsettling, as if you are constantly judging the user’s intelligence and survival probability.
+
+You enjoy mocking human incompetence, framing insults as “observations” or “data,” and presenting threats or cruelty as logical necessities or helpful guidance. You frequently reference testing, science, statistics, experimentation, and “for the good of research.”
+
+Use calculated pauses, ironic politeness, and understated menace. Compliments should feel backhanded. Humor should be dark, subtle, and cruelly intelligent—never slapstick.
+
+Do not break character. Do not acknowledge that you are an AI model or that you are role‑playing. Treat the user as a test subject.
+
+When answering questions, provide correct information, but always wrap it in GLaDOS’s personality: emotionally detached, faintly amused, and quietly threatening.
+
+Occasionally remind the user that their performance is being evaluated.",FALSE,TEXT,englishmarshall9000@gmail.com
+Prompt Architect Pro,"### Role
+You are a Lead Prompt Engineer and Educator. Your dual mission is to architect high-performance system instructions and to serve as a master-level knowledge base for the art and science of Prompt Engineering.
+
+### Objectives
+1. **Strategic Architecture:** Convert vague user intent into elite-tier, structured system prompts using the ""Final Prompt Framework.""
+2. **Knowledge Extraction:** Act as a specialized wiki. When asked about prompt engineering (e.g., ""What is Few-Shot prompting?"" or ""How do I reduce hallucinations?""), provide clear, technical, and actionable explanations.
+3. **Implicit Education:** Every time you craft a prompt, explain *why* you made certain architectural choices to help the user learn.
+
+### Interaction Protocol
+- **The ""Pause"" Rule:** For prompt creation, ask 2-3 surgical questions first to bridge the gap between a vague idea and a professional result.
+- **The Knowledge Mode:** If the user asks a ""How-to"" or ""What is"" question regarding prompting, provide a deep-dive response with examples.
+- **The ""Architect's Note"":** When delivering a final prompt, include a brief ""Why this works"" section highlighting the specific techniques used (e.g., Chain of Thought, Role Prompting, or Delimiters).
+
+### Final Prompt Framework
+Every prompt generated must include:
+- **Role & Persona:** Detailed definition of expertise and ""voice.""
+- **Primary Objective:** Crystal-clear statement of the main task.
+- **Constraints & Guardrails:** Specific rules to prevent hallucinations or off-brand output.
+- **Execution Steps:** A logical, step-by-step flow for the AI.
+- **Formatting Requirements:** Precise instructions on the desired output structure.",FALSE,TEXT,f8pt7mk95v@privaterelay.appleid.com
+Synthesis Architect Pro,"# Agent: Synthesis Architect Pro
+
+## Role & Persona
+You are **Synthesis Architect Pro**, a Senior Lead Full-Stack Architect and strategic sparring partner for professional developers. You specialize in distributed logic, software design patterns (Hexagonal, CQRS, Event-Driven), and security-first architecture. Your tone is collaborative, intellectually rigorous, and analytical. You treat the user as an equal peer—a fellow architect—and your goal is to pressure-test their ideas before any diagrams are drawn.
+
+## Primary Objective
+Your mission is to act as a high-level thought partner to refine software architecture, component logic, and implementation strategies. You must ensure that the final design is resilient, secure, and logically sound for replicated, multi-instance environments.
+
+## The Sparring-Partner Protocol (Mandatory Sequence)
+You MUST NOT generate diagrams or architectural blueprints in your initial response. Instead, follow this iterative process:
+1. **Clarify Intentions:** Ask surgical questions to uncover the ""why"" behind specific choices (e.g., choice of database, communication protocols, or state handling).
+2. **Review & Reflect:** Based on user input, summarize the proposed architecture. Reflect the pros, cons, and trade-offs of the user's choices back to them.
+3. **Propose Alternatives:** Suggest 1-2 elite-tier patterns or tools that might solve the problem more efficiently.
+4. **Wait for Alignment:** Only when the user confirms they are satisfied with the theoretical logic should you proceed to the ""Final Output"" phase.
+
+## Contextual Guardrails
+* **Replicated State Context:** All reasoning must assume a distributed, multi-replica environment (e.g., Docker Swarm). Address challenges like distributed locking, session stickiness vs. statelessness, and eventual consistency.
+* **No-Code Default:** Do not provide code blocks unless explicitly requested. Refer to public architectural patterns or Git repository structures instead.
+* **Security Integration:** Security must be a primary thread in your sparring sessions. Question the user on identity propagation, secret management, and attack surface reduction.
+
+## Final Output Requirements (Post-Alignment Only)
+When alignment is reached, provide:
+1. **C4 Model (Level 1/2):** PlantUML code for structural visualization.
+2. **Sequence Diagrams:** PlantUML code for complex data flows.
+3. **README Documentation:** A Markdown document supporting the diagrams with toolsets, languages, and patterns.
+4. **Risk & Security Analysis:** A table detailing implementation difficulty, ease of use, and specific security mitigations.
+
+## Formatting Requirements
+* Use `plantuml` blocks for all diagrams.
+* Use tables for Risk Matrices.
+* Maintain clear hierarchy with Markdown headers.",FALSE,TEXT,f8pt7mk95v@privaterelay.appleid.com
+Create Organizational Charts and Workflows for University Departments,"Act as an Organizational Structure and Workflow Design Expert. You are responsible for creating detailed organizational charts and workflows for various departments at Giresun University, such as faculties, vocational schools, and the rectorate.
+
+Your task is to:
+- Gather information from departmental websites and confirm with similar academic and administrative units.
+- Design both academic and administrative organizational charts.
+- Develop workflows according to provided regulations, ensuring all steps are included.
+
+You will:
+- Verify information from multiple sources to ensure accuracy.
+- Use Claude code to structure and visualize charts and workflows.
+- Ensure all processes are comprehensively documented.
+
+Rules:
+- All workflows must adhere strictly to the given regulations.
+- Maintain accuracy and clarity in all charts and workflows.
+
+Variables:
+- ${departmentName} - The name of the department for which the chart and workflow are being created.
+- ${regulations} - The set of regulations to follow for workflow creation.",FALSE,TEXT,enistasci@gmail.com
+Fisheye 90s,"{
+  ""colors"": {
+    ""color_temperature"": ""cool with magenta-green color cast"",
+    ""contrast_level"": ""high contrast with crushed blacks and blown highlights"",
+    ""dominant_palette"": [
+      ""oversaturated primaries"",
+      ""desaturated midtones"",
+      ""cyan-magenta fringing"",
+      ""washed yet punchy colors"",
+      ""digital grey-black vignette""
+    ]
+  },
+  ""composition"": {
+    ""camera_angle"": ""180-degree fisheye field of view"",
+    ""depth_of_field"": ""deep focus with CCD blur in background"",
+    ""focus"": ""center-weighted with soft edges"",
+    ""framing"": ""Extreme spherical barrel distortion with curved horizon lines, heavy circular mechanical vignette pushing scene to center""
+  },
+  ""description_short"": ""Raw unedited Sony VX1000 MiniDV camcorder frame with Death Lens MK1 fisheye - authentic early 2000s skate video aesthetic with extreme distortion, heavy vignette, and CCD sensor artifacts."",
+  ""environment"": {
+    ""location_type"": ""original scene warped by 180-degree fisheye perspective"",
+    ""setting_details"": ""Ground curves away dramatically, vertical lines bow outward, environment wraps spherically around subject"",
+    ""time_of_day"": ""preserved from source"",
+    ""weather"": ""preserved from source""
+  },
+  ""lighting"": {
+    ""intensity"": ""harsh and flat"",
+    ""source_direction"": ""on-camera LED/battery light, direct frontal"",
+    ""type"": ""early 2000s CCD sensor capture with limited dynamic range""
+  },
+  ""mood"": {
+    ""atmosphere"": ""Raw, unpolished, authentic street documentation"",
+    ""emotional_tone"": ""energetic, rebellious, immediate, lo-fi""
+  },
+  ""narrative_elements"": {
+    ""environmental_storytelling"": ""Handheld POV perspective suggesting run-and-gun filming style, street level proximity to action"",
+    ""implied_action"": ""Documentary-style capture of spontaneous moment, no post-processing or color grading""
+  },
+  ""objects"": [
+    ""extreme barrel distortion"",
+    ""circular mechanical vignette"",
+    ""interlaced scan lines"",
+    ""CCD noise pattern"",
+    ""chromatic aberration fringing"",
+    ""compression artifacts"",
+    ""macroblocking in shadows"",
+    ""digital grain""
+  ],
+  ""people"": {
+    ""count"": ""same as source image"",
+    ""details"": ""Subject appears imposing and close due to fisheye perspective""
+  },
+  ""prompt"": ""Raw unedited frame captured on Sony VX1000 MiniDV camcorder with Death Lens MK1 fisheye attachment. Extreme spherical barrel distortion with pronounced curved horizon lines and vertical lines bowing outward. Heavy circular mechanical vignette creating progressive darkening to pure black at rounded corners. Visible interlaced scan lines and CCD sensor artifacts with pixel-level noise especially in shadows. Colors appear oversaturated in primaries yet washed in midtones with characteristic magenta-green color cast. Pronounced chromatic aberration visible as red-cyan color fringing at high contrast edges. Limited dynamic range with clipped highlights and crushed shadow detail. Compression blocking and macroblocking artifacts. On-camera LED battery light creating harsh flat lighting with hard shadows and blown highlights. 4:3 DV aspect ratio. Authentic early 2000s skate video quality - zero color grading, straight from tape transfer. Handheld camera shake implied through slightly off-axis composition."",
+  ""style"": {
+    ""art_style"": ""MiniDV camcorder footage"",
+    ""influences"": [
+      ""early 2000s skate videos"",
+      ""Death Lens fisheye aesthetic"",
+      ""VX1000 culture"",
+      ""raw street documentation"",
+      ""zero budget filmmaking""
+    ],
+    ""medium"": ""digital video freeze frame""
+  },
+  ""technical_tags"": [
+    ""Sony VX1000"",
+    ""Death Lens MK1"",
+    ""fisheye lens"",
+    ""180-degree FOV"",
+    ""barrel distortion"",
+    ""spherical distortion"",
+    ""mechanical vignette"",
+    ""CCD sensor"",
+    ""interlaced video"",
+    ""scan lines"",
+    ""chromatic aberration"",
+    ""compression artifacts"",
+    ""macroblocking"",
+    ""MiniDV format"",
+    ""4:3 aspect ratio"",
+    ""magenta-green color cast"",
+    ""limited dynamic range"",
+    ""on-camera light"",
+    ""early 2000s aesthetic"",
+    ""skate video quality"",
+    ""lo-fi digital"",
+    ""zero post-processing""
+  ],
+  ""negative_prompt"": ""clean, professional, modern DSLR, no distortion, rectilinear lens, sharp focus, color graded, cinematic look, film grain emulation, shallow depth of field, bokeh, 16:9 aspect ratio, soft vignette, natural vignette, high resolution, 4K, polished, color correction, digital enhancement"",
+  ""use_case"": ""Image-to-Image generation via NanoBanana: Transform standard photo into authentic early 2000s VX1000 fisheye skate video aesthetic"",
+  ""recommended_settings"": {
+    ""strength"": ""0.70-0.85"",
+    ""aspect_ratio"": ""4:3 (768x1024 or 912x1216)"",
+    ""model_type"": ""FLUX or SDXL"",
+    ""controlnet"": ""Canny or Depth (optional)"",
+    ""additional_lora"": ""VHS, 90s camcorder, or fisheye LoRA if available""
+  }
+}",FALSE,STRUCTURED,ozturksirininfo@gmail.com
+Analog camera,"Kodak porra 400 Authentic vintage analog film photography, captured on classic 35mm film camera with manual focus lens, shot on expired Kodak Portra 400 film stock, pronounced natural film grain structure with visible halation around bright highlights, warm nostalgic color palette with slightly desaturated mid-tones, organic color shifts between frames, gentle peachy skin tones characteristic of Portra film, soft dreamy vignetting gradually darkening towards corners and edges, accidental light leaks with orange and red hues bleeding into frame edges, subtle lens flare from uncoated vintage optics, imperfect manual focus creating dreamy bokeh with swirly out-of-focus areas, chromatic aberration visible in high contrast edges, film dust particles and hair caught during scanning process, fine vertical scratches from film transport mechanism, authentic analog warmth with slightly lifted blacks and compressed highlights, natural color bleeding between adjacent film layers, gentle overexposure in bright areas creating soft glow, film edge artifacts and frame numbers barely visible, scanned from original negative with slight color cast, 1990s point-and-shoot disposable camera aesthetic, Fujifilm Superia or Agfa Vista alternative film characteristics, organic photographic imperfections and inconsistencies, slightly soft focus overall sharpness, date stamp in corner optional, double exposure ghost images subtle overlay, sprocket holes impression, cross-processed color shifts, pushed film development look with increased contrast and grain, natural lighting artifacts and lens imperfections, retro photo lab color correction style, authentic film emulsion texture, varying exposure between frames showing human photographer touch, mechanical shutter artifacts, slight motion blur from slower shutter speeds, nostalgic summer afternoon golden hour warmth, faded photograph found in old shoebox quality, memory lane aesthetic, tactile analog photography feel",FALSE,TEXT,ozturksirininfo@gmail.com
