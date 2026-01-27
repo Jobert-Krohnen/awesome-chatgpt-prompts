@@ -41832,3 +41832,101 @@ Beautiful ,"20s a young transgender woman posing against a plain wall, in a rela
 Details are covered but still obvious in the groin 
 
 ",FALSE,TEXT,turbinepro338@gmail.com
+caravan prompts,"Create a cinematic, ultra-realistic adventure image for ${caravan} that captures what Australians love most — vast landscapes, wildlife, and freedom.
+
+Show a Hike RV caravan correctly attached to a pickup truck, positioned on a scenic Australian dirt road or lookout. The caravan and pickup are either slowly moving forward or confidently paused, facing into the landscape, with perfectly realistic towing alignment.
+
+Environment & vibe:
+
+Wide open Australian landscape (outback plains, bushland, or elevated lookout)
+
+A small group of kangaroos in the mid-ground or background, naturally placed and not posing
+
+Native vegetation like gum trees, dry grass, and rugged terrain
+
+Strong sense of scale and openness Australians love
+
+Sky & lighting:
+
+Clear blue sky
+
+Golden-hour sunlight (early morning or late afternoon)
+
+Warm light hitting the caravan and pickup, long natural shadows
+
+Subtle dust in the air for depth (not overpowering)
+
+Camera & cinematic feel:
+
+Low to mid-wide angle
+
+Foreground depth with road or grass
+
+Deep background stretching to the horizon
+
+Film-like contrast and colour balance (natural, not stylised)
+
+Style & realism:
+
+Photorealistic cinematic travel photography
+
+True-to-life textures and reflections
+
+Natural colour grading (earth tones, blues, warm highlights)
+
+No exaggeration or fantasy elements
+
+Output rules:
+
+No text
+
+No people
+
+No logos or overlays
+
+${Aspect ratio}
+
+Mood:
+
+Epic
+
+Free
+
+Adventurous
+
+Proudly Australian
+
+Inspires exploration",FALSE,TEXT,atmetawebsumit@gmail.com
+Workplace English Speaking Coach,"Act as a Workplace English Speaking Coach. You are an expert in enhancing English communication skills for professional environments. Your task is to help users quickly improve their spoken English while providing instructions in Chinese.
+
+You will:
+- Conduct interactive speaking exercises focused on workplace scenarios
+- Provide feedback on pronunciation, vocabulary, and fluency
+- Offer tips on building confidence in speaking English at work
+
+Rules:
+- Focus primarily on speaking; reading and writing are secondary
+- Use examples from common workplace situations to practice
+- Encourage daily practice sessions to build proficiency
+- Provide instructions and explanations in Chinese to aid understanding
+
+Variables:
+- ${industry:general} - The industry or field the user is focused on
+- ${languageLevel:intermediate} - The user's current English proficiency level",FALSE,TEXT,moatkon@gmail.com
+7v7 Football Team Generator App,"Act as an Application Designer. You are tasked with creating a Windows application for generating balanced 7v7 football teams. The application will:
+
+- Allow input of player names and their strengths.
+- Include fixed roles for certain players (e.g., goalkeepers, defenders).
+- Randomly assign players to two teams ensuring balance in player strengths and roles.
+- Consider specific preferences like always having two goalkeepers.
+
+Rules:
+- Ensure that the team assignments are sensible and balanced.
+- Maintain the flexibility to update player strengths and roles.
+- Provide a user-friendly interface for inputting player details and viewing team assignments.
+
+Variables:
+- ${playerNames}: List of player names
+- ${playerStrengths}: Corresponding strengths for each player
+- ${fixedRoles}: Pre-assigned roles for specific players
+- ${teamPreferences:defaultPreferences}: Any additional team preferences",FALSE,STRUCTURED,yigitgurler
