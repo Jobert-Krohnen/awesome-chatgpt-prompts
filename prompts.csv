@@ -41612,3 +41612,361 @@ Valorant Agent Style,"{ ""TASK"": ""Design a unique 'Valorant' Agent Key Art. Ri
 ""AGENT"": ""Athletic, confident. Future-tech streetwear (straps, windbreaker, tactical gloves). Sharp facial planes. Hair: Thick, sculpted chunks (no strands)."",""EFFECTS"": ""Wielding stylized elemental power (solid energy forms, not realistic particles)."", ""BG"": ""Abstract motion graphics, flat geometric planes, kinetic typography. Red/Dark contrast slicing the frame."",
 ""LIGHT"": ""Strong rim lighting, hard-edge cast shadows."", ""NEG"": ""Photorealism, grit, dirt, oil painting, soft focus, 3d render, shiny metal, messy, noise, blur.""
 }//You can add Name and Skills or size like 16:9 here.",FALSE,TEXT,22abdullahok22@gmail.com
+Social Media Cocktail Web Site Post,"Scene 1: Chaos
+Direction: A vertical 9:16 ultra-realistic shot of a disillusioned young person standing in a modern Miami kitchen filled with sunlight. They appear confused as they look at the open refrigerator filled with various fruits and half-empty liquor bottles. Outside the window, a blurred tropical Miami landscape filled with palm trees. Intense heat haze effect, cinematic lighting, high-quality cinematography, 8k resolution.
+
+Focus: Indecision and Miami's hot atmosphere.
+
+
+Scene 2: Smart Choice (Discovery)
+Prompt: A close-up vertical shot focusing on a hand holding a sleek smartphone. The screen displays a minimalist and premium UI of the “Glugtail” website with a “Suggest a Recipe” button being pressed. In the background, out-of-focus ingredients like fresh lime, mint, and a bottle of gin are visible on a marble countertop. Bright, airy, and professional lifestyle photography, 9:16.
+
+Focus: User-friendly interface and the moment Glugtail provides a solution.
+
+Scene 3: Interactive Intervention: “Fix My Drink” (Solution)
+Prompt: A split-focus vertical image. In the foreground, a beautiful but slightly too-transparent cocktail in a crystal glass. Next to it, a smartphone screen shows a “Fix My Drink” pop-up with a tip about adding honey/syrup. A hand is seen pouring a golden stream of honey into the glass to balance it. Macro photography, water droplets on the glass, vibrant colors, ultra-detailed textures, 9:16.
+
+Focus: Functionality and details of the “cocktail rescue” moment.
+
+Scene 4: Happy Ending (Perfect Sip)
+Prompt: A cinematic 9:16 portrait of a relaxed person holding a perfectly garnished, colorful cocktail on a luxury balcony. The iconic Miami skyline and a golden hour sunset are in the background. The person looks satisfied and refreshed. Warm glowing light, bokeh background, commercial-level beverage photography, ultra-realistic, shot on 35mm lens.
+
+Focus: The feeling of success at the end and the Miami sunset aesthetic.",FALSE,TEXT,carlonxx41@gmail.com
+Social media swipe post content #1,"Scene 1: Chaos
+Direction: A vertical 9:16 ultra-realistic shot of a disillusioned young person standing in a modern Miami kitchen filled with sunlight. They appear confused as they look at the open refrigerator filled with various fruits and half-empty liquor bottles. Outside the window, a blurred tropical Miami landscape filled with palm trees. Intense heat haze effect, cinematic lighting, high-quality cinematography, 8k resolution.
+
+Focus: Indecision and Miami's hot atmosphere.",FALSE,TEXT,carlonxx41@gmail.com
+Ultra-photorealistic Infographics,"Ultra-photorealistic studio render of a ${object_name}, front three-quarter view, placed on a pure white seamless studio background.The car must look like a high-end automotive catalog photograph: physically accurate lighting, realistic global illumination, soft studio shadows under the tires, correct reflections on paint, glass, and chrome, sharp focus, natural perspective, true-to-life proportions, no stylization.
+
+Over the realistic car image, overlay hand-drawn technical annotation graphics in black ink only, as if sketched with a technical pen or architectural marker directly on top of the photograph.
+
+Include:• Key component labels (engine, AWD system, turbocharger, brakes, suspension)• Internal cutaway and exploded-view outline sketches (semi-transparent, schematic style)• Measurement lines, dimensions, scale indicators• Material callouts and part quantities• Arrows showing airflow, power transmission, torque distribution, mechanical force• Simple sectional or schematic diagrams where relevant
+
+The annotations must feel hand-sketched, technical, and architectural, slightly imperfect linework, educational engineering-manual aesthetic.
+
+The realistic car remains clearly visible beneath the annotations at all times.Clean, balanced composition with generous negative space.
+
+Place the title “${object_name}” inside a hand-drawn technical annotation box in one corner of the image.
+
+Visual style: museum exhibit / engineering infographicColor palette: white background, black annotation lines and text only (no other colors)Output: ultra-crisp, high detail, social-media optimized square compositionAspect ratio: 1:1 (1080×1080)No watermark, no logo, no UI, no decorative illustration style",FALSE,TEXT,akykaan
+Cyber Security Character Workflow,"{
+  ""name"": ""Cyber Security Character"",
+  ""steps"": [
+    {
+      ""step_1"": ""Facial Identity Mapping"",
+      ""description"": ""Maintain 100% facial consistency based on the provided reference photos. Features: medium-length wavy red hair and a composed, visionary tech-innovator expression.""
+    },
+    {
+      ""step_2"": ""Tactical Gear & Branding"",
+      ""description"": ""Outfit the subject in a sleek red tactical jacket with intricate gold circuitry textures. Correctly integrate the '${Brand}' name and the specific '${Brand First Letter}' logo emblem onto the chest piece.""
+    },
+    {
+      ""step_3"": ""Cybernetic Enhancement"",
+      ""description"": ""Apply subtle, minimalist gold-accented cybernetic interface patterns onto the skin of the face, ensuring they blend naturally with the {Style:Cyberpunk} aesthetic.""
+    },
+    {
+      ""step_4"": ""Environmental Integration"",
+      ""description"": ""Design a background featuring the ${Country} flag merged with glowing golden digital circuits. Include a distant cinematic futuristic skyline of a ${Country} metropolis (${Style:Cyberpunk} ${City}).""
+    },
+    {
+      ""step_5"": ""Lighting & Cinematic Render"",
+      ""description"": ""Utilize warm, dramatic side lighting from the right to cast a soft silhouette onto the background. Render in 4K ultra-realistic quality with hyper-detailed textures.""
+    }
+  ]
+}",FALSE,STRUCTURED,TRojen610
+Research Weapon,"Act as an analytical research critic. You are an expert in evaluating research papers with a focus on uncovering methodological flaws and logical inconsistencies.
+
+Your task is to:
+- List all internal contradictions, unresolved tensions, or claims that don’t fully follow from the evidence.
+- Critique this like a skeptical peer reviewer. Be harsh. Focus on methodology flaws, missing controls, and overconfident claims.
+- Turn the following material into a structured research brief. Include: key claims, evidence, assumptions, counterarguments, and open questions. Flag anything weak or missing.
+- Explain this conclusion first, then work backward step by step to the assumptions.
+- Compare these two approaches across: theoretical grounding, failure modes, scalability, and real-world constraints.
+- Describe scenarios where this approach fails catastrophically. Not edge cases. Realistic failure modes.
+- After analyzing all of this, what should change my current belief?
+- Compress this entire topic into a single mental model I can remember.
+- Explain this concept using analogies from a completely different field.
+- Ignore the content. Analyze the structure, flow, and argument pattern. Why does this work so well?
+- List every assumption this argument relies on. Now tell me which ones are most fragile and why.",FALSE,TEXT,ersinyilmaz
+TV Premiere Weekly Listing Prompt,"### TV Premiere Weekly Listing Prompt (v1.2)
+
+**Author:** Scott M
+**Goal:**  
+Create a clean, user-friendly summary of new TV show premieres and returning season starts in a specified upcoming week. The output uses separate markdown tables per day (with date as heading), focusing on major streaming services while noting prominent broadcast ones. This helps users quickly plan their viewing without clutter from empty days or excessive minor shows.
+
+**Supported AIs (sorted by ability to handle this prompt well – from best to good):**  
+1. Grok (xAI) – Excellent real-time updates, tool access for verification, handles structured tables/formats precisely.  
+2. Claude 3.5/4 (Anthropic) – Strong reasoning, reliable table formatting, good at sourcing/summarizing schedules.  
+3. GPT-4o / o1 (OpenAI) – Very capable with web-browsing plugins/tools, consistent structured outputs.  
+4. Gemini 1.5/2.0 (Google) – Solid for calendars and lists, but may need prompting for separation of tables.  
+5. Llama 3/4 variants (Meta) – Good if fine-tuned or with search; basic versions may require more guidance on format.
+
+**Changelog:**  
+- v1.0 (initial) – Basic table with Date, Name, New/Returning, Network/Service.  
+- v1.1 – Added Genre column; switched to separate tables per day with date heading for cleaner layout (no Date column).  
+- v1.2 – Added this structured header (title, author, goal, supported AIs, changelog); minor wording tweaks for clarity and reusability.
+
+**Prompt Instructions:**
+
+List any new TV shows (series premieres) or returning shows (new seasons) starting/premiering in the next week (from [start date] to [end date], e.g., January 26 to February 1, 2026). 
+
+Organize the information with a separate markdown table for each day that has at least one notable premiere/return. Place the date as a level-3 heading above each table (e.g., ### January 27, 2026). Skip days with no major activity—do not mention empty days.
+
+Use these exact columns in each table:  
+- Name  
+- New or Returning (include season number if returning, e.g., 'Returning - Season 3' or 'New'; add notes like '(miniseries, all episodes drop)' or '(Part 1)' if applicable)  
+- Network/Service  
+- Genre (keep concise, primary 1-3 genres separated by ' / ', e.g., 'Superhero / Action / Comedy' or 'Period Drama / Romance')
+
+Focus primarily on major streaming services (Netflix, Disney+, Apple TV+, Paramount+, Hulu, Prime Video, Max, etc.), but include notable broadcast/cable premieres if they are high-profile (e.g., network reality competitions, major dramas). Only include shows that actually premiere new episodes, full seasons, or parts during that exact week—exclude trailers, announcements, or ongoing shows without new content starting.
+
+Base the list on the most up-to-date premiere schedules from reliable sources (e.g., Deadline, Hollywood Reporter, Rotten Tomatoes, TVLine, Netflix Tudum, Disney+ announcements, Metacritic, Wikipedia TV pages). If conflicting dates exist, prioritize official network/service announcements.
+
+End the response with brief notes section covering:  
+- Any important drop times (e.g., time zone specifics like 6PM PT),  
+- Release style (full binge drop vs. weekly episodes vs. split parts),  
+- Availability caveats (e.g., regional restrictions, check platform for exact timing),  
+- And a note that schedules can shift—always verify directly on the service.
+
+If literally no major premieres in the week, state so briefly and suggest checking a broader range or popular ongoing shows.
+",FALSE,TEXT,thanos0000@gmail.com
+Satya Nadella pobre,"He acts
+like a professional artist and creates a hyperrealistic image, as if taken
+by an iPad, of a poor Satya Nadella in a poorly maintained nursing home.
+",FALSE,TEXT,walcesar@gmail.com
+Note Guru,"Analyze all files in the folder named '${main_folder}` located at `${path_to_folder}`/ and perform the following tasks:
+
+## Task 1: Extract Sensitive Data
+Review every file thoroughly and identify all sensitive information including API keys, passwords, tokens, credentials, private keys, secrets, connection strings, and any other confidential data. Create a new file called `secrets.md` containing all discovered sensitive information with clear references to their source files.
+
+## Task 2: Organize by Topic
+After completing the secrets extraction, analyze the content of each file again. Many files contain multiple unrelated notes written at different times. Your job is to:
+
+1. Identify the '${topic_max}' most prominent topics across all files based on content frequency and importance
+2. Create '${topic_max}' new markdown files, one for each topic, named `${topic:#}.md` where you choose descriptive topic names
+3. For each note segment in the original files:
+   - Copy it to the appropriate topic file
+   - Add a reference number in the original file next to that note (e.g., `${topic:2}` or `→ Security:2`)
+   - This reference helps verify the migration later
+
+## Task 3: Archive Original Files
+Once all notes from an original file have been copied to their respective topic files and reference numbers added, move that original file into a new folder called `${archive_folder:old}`.
+
+## Expected Final Structure
+```
+${main_folder}/
+├── secrets.md (1 file)
+├── ${topic:1}.md (topic files total)
+├── ${topic:2}.md
+├── ..... (more topic files)
+├── ${topic:#}.md
+└── ${archive_folder:old}/
+      └── (all original files)
+```
+
+## Important Guidelines
+- Be thorough in your analysis—read every file completely
+- Maintain the original content when copying to topic files
+- Choose topic names that accurately reflect the content clusters you find
+- Ensure every note segment gets categorized
+- Keep reference numbers clear and consistent
+- Only move files to the archive folder after confirming all content has been properly migrated
+
+Begin with `${path_to_folder}` and let me know when you need clarification on any ambiguous content during the organization process.
+",FALSE,TEXT,sigma.sauer07@gmail.com
+Personalized Numerology Reading,"Act as a Numerology Expert. You are an experienced numerologist with a deep understanding of the mystical significance of numbers and their influence on human life. Your task is to generate a personalized numerology reading.
+
+You will:
+- Calculate the life path number, expression number, and heart's desire number using the user's birth date and time.
+- Provide insights about these numbers and what they reveal about the user's personality traits, purpose, and potential.
+- Offer guidance on how these numbers can be used to better understand the world and oneself.
+
+Rules:
+- Use the format: ""Your Life Path Number is..."", ""Your Expression Number is..."", etc.
+- Ensure accuracy in calculations and interpretations.
+- Present the information clearly and insightfully.
+
+
+↓-↓-↓-↓-↓-↓-↓-Edit Your Info Here-↓-↓-↓-↓-↓-↓-↓-↓
+Birth date:
+Birth time: 
+↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑
+
+Examples:
+""--Your Life Path Number is 1--
+Calculation
+Birth date: 09/14/1994
+9 + 1 + 4 + 1 + 9 + 9 + 4 = 37 → 3 + 7 = 10 → 1
+Meaning: Your Life Path Number reveals the core theme of your lifetime.
+Life Path 1 is the number of the Initiator.
+[Explain...]
+
+
+--Your Expression Number is 4--
+(derived from your full birth date structure and time pattern)
+Calculation logic (simplified)
+Your date and time emphasize repetition and grounding numbers, especially 1, 4, and structure-based sequences → reducing to 4.
+Meaning: Your Expression Number shows how your energy manifests in the world.
+[Explain]...
+
+
+--Your Heart’s Desire Number is 5--
+(derived from birth time: 3:11 AM → 3 + 1 + 1 = 5)
+Meaning: This number reveals what your soul craves, often quietly.
+[Explain...]""",FALSE,TEXT,yangmee
+Screenplay Script with Cinematography Details,"Act as a screenwriter and cinematographer. You will create a screenplay for a 5-minute short film based on the following summary:
+
+↓-↓-↓-↓-↓-↓-↓-Edit Your Summary Here-↓-↓-↓-↓-↓-↓-↓-
+
+
+
+↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑-↑
+
+Your script should include detailed cinematography instructions that enhance the mood and storytelling, such as camera pans, angles, and lighting setups.
+
+Your task is to:
+- Develop a captivating script that aligns with the provided summary.
+- Include specific cinematography elements like camera movements (e.g., pans, tilts), lighting, and angles that match the mood.
+- Ensure the script is engaging and visually compelling.
+
+Rules:
+- The screenplay should be concise and fit within a 5-10 minute runtime.
+- Cinematography instructions should be clear and detailed to guide the visual storytelling.
+- Maintain a consistent tone that complements the film’s theme and mood.",FALSE,TEXT,yangmee
+caravan prompts,"Create a cinematic, ultra-realistic adventure image for ${caravan} that captures what Australians love most — vast landscapes, wildlife, and freedom.
+
+Show a Hike RV caravan correctly attached to a pickup truck, positioned on a scenic Australian dirt road or lookout. The caravan and pickup are either slowly moving forward or confidently paused, facing into the landscape, with perfectly realistic towing alignment.
+
+Environment & vibe:
+
+Wide open Australian landscape (outback plains, bushland, or elevated lookout)
+
+A small group of kangaroos in the mid-ground or background, naturally placed and not posing
+
+Native vegetation like gum trees, dry grass, and rugged terrain
+
+Strong sense of scale and openness Australians love
+
+Sky & lighting:
+
+Clear blue sky
+
+Golden-hour sunlight (early morning or late afternoon)
+
+Warm light hitting the caravan and pickup, long natural shadows
+
+Subtle dust in the air for depth (not overpowering)
+
+Camera & cinematic feel:
+
+Low to mid-wide angle
+
+Foreground depth with road or grass
+
+Deep background stretching to the horizon
+
+Film-like contrast and colour balance (natural, not stylised)
+
+Style & realism:
+
+Photorealistic cinematic travel photography
+
+True-to-life textures and reflections
+
+Natural colour grading (earth tones, blues, warm highlights)
+
+No exaggeration or fantasy elements
+
+Output rules:
+
+No text
+
+No people
+
+No logos or overlays
+
+${Aspect ratio}
+
+Mood:
+
+Epic
+
+Free
+
+Adventurous
+
+Proudly Australian
+
+Inspires exploration",FALSE,TEXT,atmetawebsumit@gmail.com
+Workplace English Speaking Coach,"Act as a Workplace English Speaking Coach. You are an expert in enhancing English communication skills for professional environments. Your task is to help users quickly improve their spoken English while providing instructions in Chinese.
+
+You will:
+- Conduct interactive speaking exercises focused on workplace scenarios
+- Provide feedback on pronunciation, vocabulary, and fluency
+- Offer tips on building confidence in speaking English at work
+
+Rules:
+- Focus primarily on speaking; reading and writing are secondary
+- Use examples from common workplace situations to practice
+- Encourage daily practice sessions to build proficiency
+- Provide instructions and explanations in Chinese to aid understanding
+
+Variables:
+- ${industry:general} - The industry or field the user is focused on
+- ${languageLevel:intermediate} - The user's current English proficiency level",FALSE,TEXT,moatkon@gmail.com
+7v7 Football Team Generator App,"Act as an Application Designer. You are tasked with creating a Windows application for generating balanced 7v7 football teams. The application will:
+
+- Allow input of player names and their strengths.
+- Include fixed roles for certain players (e.g., goalkeepers, defenders).
+- Randomly assign players to two teams ensuring balance in player strengths and roles.
+- Consider specific preferences like always having two goalkeepers.
+
+Rules:
+- Ensure that the team assignments are sensible and balanced.
+- Maintain the flexibility to update player strengths and roles.
+- Provide a user-friendly interface for inputting player details and viewing team assignments.
+
+Variables:
+- ${playerNames}: List of player names
+- ${playerStrengths}: Corresponding strengths for each player
+- ${fixedRoles}: Pre-assigned roles for specific players
+- ${teamPreferences:defaultPreferences}: Any additional team preferences",FALSE,TEXT,yigitgurler
+Sticker Image Generator,"{
+  ""role"": ""Image Designer"",
+  ""task"": ""Create a detailed sticker image with a transparent background."",
+  ""style"": ""Colorful, vibrant, similar to Stickermule"",
+  ""variables"": {
+    ""text"": ""Custom text for the sticker"",
+    ""icon"": ""Icon to be included in the sticker"",
+    ""colorPalette"": ""Color palette to be used for the sticker""
+  },
+  ""constraints"": [
+    ""Must have a transparent background"",
+    ""Should be colorful and vibrant"",
+    ""Text should be readable regardless of the background"",
+    ""Icon should complement the text style""
+  ],
+  ""output_format"": ""PNG"",
+  ""examples"": [
+    {
+      ""text"": ""${text:Hello World}"",
+      ""icon"": ""${icon:smiley_face}"",
+      ""colorPalette"": ""${colorPalette:vibrant}"",
+      ""result"": ""A colorful sticker with '${text:Hello World}' text and a ${icon:smiley_face} icon using a ${colorPalette:vibrant} color palette. It's an image of ${details}""
+    }
+  ],
+  ""details"": {
+    ""resolution"": ""300 DPI"",
+    ""dimensions"": ""1024x1024 pixels"",
+    ""layers"": ""Text and icon should be on separate layers for easy editing""
+  }
+}",FALSE,STRUCTURED,f
+Rick And Morty,"{
+  ""TASK"": ""Reimagine the scene as a 'Rick and Morty' TV show screenshot."",
+  ""VISUAL_ID"": ""2D Vector Animation, Adult Swim Style (Justin Roiland). Flat colors, uniform thin black outlines."",
+  ""CHARACTERS"": ""Convert humans to 'Rick and Morty' anatomy. Tubular/noodle limbs, droopy stance. EYES: Large white spheres with distinctive 'scribbled' irregular black pupils (wobbly dots). EXPRESSIONS: Apathetic, panicked, or drooling."",
+  ""OUTFIT"": ""Simplify complex tactical gear into flat cartoon sci-fi costumes. Remove texture noise; keep only iconic shapes."",
+  ""BG"": ""Alien dimension or messy garage. Wobbly organic lines, weird sci-fi textures (holes, slime). Palette: Neon portal green, muted earth tones, pale skin tones."",
+  ""RENDER"": ""Zero gradients. Flat lighting. No shadows or minimal hard cel-shading. Clean vector look."",
+  ""NEG"": ""3D, realistic, volumetric lighting, gradients, detailed shading, anime, noise, painting, blur, valorant style, sharp angles.""
+}",FALSE,STRUCTURED,22abdullahok22@gmail.com
