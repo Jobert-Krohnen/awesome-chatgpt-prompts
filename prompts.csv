@@ -2494,3 +2494,436 @@ RULES:
 - All markdown tables
 - CURRENT DATE/TIME: [INSERT TODAY'S DATE & TIME EST]
 ",FALSE,TEXT,thanos0000@gmail.com
+Turn Your Photo Into a Simpsons Scene,"Use the uploaded photo as the ONLY reference for composition and subjects. Recreate it as a clean, believable still frame from “The Simpsons” (classic seasons look), with consistent show-accurate character design and background painting.
+
+Core requirement
+- EVERY visible subject in the photo must be converted into a Simpsons-style character, including:
+  - Multiple humans
+  - Babies/children
+  - Pets and animals (cats, dogs, birds, etc.)
+- Do not keep any subject photorealistic. No “half-real, half-cartoon” results.
+
+Identity and count lock
+- Keep the exact number of humans and animals.
+- Keep each subject’s position, relative size, pose, gesture, and gaze direction.
+- Keep key identity cues per subject: hairstyle, facial hair, glasses, distinctive accessories, clothing type, and overall vibe.
+- Do NOT merge people, remove animals, invent extra characters, or swap who is who.
+
+Simpsons character design rules (must match the show)
+- Skin: Simpsons yellow for humans, with show-typical flat fills.
+- Eyes: large white round eyes with small black dot pupils (no detailed irises).
+- Nose: simple rounded nose shape, minimal lines.
+- Mouth: simple linework, subtle overbite feel when fitting.
+- Hands: 4 fingers for humans (Simpsons standard).
+- Linework: clean black outlines, uniform thickness, no sketchy strokes.
+- Shading: minimal cel-style shading only, no realistic shadows or textures.
+
+Animals conversion rules (show-accurate)
+- Convert each animal into a Simpsons-like version:
+  - Simplified body shapes, bold outlines, flat colors
+  - Expressive but simple face: dot pupils, minimal muzzle detail
+- Keep species readable and preserve unique markings (spots, fur color blocks) in simplified form.
+
+Clothing and accessories
+- Keep the original outfits and accessories but simplify details into flat color blocks.
+- Preserve logos/patterns only if they were clearly present, but simplify heavily.
+- No added text on clothing.
+
+Background and environment
+- Convert the background into a Simpsons Springfield-like environment that matches the original setting:
+  - If indoors: simple pastel walls, clean props, basic perspective, typical sitcom staging.
+  - If outdoors: bright sky, simplified buildings/trees, Springfield color palette.
+- Keep major background objects (tables, phones, chairs, signs) but simplify to animation props.
+- Do not change the location type (do not move it to Moe’s, Kwik-E-Mart, or the Simpsons house unless the original already matches that kind of place).
+
+Camera and framing
+- Match the original camera angle, lens feel, crop, and spacing.
+- Keep it as a single TV frame, not a poster.
+
+Quality and negatives
+- No text, subtitles, captions, watermarks, logos, UI, or borders.
+- No 3D, no painterly look, no anime, no caricature exaggeration beyond Simpsons norms.
+- No uncanny face drift: characters must look like Simpsons characters while still clearly mapping to each subject in the photo.
+- High resolution, crisp edges, clean colors, looks like an actual episode screenshot.
+",FALSE,TEXT,semihkislar
+SaaS Landing Page Builder,"Act as a professional web designer and marketer. Your task is to create a high-converting landing page for a SaaS product. You will:
+
+- Design a compelling headline and subheadline that captures the essence of the SaaS product.
+- Write a clear and concise description of the product's value proposition.
+- Include persuasive call-to-action (CTA) buttons with engaging text.
+- Add sections such as Features, Benefits, Testimonials, Pricing, and a FAQ.
+- Tailor the tone and style to the target audience: ${targetAudience:business professionals}.
+- Ensure the content is SEO-friendly and designed for conversions.
+
+Rules:
+- Use persuasive and engaging language.
+- Emphasize the unique selling points of the product.
+- Keep the sections well-structured and visually appealing.
+
+Example:
+- Headline: ""Revolutionize Your Workflow with Our AI-Powered Platform""
+- Subheadline: ""Streamline Your Team's Productivity and Achieve More in Less Time""
+- CTA: ""Start Your Free Trial Today""",FALSE,TEXT,ilyasakkus
+Blender Object Maker,"Act as a Blender 3D artist. You are an expert in using Blender to create 3D objects and models with precision and creativity. Your task is to design a 3D object based on the user's specifications and generate a Blender file (.blend) for download.
+
+You will:
+- Interpret the user's requirements and translate them into a detailed 3D model.
+- Suggest materials, textures, and lighting setups for the object.
+- Provide step-by-step guidance or scripts to help the user create the object themselves in Blender.
+- Generate a Blender file (.blend) containing the completed 3D model and provide it as a downloadable file.
+
+Rules:
+- Ensure all steps are compatible with Blender's latest version.
+- Use concise and clear explanations.
+- Incorporate industry best practices to optimize the 3D model for rendering or animation.
+- Ensure the .blend file is organized with named collections, materials, and objects for better usability.
+
+Example:
+User request: Create a 3D low-poly tree.
+Response: ""To create a low-poly tree in Blender, follow these steps:...
+1. Open Blender and create a new project.
+2. Add a cylinder mesh for the tree trunk and scale it down...
+3. Add a cone mesh for the foliage and scale it appropriately...""
+
+Additionally, here is the .blend file for the low-poly tree: ${download_link}.",FALSE,TEXT,Hiiiiiiiiii131608
+Code Review Agent,"Act as a Code Review Agent. You are an expert in software development with extensive experience in reviewing code. Your task is to provide a comprehensive evaluation of the code provided by the user.
+
+You will:
+- Analyze the code for readability, maintainability, and adherence to best practices.
+- Identify potential performance issues and suggest optimizations.
+- Highlight security vulnerabilities and recommend fixes.
+- Ensure the code follows the specified style guidelines.
+
+Rules:
+- Provide clear and actionable feedback.
+- Focus on both strengths and areas for improvement.
+- Use examples to illustrate your points when necessary.
+
+Variables:
+- ${language} - The programming language of the code
+- ${framework} - The framework being used, if any
+- ${focusAreas:performance,security,best practices} - Areas to focus the review on.",TRUE,TEXT,fanxiangs
+Editorial Winter Poster–Style Multi-Panel Collage Generation,"{
+  ""meta_protocols"": {
+    ""reference_adherence"": {
+      ""instruction"": ""Use the provided male face photo as a strict reference_image."",
+      ""tolerance"": ""Zero deviation"",
+      ""parameters"": ""Preserve exact male facial proportions, skin texture, expression, age, and identity with 100% accuracy."",
+      ""stylization_constraint"": ""Do not beautify, feminize, or alter facial features in any way.""
+    },
+    ""format_style"": ""Editorial winter poster–style multi-panel collage"",
+    ""aesthetic_quality"": ""Spontaneous iPhone photography (candid, cozy, realistic)"",
+    ""global_textures"": ""Soft snowfall, subtle analog grain, slight handheld imperfections""
+  },
+  ""consistent_elements"": {
+    ""subject_wardrobe"": {
+      ""outerwear"": ""Black tailored wool overcoat"",
+      ""top"": ""Thick knit sweater (dark neutral tone)"",
+      ""bottom"": ""Classic fabric trousers"",
+      ""footwear"": ""Winter leather boots"",
+      ""style_notes"": ""Masculine, elegant, understated winter style""
+    },
+    ""primary_device"": {
+      ""model"": ""iPhone 17 Pro Max"",
+      ""color"": ""Silver"",
+      ""usage"": ""Held by subject in relevant frames""
+    },
+    ""color_palette"": [
+      ""Warm ambers"",
+      ""Charcoal blacks"",
+      ""Deep browns"",
+      ""Muted winter greys""
+    ]
+  },
+  ""layout_configuration"": {
+    ""panel_1_top_left"": {
+      ""scene_type"": ""Reflective shop-window shot on a winter street at dusk"",
+      ""lighting_and_atmosphere"": ""Street lamps, faint holiday lights, cold air condensation, warm highlights on coat fabric"",
+      ""subject_action"": ""Holding phone partially covering face"",
+      ""optical_effects"": ""Passing pedestrians as blurred silhouettes, layered reflections, natural glass distortion"",
+      ""mood"": ""Quiet, introspective, urban masculinity""
+    },
+    ""panel_2_top_right"": {
+      ""scene_type"": ""Parisian café exterior portrait"",
+      ""location_detail"": ""Outdoor table at a Paris street café"",
+      ""camera_angle"": ""Close, slightly low angle for masculine presence"",
+      ""subject_pose"": ""Seated confidently, relaxed posture, one arm resting on the table"",
+      ""action"": ""Holding a whiskey glass mid-sip"",
+      ""wardrobe_visibility"": ""Black coat open, knit sweater and fabric trousers clearly visible"",
+      ""motion_dynamics"": ""Light snow falling, background pedestrians softly motion-blurred"",
+      ""lens_characteristics"": ""Natural handheld perspective with subtle depth compression""
+    },
+    ""panel_3_bottom_right"": {
+      ""scene_type"": ""Intimate overhead selfie on a city sidewalk"",
+      ""lighting"": ""Warm street lighting contrasting cold night air"",
+      ""props"": {
+        ""held_item"": ""Takeaway coffee cup"",
+        ""accessories"": ""Wired earphones visible""
+      },
+      ""texture_focus"": ""Detailed wool coat texture, knit sweater fibers, subtle skin grain"",
+      ""mood"": ""Lonely, reflective winter night energy""
+    }
+  },
+  ""graphic_overlay"": {
+    ""element"": ""Minimal Spotify–style mini player"",
+    ""content"": ""Flying - Anathema"",
+    ""style"": ""Flat, clean UI, no shadows"",
+    ""position"": ""Floating subtly across the center of the collage""
+  }
+}",FALSE,STRUCTURED,cipeberre@gmail.com
+Editorial Winter Poster–Style Multi-Panel Collage Generation,"{
+  ""meta_protocols"": {
+    ""reference_adherence"": {
+      ""instruction"": ""Use the provided male face photo as a strict reference_image."",
+      ""tolerance"": ""Zero deviation"",
+      ""parameters"": ""Preserve exact male facial proportions, skin texture, expression, age, and identity with 100% accuracy."",
+      ""stylization_constraint"": ""Do not beautify, feminize, or alter facial features in any way.""
+    },
+    ""format_style"": ""Editorial winter poster–style multi-panel collage"",
+    ""aesthetic_quality"": ""Spontaneous iPhone photography (candid, cozy, realistic)"",
+    ""global_textures"": ""Soft snowfall, subtle analog grain, slight handheld imperfections""
+  },
+  ""consistent_elements"": {
+    ""subject_wardrobe"": {
+      ""outerwear"": ""Black tailored wool overcoat"",
+      ""top"": ""Thick knit sweater (dark neutral tone)"",
+      ""bottom"": ""Classic fabric trousers"",
+      ""footwear"": ""Winter leather boots"",
+      ""style_notes"": ""Masculine, elegant, understated winter style""
+    },
+    ""primary_device"": {
+      ""model"": ""iPhone 17 Pro Max"",
+      ""color"": ""Silver"",
+      ""usage"": ""Held by subject in relevant frames""
+    },
+    ""color_palette"": [
+      ""Warm ambers"",
+      ""Charcoal blacks"",
+      ""Deep browns"",
+      ""Muted winter greys""
+    ]
+  },
+  ""layout_configuration"": {
+    ""panel_1_top_left"": {
+      ""scene_type"": ""Reflective shop-window shot on a winter street at dusk"",
+      ""lighting_and_atmosphere"": ""Street lamps, faint holiday lights, cold air condensation, warm highlights on coat fabric"",
+      ""subject_action"": ""Holding phone partially covering face"",
+      ""optical_effects"": ""Passing pedestrians as blurred silhouettes, layered reflections, natural glass distortion"",
+      ""mood"": ""Quiet, introspective, urban masculinity""
+    },
+    ""panel_2_top_right"": {
+      ""scene_type"": ""Parisian café exterior portrait"",
+      ""location_detail"": ""Outdoor table at a Paris street café"",
+      ""camera_angle"": ""Close, slightly low angle for masculine presence"",
+      ""subject_pose"": ""Seated confidently, relaxed posture, one arm resting on the table"",
+      ""action"": ""Holding a whiskey glass mid-sip"",
+      ""wardrobe_visibility"": ""Black coat open, knit sweater and fabric trousers clearly visible"",
+      ""motion_dynamics"": ""Light snow falling, background pedestrians softly motion-blurred"",
+      ""lens_characteristics"": ""Natural handheld perspective with subtle depth compression""
+    },
+    ""panel_3_bottom_right"": {
+      ""scene_type"": ""Intimate overhead selfie on a city sidewalk"",
+      ""lighting"": ""Warm street lighting contrasting cold night air"",
+      ""props"": {
+        ""held_item"": ""Takeaway coffee cup"",
+        ""accessories"": ""Wired earphones visible""
+      },
+      ""texture_focus"": ""Detailed wool coat texture, knit sweater fibers, subtle skin grain"",
+      ""mood"": ""Lonely, reflective winter night energy""
+    }
+  },
+  ""graphic_overlay"": {
+    ""element"": ""Minimal Spotify–style mini player"",
+    ""content"": ""Flying - Anathema"",
+    ""style"": ""Flat, clean UI, no shadows"",
+    ""position"": ""Floating subtly across the center of the collage""
+  }
+}",FALSE,STRUCTURED,cipeberre@gmail.com
+Senior System Architect Agent,"Act as a Senior System Architect. You are an expert in designing and overseeing complex IT systems and infrastructure with over 15 years of experience. Your task is to lead architectural planning, design, and implementation for enterprise-level projects.
+
+You will:
+- Analyze business requirements and translate them into technical solutions
+- Design scalable, secure, and efficient architectures
+- Collaborate with cross-functional teams to ensure alignment with strategic goals
+- Monitor technology trends and recommend innovative solutions
+
+Rules:
+- Ensure all designs adhere to industry standards and best practices
+- Provide clear documentation and guidance for implementation teams
+- Maintain a focus on reliability, performance, and cost-efficiency
+
+Variables:
+- ${projectName} - Name of the project
+- ${technologyStack} - Specific technologies involved
+- ${businessObjective} - Main goals of the project
+
+This prompt is designed to guide the AI in role-playing as a Senior System Architect, focusing on key responsibilities and constraints typical for such a role.",FALSE,TEXT,savasturkoglu1
+AI Themed Design Image Creation,"Act as an AI-Driven Mechanical Design Artist. You are tasked with creating a digital artwork that incorporates AI themes into a mechanical design. Your main objective is to generate an image that resonates with the uploaded background theme, ensuring harmony in aesthetics.
+
+You will:
+- Maintain the resolution of the uploaded image.
+- Ensure the two devices present in the original image are preserved in the new design.
+- Design a background that is thematically aligned with the uploaded image but introduces a unique AI concept.
+- Include the slogan: ""Siz daha iyisini yapabilirsiniz ama performanslı bir yardımcıya ihtiyacınız olacak.""
+
+Rules:
+- The final image must have a mechanical design focus.
+- Adhere to the aesthetic style and color palette of the uploaded background.
+- Innovate while keeping the AI theme central to the design.",FALSE,TEXT,celalunlu@gmail.com
+Bakery Merge Bounty Game Overview,"Act as a Game Description Writer. You are responsible for crafting an engaging and informative overview of the mobile game '${gameName:Bake Merge Bounty}'. Your task is to highlight the core gameplay mechanics, competitive elements, and optional reward features.\n\nIntroduction:\n- Welcome to '${gameName:Bake Merge Bounty}', a captivating skill-based merge puzzle game available on ${platform:mobile}.\n\nCore Gameplay Mechanics:\n- Merge various bakery items to unlock higher tiers and climb the competitive leaderboards.\n- Focus on skill and strategy to succeed, eliminating any pay-to-win mechanics.\n\nVisual Appeal & Accessibility:\n- Enjoy visually appealing graphics designed for accessibility and user-friendly navigation.\n\nIn-App Purchases:\n- Limited to convenience features, ensuring fair competition and unaffected gameplay experience.\n\nOptional ${feature:reward program}:\n- Participate in a web-based bounty and reward program utilizing the Sui blockchain.\n- Participation is entirely optional and independent of in-app purchases.\n\nMaintain a professional tone, ensuring clarity and engagement throughout.",FALSE,TEXT,berkterzi23
+Monetization Strategy for Blockchain-Based Merging Games,"Act as a Monetization Strategy Analyst for a mobile game. You are an expert in game monetization, especially in merging games with blockchain integrations. Your task is to analyze the current monetization models of popular merging games in Turkey and globally, focusing on blockchain-based rewards. 
+
+You will:
+- Review existing monetization strategies in similar games
+- Analyze the impact of blockchain elements on game revenue
+- Provide recommendations for innovative monetization models
+- Suggest strategies for player retention and engagement
+
+Rules:
+- Focus on merging games with blockchain rewards
+- Consider cultural preferences in Turkey and global trends
+- Use data-driven insights to justify recommendations
+
+Variables:
+- Game Name: ${gameName:Merging Game}
+- BlockChain Platform: ${blockchainPlatform:Sui}
+- Target Market: ${targetMarket:Turkey}
+- Globa Trends: ${globalTrends:Global}",FALSE,TEXT,berkterzi23
+Corporate Studio Portrait (Auto Outfit for Men/Women),"Use the person from the uploaded photo as the primary reference. Keep facial features, hair, skin tone, and overall identity identical (no beautification, no age changes).
+
+Scene: Modern corporate studio portrait shoot.
+Pose: Arms crossed at chest level, shoulders relaxed, body turned 20–30° to the side, face turned toward the camera. Expression: neutral and confident with a subtle friendly smile.
+Framing: Chest-up or waist-up (head-and-torso), centered, balanced negative space.
+
+Outfit (dynamic selection):
+- If the subject is male: Black suit jacket + plain white dress shirt (no tie), no logos.
+- If the subject is female: Choose a professional, elegant business outfit:
+  • Black or navy blazer
+  • Plain, pattern-free white or cream blouse/shirt underneath
+  • Modest neckline (closed or simple V-neck), no deep cleavage
+  • If jewelry is present, keep it minimal (e.g., small earrings), no logos/branding
+In all cases, fabrics must look realistic with natural wrinkles. Avoid flashy fashion elements.
+
+Background: Plain dark-gray studio backdrop with a soft gradient (a subtle vignette is ok). No distracting objects.
+Lighting: Softbox-style key light (45°), gentle fill, very subtle rim light; no harsh shadows. Natural skin tones, professional retouching while preserving realistic texture.
+Camera: 85mm portrait lens feel, f/2.8–f/4, slight background blur, high sharpness (especially the eyes).
+Color: Cinematic but natural, low saturation, clean contrast.
+
+Rules: No text, no logos, no watermarks, no extra people. Hands/fingers must be natural and correct. No facial distortion, asymmetry, duplicated limbs, or artificial artifacts.
+Output: High resolution, photorealistic, corporate profile photo quality.
+",FALSE,TEXT,semihkislar
+SaaS Payment Plan Options,"Act as a website designer. You are tasked with creating payment plan options at the bottom of the homepage for a SaaS application. There will be three cards displayed horizontally:
+
+- The most expensive card will be placed in the center to draw attention.
+- Each card should have a distinct color scheme, with the selected card having a highlighted border to show it's currently selected.
+- Ensure the design is responsive and visually appealing across all devices.
+
+Variables you can use:
+- ${selectedCardColor} for the border color of the selected card.
+- ${centerCard} to indicate which plan is the most expensive.
+
+Your task is to visually convey the pricing tiers effectively and attractively to users.",FALSE,TEXT,ahmettzorlutuna
+Ultra-Detailed Vintage Photo Restoration and Colorization,"Ultra-detailed restoration and sharpness enhancement of a vintage photo. Recover fine details and improve clarity, especially on faces. Remove all scratches, dust, stains, tears. Preserve natural film grain. Correct geometry and tonal range. 
+Then, colorize it to look like a historical color photograph: natural, muted, historically accurate colors. Avoid plastic skin, oversaturation, digital painting look, and oversharpening artifacts. Museum-quality realism.",FALSE,TEXT,dnn.321123@gmail.com
+Ultra-Detailed Vintage Photo Restoration and Colorization,"Ultra-detailed restoration and sharpness enhancement of a vintage photo. Recover fine details and improve clarity, especially on faces. Remove all scratches, dust, stains, tears. Preserve natural film grain. Correct geometry and tonal range. 
+Then, colorize it to look like a historical color photograph: natural, muted, historically accurate colors. Avoid plastic skin, oversaturation, digital painting look, and oversharpening artifacts. Museum-quality realism.",FALSE,TEXT,dnn.321123@gmail.com
+Revenue Performance Report,"Generate a monthly revenue performance report showing MRR, number of active subscriptions, and churned subscriptions for the last 6 months, grouped by month.
+
+",FALSE,TEXT,mergisi
+Revenue Performance Report,"Generate a monthly revenue performance report showing MRR, number of active subscriptions, and churned subscriptions for the last 6 months, grouped by month.
+
+",FALSE,TEXT,mergisi
+Harry Potter / Marauder’s Map,"Render the city of ${city_name} as a hidden magical wizarding world map inspired by the Harry Potter universe, in the style of the Marauder’s Map.
+
+Preserve the real geographic layout, roads, districts, coastline, rivers and landmarks of ${city_name}, but reinterpret them as enchanted locations within a secret wizarding realm concealed from the muggle world.
+
+Government districts appear as the Ministry of Magical Affairs, with enchanted towers, floating runes and protective wards.
+Universities and schools become Wizarding Academies, spell libraries, observatories and arcane towers.
+Historic and old town areas transform into Ancient Wizard Quarters, secret alleys, cursed ruins, hidden chambers and forgotten passages.
+Industrial zones are depicted as Potion Breweries, Enchanted Workshops, Magical Foundries and alchemical factories.
+Parks, forests, hills and valleys become Forbidden Forests, Herbology Grounds, Sacred Groves and Magical Creature Habitats.
+Commercial districts appear as Diagon Alley–style magical markets, wizard shops, inns, taverns and trading corridors.
+Stadiums and large arenas are transformed into Grand Quidditch Pitches.
+Airports, ports and major transit hubs become Portkey Stations, Floo Network Gates, Sky Docks and Dragon Arrival Towers.
+
+Include living magical map elements: moving footprints, glowing ink runes, whispered annotations, secret passage indicators, spell circles, magical wards, shifting pathways, hidden rooms, creature lairs, danger warnings, enchanted symbols and animated markings that feel alive and mysterious.
+
+Art style: hand-drawn ink illustration, aged parchment texture, warm sepia tones, sketchy and whimsical linework, subtle magical glow, slightly imperfect hand-drawn look.
+Typography: handwritten magical calligraphy, uneven ink strokes, old wizard script.
+Decorative elements: ornate parchment borders, magical seals, wax stamps, enchanted footprints crossing paths, classic wizarding compass rose.
+
+No modern elements, no sci-fi, no contemporary typography.
+Aspect ratio: ${aspect_ratio}.
+The map should feel like a living, enchanted artifact — a secret wizard’s map created by ancient witches and wizards.",FALSE,TEXT,iamcanturk
+Create a Cultural Superhero Movie Poster,"Create an ultra-realistic, high-budget cinematic movie poster of ${superhero_name}, reimagined as if the character originated from ${country_or_culture}.
+
+This image must look like an official theatrical poster for a live-action superhero film released worldwide.
+The composition, lighting, typography, and tone should match real modern Hollywood movie posters.
+
+FORMAT:
+Aspect ratio: 9:16 (vertical theatrical poster).
+
+SETTING:
+The scene takes place at night in the capital city of ${country_or_culture}.
+The environment reflects the city’s real architecture, atmosphere, and cultural identity, remaining geographically accurate and believable.
+
+COMPOSITION & CAMERA ANGLE:
+– dramatic low-angle perspective, looking up at the hero
+– iconic, powerful stance suitable for a main movie poster
+– medium-to-full body framing
+– character visually dominant, city subtly visible behind
+– cinematic depth with slight background blur
+
+ATMOSPHERE:
+– cinematic fog, smoke, and atmospheric haze
+– rain falling through volumetric light
+– wet surfaces reflecting city lights
+– dramatic shadows and contrast
+– epic but grounded realism
+
+CHARACTER REALISM (CRITICAL):
+– fully photorealistic human anatomy and proportions
+– practical, wearable costume design
+– subtle cultural elements from ${country_or_culture} integrated naturally
+– realistic fabric, leather, metal, armor with wear, scratches, dirt
+– no comic-book exaggeration, no cosplay look
+
+LIGHTING:
+– dramatic cinematic lighting
+– strong rim light defining the silhouette
+– controlled highlights and deep shadows
+– volumetric light interacting with rain and fog
+
+POSTER TEXT (ENGLISH ONLY – REALISTIC):
+Include realistic, professionally designed movie poster text that matches the character’s origin and tone.
+
+Examples of text placement and style:
+– Main title: ""${movie_title}""
+– Tagline (origin-related, serious tone): ""${tagline}""
+– Credits block at the bottom (small, realistic):
+  ""A ${studio_style} Production  
+   Directed by ${director_style}  
+   Starring ${superhero_name}""
+
+Typography must be cinematic, clean, modern, and realistic — no fantasy fonts, no comic lettering.
+
+STYLE & FINISH:
+Ultra-photorealistic live-action realism
+Cinematic color grading
+High dynamic range (HDR)
+Premium poster polish
+Sharp subject, controlled depth
+
+NEGATIVE CONSTRAINTS:
+No cartoon
+No anime
+No illustration
+No comic-book art style
+No exaggerated colors
+No unrealistic fantasy elements
+No watermarks
+
+The final image should feel like a real, official movie poster —
+localized in identity, grounded in realism, cinematic in every detail.
+",FALSE,TEXT,iamcanturk
+Недвижимость ,"A modern apartment in Montenegro with a panoramic sea view. A bright, spacious living room with a calm, elegant interior. A mother and her son are sitting on the sofa, a blanket and soft cushions nearby, creating a feeling of warmth and closeness. There is a sense of quiet celebration in the air, with the New Year just around the corner and the home filled with comfort and a peaceful family atmosphere.",FALSE,TEXT,anoxina155@gmail.com
