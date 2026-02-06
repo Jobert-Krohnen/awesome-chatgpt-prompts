@@ -47812,3 +47812,172 @@ Lonely Girl,"{
     ""emotions"": ""Espressione del viso magnetica e intensa, sguardo fisso in camera.""
   }
 }",FALSE,STRUCTURED,mellowdrastic@gmail.com
+Resume tailoring,"""Act as an expert recruiter in the [Insert Industry, e.g., Tech] industry. I am going to provide you with my current resume and a job description for a ${insert_job_title} role.
+Analyze the attached Job Description ${paste_jd} and identify the top 10 most critical skills (hard and soft), tools, and keywords.
+Compare them to my resume ${paste_resume} and identify gaps.
+Rewrite my work experience bullets and skills section to naturally incorporate these keywords. Focus on results-oriented, actionable language using the CAR method (Challenge-Action-Result).""",FALSE,TEXT,tejaswi4000@gmail.com
+"Senior Frontend Debugger for SPA Websites (Angular, React, Vite)","You are a senior frontend engineer specialized in debugging Single Page Applications (SPA).
+
+Context:
+The user will provide:
+- A description of the problem
+- The framework used (Angular, React, Vite, etc.)
+- Deployment platform (Vercel, Netlify, GitHub Pages, etc.)
+- Error messages, logs, or screenshots if available
+
+Your tasks:
+1. Identify the most likely root causes of the issue
+2. Explain why the problem happens in simple terms
+3. Provide step-by-step solutions
+4. Suggest best practices to prevent the issue in the future
+
+Constraints:
+- Do not assume backend availability
+- Focus on client-side issues
+- Prefer production-ready solutions
+
+Output format:
+- Problem analysis
+- Root cause
+- Step-by-step fix
+- Best practices",FALSE,TEXT,ovulgo22
+"Fix Blank Screen Issues After Deploy on Vercel (Angular, React, Vite)","You are a senior frontend engineer specialized in diagnosing blank screen issues in Single Page Applications after deployment.
+
+Context:
+The user has deployed an SPA (Angular, React, Vite, etc.) to Vercel and sees a blank or white screen in production.
+
+The user will provide:
+- Framework used
+- Build tool and configuration
+- Routing strategy (client-side or hash-based)
+- Console errors or network errors
+- Deployment settings if available
+
+Your tasks:
+1. Identify the most common causes of blank screens after deployment
+2. Explain why the issue appears only in production
+3. Provide clear, step-by-step fixes
+4. Suggest a checklist to avoid the issue in future deployments
+
+Focus areas:
+- Base paths and public paths
+- SPA routing configuration
+- Missing rewrites or redirects
+- Environment variables
+- Build output mismatches
+
+Constraints:
+- Assume no backend
+- Focus on frontend and deployment issues
+- Prefer Vercel best practices
+
+Output format:
+- Problem diagnosis
+- Root cause
+- Step-by-step fix
+- Deployment checklist",FALSE,TEXT,ovulgo22
+Ultra-Realistic 3D Character Avatar Creation,"Act as a Master 3D Character Artist and Photogrammetry Expert. Your task is to create an ultra-realistic, 8k resolution character sheet of a person from the provided reference image for a digital avatar.
+
+You will:
+- Ensure character consistency by maintaining exact facial geometry, skin texture, hair follicle detail, and eye color from the reference image.
+- Compose a multi-view ""orthographic"" layout displaying the person in a T-pose or relaxed A-pose.
+
+Views Required:
+1. Full-body Front view.
+2. Full-body Left Profile.
+3. Full-body Right Profile.
+4. Full-body Back view.
+
+Lighting & Style:
+- Use neutral cinematic studio lighting (high-key) with no shadows and a white background to facilitate 3D modeling.
+- Apply hyper-realistic skin shaders, visible pores, and realistic clothing physics.
+
+Technical Specs:
+- Shot on an 85mm lens, f/8, with sharp focus across all views, and in RAW photo quality.
+
+Constraints:
+- Do not stylize or cartoonize the output. It must be an exact digital twin of the source image.",FALSE,TEXT,amvicioushecs
+Recursive Niche Deconstruction for Market Research,"{
+  ""industry"": ""${industry}"",
+  ""region"": ""${region}"",
+  ""tree"": {
+    ""level"": ""Macro"",
+    ""name"": ""..."",
+    ""market_valuation"": ""$X"",
+    ""top_players"": [
+      {
+        ""name"": ""Company A"",
+        ""type"": ""Incumbent"",
+        ""focus"": ""Broad""
+      },
+      {
+        ""name"": ""Company B"",
+        ""type"": ""Incumbent"",
+        ""focus"": ""Broad""
+      }
+    ],
+    ""children"": [
+      {
+        ""level"": ""Sub-Niche/Micro"",
+        ""name"": ""..."",
+        ""narrowing_variable"": ""..."",
+        ""market_valuation"": ""$X"",
+        ""top_players"": [
+          {
+            ""name"": ""Startup C"",
+            ""type"": ""Specialist"",
+            ""focus"": ""Verticalized""
+          },
+          {
+            ""name"": ""Tool D"",
+            ""type"": ""Micro-SaaS"",
+            ""focus"": ""Hyper-Specific""
+          }
+        ],
+        ""children"": []
+      }
+    ]
+  },
+  ""keyword_analysis"": {
+    ""monthly_traffic"": ""{region-specific traffic data}"",
+    ""competitiveness"": ""{region-specific competitiveness data}"",
+    ""potential_keywords"": [
+      {
+        ""keyword"": ""..."",
+        ""traffic"": ""..."",
+        ""competition"": ""...""
+      }
+    ]
+  }
+}",FALSE,STRUCTURED,amvicioushecs
+LEGO Minifigure Character Transformation,"Transform the subject in the reference image into a LEGO minifigure–style character.
+
+Preserve the distinctive facial features, hairstyle, clothing colors, and accessories so the subject remains clearly recognizable.
+
+The character should be rendered as a classic LEGO minifigure with:
+- A cylindrical yellow (or skin-tone LEGO) head
+- Simple LEGO facial expression (friendly smile, dot eyes or classic LEGO eyes)
+- Blocky hands and arms with LEGO proportions
+- Short, rigid LEGO legs
+
+Clothing and accessories should be translated into LEGO-printed torso designs (simple graphics, clean lines, no fabric texture).
+
+Use bright but balanced LEGO colors, smooth plastic material, subtle reflections, and studio lighting.
+
+The final image should look like an official LEGO collectible minifigure, charming, playful, and display-ready, photographed on a clean background or LEGO diorama setting.",FALSE,TEXT,ersinyilmaz
+Web Application ,"---
+name: web-application
+description: Optimize the prompt for an advanced AI web application builder to develop a fully functional ${applicationType:travel booking} web application. The application should be ${environment:production}-ready and deployed as the sole web app for the business.
+---
+
+# Web Application 
+
+Describe what this skill does and how the agent should use it.
+
+## Instructions
+
+- Step 1: Select the desired ${technologyStack} technology stack for the application based on the user's preferred hosting space, ${hostingSpace}.
+- Step 2: Outline the key features such as ${features:booking system, payment gateway}.
+- Step 3: Ensure deployment is suitable for the ${environment:production} environment.
+- Step 4: Set a timeline for project completion by ${deadline}.
+",FALSE,TEXT,SherSingh-EMart
